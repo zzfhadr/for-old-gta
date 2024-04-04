@@ -1,0 +1,74 @@
+{$CLEO}
+0000:
+
+:ZM_1
+wait 0
+if  
+Player.Defined(0) 
+jf @ZM_1
+if
+0038:   $ONMISSION == 0 // $ == int 
+jf @ZM_1
+if
+0ADC:   test_cheat "ZINCITY"
+jf @ZM_1
+0ADF: add_dynamic_GXT_entry "ZM1" text "Zombies cheat activated"
+0ADF: add_dynamic_GXT_entry "ZM2" text "Zombies cheat deactivated"
+050F: get_max_wanted_level_to 5@
+01F0: set_max_wanted_level_to 0 
+03E5: text_box 'ZM1'
+
+:ZM_1a
+wait 0
+if 
+0038:   $ONMISSION == 0 // $ == int 
+jf @ZM_3
+4@ = 0
+Actor.StorePos($PLAYER_ACTOR, 1@, 2@, 3@) 
+
+:ZM_2
+wait 0
+if 
+8ADC:  not test_cheat "ZINCITY"
+jf @ZM_3
+if
+0AE1: 0@ = random_actor_near_point 1@ 2@ 3@ in_radius 150.0 find_next 4@ pass_deads 1
+jf @ZM_1a
+4@ = 1
+if 
+056D:   actor 0@ defined 
+jf @ZM_2
+if
+not Actor.Driving(0@)
+jf @ZM_2a
+01CA: actor 0@ kill_player $PLAYER_CHAR 
+048F: actor 0@ remove_weapons                                                                            
+if 
+0184:   actor 0@ health >= 99 
+jf @ZM_2           
+Actor.Health(0@) = 99  
+0489: set_actor 0@ muted 1  
+0319: set_actor 0@ running 1
+0243: set_actor 0@ ped_stats_to 16  
+0291: set_actor 0@ heed_threats 0
+0350: set_actor 0@ maintain_position_when_attacked 0 
+056B: set_actor 0@ crouch_when_threatened 0
+0245: set_actor 0@ walk_style_to 50
+jump @ZM_2
+
+:ZM_2a
+6@ = Actor.CurrentCar(0@)
+04BA: set_car 6@ speed_instantly 0.0
+02D4: car 6@ turn_off_engine
+//0208: 7@ = random_float 0.0 360.0
+0209: 8@ = random_int 250 1001
+Car.Health(6@) = 8@
+//0175: set_car 6@ z_angle_to 7@ 
+0337: set_actor 0@ visibility 1 
+Actor.DestroyInstantly(0@)
+jump @ZM_2 
+
+:ZM_3
+01F0: set_max_wanted_level_to 5@
+03E5: text_box 'ZM2'  
+jump @ZM_1

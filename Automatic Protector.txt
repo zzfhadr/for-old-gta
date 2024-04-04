@@ -1,0 +1,54 @@
+// This cleo code is generated using cleo helper by gtafan2u. 
+{$CLEO .cs}
+
+//-------------MAIN---------------
+0000: 
+
+:NONAME_2
+0001: wait 0 ms 
+00D6: if 
+0256:   player $PLAYER_CHAR defined 
+004D: jump_if_false @NONAME_2 
+0002: jump @1
+
+:1
+0001: wait 0 ms 
+00D6: if and
+80E0:   not player $PLAYER_CHAR driving 
+00E1:   key_pressed 0 17
+004D: jump_if_false @1
+02AB: set_actor $PLAYER_ACTOR immunities BP 1 FP 1 EP 1 CP 1 MP 1
+0223: set_actor $PLAYER_ACTOR health_to 500 
+035F: set_actor $PLAYER_ACTOR armour_to 500 
+0109: player $PLAYER_CHAR money += 10000
+0330: set_player $PLAYER_CHAR infinite_run_to 1 
+0331: set_player $PLAYER_CHAR fast_reload 1
+03E5: show_text_box '1'  
+0002: jump @2
+
+:2
+0001: wait 0 ms
+00D6: if 
+84AD:   not actor $PLAYER_ACTOR in_water 
+004D: jump_if_false @11
+0223: set_actor $PLAYER_ACTOR health_to 500 
+035F: set_actor $PLAYER_ACTOR armour_to 500
+0002: jump @3
+
+:3
+0001: wait 0 ms
+00D6: if
+00E0:   player $PLAYER_CHAR driving 
+004D: jump_if_false @2
+02AB: set_actor $PLAYER_ACTOR immunities BP 0 FP 0 EP 0 CP 0 MP 0  
+03E5: show_text_box '2'
+0002: jump @NONAME_2
+
+:11
+0001: wait 0 ms
+04C4: create_coordinate 2@ 3@ 4@ from_actor $PLAYER_ACTOR offset 0.0 0.0 0.0
+04D3: get_nearest_car_path_coords_from 2@ 3@ 4@ type 2 store_to 5@ 6@ 7@
+0055: put_player $PLAYER_CHAR at 5@ 6@ 7@
+0223: set_actor $PLAYER_ACTOR health_to 500
+035F: set_actor $PLAYER_ACTOR armour_to 500
+0002: jump @2

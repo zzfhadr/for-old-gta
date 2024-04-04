@@ -1,0 +1,20 @@
+by using this mod you can observe & capture your stunts very closely & clearly,
+& from any distance,
+because this will let you control your camera view.
+
+controls
+during stun press 'backspace' to start the mod,
+then,
+press 'Q' & 'W' to adjust X coordinate,
+press 'A' & 'S' to adjust Y coordinate,
+press 'Z' & 'X' to adjust Z coordinate,
+
+press 'HOME' at anytime to reset camera angle
+& 'END' to stop this mod at any time,
+
+use FRAPS or any other software to take shoots of your stunts,
+& you may also submit those Shots on http://vc-amazingshots.ucoz.net/
+to show other your talent,
+good luck,
+
+Sorry for Bump,

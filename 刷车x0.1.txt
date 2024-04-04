@@ -1,0 +1,18 @@
+刷车x0.1
+
+安装方法：把Cleo文件夹与Cleo.asi全部放进游戏目录即可。
+
+本Cleo是帮罪吧吧友GreatCoffee做的。
+输入作弊码 GC开启
+ALT+1刷出admiral
+ALT+2刷出infernus
+ALT+3刷出sentinel
+ALT+4刷出police
+ALT+5刷出cheetah
+再次输入作弊码 GC 可关闭
+刷出的车在玩家前方
+
+ps：本Cleo包含的刷车x0.1增强版是将刷出的车加上了5防，并且，玩家刷出车后会直接坐上该车。
+
+
+                             小白小宇

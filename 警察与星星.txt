@@ -1,0 +1,44 @@
+// This file was decompiled using VCSCM.ini published on 2021-05-25
+{$CLEO .cs} 
+
+0000:
+:JCTT1_0
+wait 0
+ var
+ 1@ : int
+ end
+1@ = 1 
+jump @JCTT1_2
+:JCTT1_1
+wait 0  //
+if 
+1@ == 0
+then 
+wait 1000 
+  1@ = 1 // $ == int  
+end
+
+if and
+   Player.Defined($PLAYER_CHAR)
+05EE:   key_pressed 48 //VK_...    0
+05EE: 80 //p
+jf @JCTT1_1
+
+03E5: text_box 'WDISP_2' 
+:JCTT1_2
+wait 0  //至关重要不加死机 
+ Player.WantedLevel($PLAYER_CHAR) = 0  //有一秒的延迟，。。。暂时没想到好的方法 
+ if    
+ 1@ == 1 // $ == int 
+then
+ wait 1000 
+    1@ = 0 // $ == int 
+end
+
+ if and
+   Player.Defined($PLAYER_CHAR)
+05EE:   key_pressed 48 //VK_...
+05EE: 80 //p 
+jf @JCTT1_2 
+03E5: text_box 'WDISP_3' 
+jump @JCTT1_1

@@ -1,0 +1,8 @@
+{$CLEO}
+0000:
+
+:Traf_1
+wait 0
+01EB: set_traffic_density_multiplier_to 2.0
+03DE: set_pedestrians_density_multiplier_to 2.0
+jump @Traf_1

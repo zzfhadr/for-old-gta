@@ -1,0 +1,4982 @@
+// This file was decompiled using VCSCM.ini published on 2021-05-25
+{$CLEO .cs}
+{$USE Restoration}
+
+
+:NONAME
+0000: NOP 
+jump -615 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+hex
+ 04 00 07 00 03 05 00 06 CD
+end
+0004:  = 'ÌÌ=' // $ = int  // Note: the incorrect math opcode was used here
+0104:   actor 6.439247E-40 near_actor 2 radius 7.357602E-40 2 1.286773E-39 sphere 1 
+9@ = 1 // @ = int 
+wait 123 
+jump -1277 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+// @ = int 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+1442841600 = &4 // $ = int 
+jf -1277 
+gosub -26773 
+gosub -31531 
+gosub -32915 
+00E0:   player 0 in_any_car 
+jf -1277 
+gosub -16939 
+   not 8@ == 1 // @ == int 
+jf -1277 
+   not 8@ == 2 // @ == int 
+jf -1993 
+gosub -9813 
+gosub -24110 
+gosub -15606 
+jump -3903 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+// @ = int 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'P' = // $ = int  // Note: the incorrect math opcode was used here
+hex
+ 01 D2 A1 FF FF 7E
+end
+ = Player.RC_car()
+jf -2638 
+gosub -11071 
+jump -3903 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+'Ö' = 178 // $ = int 
+00DE:   player 0 driving_vehicle_type #FAGGIO 
+jf -3283 
+gosub -13008 
+jump -3903 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'P' = // $ = int  // Note: the incorrect math opcode was used here
+hex
+ 01 C1 F0 FF FF D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58
+ 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07
+ 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37
+ 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35
+ 31 35 37 39 D2 08 05 AA
+end
+050F: get_max_wanted_level_to '«¬' 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+-536869888 = // $ = int 
+0004: 'M' = '€' // $ = int  // Note: the incorrect math opcode was used here
+hex
+ 01 CB DE FF FF 50
+end
+0100:   actor '2¶ÿÿP' near_point_in_car '§ÿÿP' 'ÿÿP' 'ÿP' radius 'P' 
+hex
+ 01 C1 F0 FF FF D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58
+ 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07
+ 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37
+ 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35
+ 31 35 37 39 D2 08 05 AA
+end
+050F: get_max_wanted_level_to '«¬' 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: '9' = // $ = int  // Note: the incorrect math opcode was used here
+0301: text_3numbers_mediumpriority 'ûÿÿP' 'ÿÿP' 'ÿ' 'ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' time "442651579" 'ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' 
+090E: 
+hex
+ 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58
+ 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D2 08 05 AA
+end
+050F: get_max_wanted_level_to '«¬' 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+-704642048 = // $ = int 
+0104:   actor 'V' near_actor 'M' radius 
+hex
+ 01 32 B6 FF FF 39 80 03
+end
+1 += 'M' // $ += int 
+0100:   actor 'Ò¡ÿÿ' near_point_in_car 'ðÿÿÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' 'BXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' '651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' radius "XBXY" "442651579" 'ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' sphere "442651579" 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D2 08 05 AA
+end
+050F: get_max_wanted_level_to '«¬' 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'P' = // $ = int  // Note: the incorrect math opcode was used here
+0301: text_3numbers_mediumpriority 'ûÿÿÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' 'BXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' '651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' "XBXY" time "442651579" 'ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' 
+090E: 
+hex
+ 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58
+ 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+'P' = 14849 // $ = int 
+hex
+ C6 46
+end
+0400: create_coordinate 
+hex
+ 03 0E
+end
+0400: create_coordinate 'ÍÌÌ>' 6859932 4 from_object &77 offset -7202 'ß¬¬h' 6 
+hex
+ 06 CD CC 0C
+end
+04C0: create_police_roadblock_at 
+wait 0 
+jump -7234 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+// @ = int 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+'ß¬¬h' = 6 // $ = int 
+hex
+ CD CC 4C 3F
+end
+'ßœ¬h' = 6 // $ = int 
+0000: NOP 
+hex
+ 00 40
+end
+0004: '9€	' = // $ = int  // Note: the incorrect math opcode was used here
+hex
+ 01 4B E1 FF
+end
+02FF: text_3numbers_lowpriority 
+0301: text_3numbers_mediumpriority 'ûÿÿÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' 'BXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' '651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' "XBXY" time "442651579" 'ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' 
+090E: 
+hex
+ 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58
+ 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+-704642048 = // $ = int 
+0004: 'î…òM' = 'Káÿÿ' // $ = int  // Note: the incorrect math opcode was used here
+0400: create_coordinate "XBXY" "442651579" 'ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' from_object 50397186 offset 'ûÿÿÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' 'BXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' '651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' 
+090E: 
+hex
+ 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58
+ 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+'ß:ÆF' = 17069316 // $ = int 
+05DF: write_memory 6859948 size 4 value 0.8 virtual_protect 0 
+05DF: write_memory 6859932 size 4 value 2.0 virtual_protect 0 
+   not 9@ == 2 // @ == int 
+jf -9173 
+jump -5228 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+// @ = int 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+-704642048 = // $ = int 
+0004: 'î…òM' = '+Üÿÿ' // $ = int  // Note: the incorrect math opcode was used here
+0400: create_coordinate "XBXY" "442651579" 'ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' from_object -1811873790 offset 'ëÿÿÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' 'BXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' '651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' 
+090E: 
+hex
+ 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58
+ 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+'ß
+vU' = 1 // $ = int 
+8640:   not 
+0068: 1 *= $64 // $ *= $ int 
+8735:   not 
+hex
+ FF FF D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58
+ 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07
+ 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37
+ 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+'ß
+vU' = 1 // $ = int 
+hex
+ 24 D9
+end
+Actor.StorePos(1, $64, '5‡ÿÿÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬', 'XBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬')
+hex
+ 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E
+ 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42
+ 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E
+ 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39
+ D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31
+ 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: '' = '9€' // $ = int  // Note: the incorrect math opcode was used here
+0100:   actor '*Òÿÿ' near_point_in_car 
+hex
+ 06 9A 99 19 3F 07
+end
+0300: text_3numbers_highpriority $384 
+hex
+ 00 80 BF 06
+end
+0300: text_3numbers_highpriority 1024@ -1.14575E-13 'ÏÿÿÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' 'BXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' time '651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' "XBXY" 
+090E: 
+hex
+ 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58
+ 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D2 08 05 AA
+end
+050F: get_max_wanted_level_to '«¬' 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+hex
+ 04 00 07 00 03 01 00 06 33
+end
+0004:  = '33?' // $ = int  // Note: the incorrect math opcode was used here
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ 80 BF
+end
+3@ = 7 // @ = int 
+jump -12374 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+// @ = int 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 3.684182E-40 = -10 // $ = int  // Note: the incorrect math opcode was used here
+gosub -30275 
+gosub -30902 
+jump @NONAME_30923 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+// @ = int 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: '' = '9€' // $ = int  // Note: the incorrect math opcode was used here
+0100:   actor '™Êÿÿ' near_point_in_car 
+hex
+ 06 CD CC CC 3E 07
+end
+0300: text_3numbers_highpriority $384 'ffæ¿' 
+0404: increment_fires_extinguished 
+jump -14311 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: $192(1@,6i) = // $ = int  // Note: the incorrect math opcode was used here
+hex
+ 00 3F
+end
+2@ = -1.8 // @ = float 
+3@ = 5 // @ = int 
+jump -14311 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+// @ = int 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 3.684182E-40 = -18 // $ = int  // Note: the incorrect math opcode was used here
+gosub -30275 
+gosub -30902 
+jump @NONAME_30923 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+// @ = int 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+hex
+ 04 00 07 00 03 01 00 06 9A
+end
+0004:  = '™™>' // $ = int  // Note: the incorrect math opcode was used here
+hex
+ 06 33 33 13 C0 06
+end
+0300: text_3numbers_highpriority 1024@ 6@ 4@ -23 time 'P' 
+hex
+ 01 4A 87 FF
+end
+02FF: text_3numbers_lowpriority 
+hex
+ 01 35 87 FF FF D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58
+ 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07
+ 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37
+ 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35
+ 31 35 37 39 D2 08 05 AA
+end
+050F: get_max_wanted_level_to '«¬' 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'É„' = 'Àÿÿ' // $ = int  // Note: the incorrect math opcode was used here
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ C0 3F
+end
+2@ = 6.0 // @ = float 
+3@ = 15 // @ = int 
+4@ = 60 // @ = int 
+gosub -30275 
+gosub -30902 
+jump @NONAME_30923 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+// @ = int 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: $192(1@,6i) = // $ = int  // Note: the incorrect math opcode was used here
+hex
+ 40 40
+end
+2@ = 9.0 // @ = float 
+3@ = 30 // @ = int 
+4@ = 90 // @ = int 
+gosub -30275 
+gosub -30902 
+jump @NONAME_30923 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+// @ = int 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ö' = 77@ // $ = int  // Note: the incorrect math opcode was used here
+hex
+ 01 35 87 FF FF EE
+end
+0505: get_nearest_tyre_to_point 'òM' 'ÿ
+' '' store_to 
+hex
+ 01 2B BB FF FF BE 00 E4 01 51 4E 53 4A 5F
+end
+0039:   // @ == int  // Note: the incorrect math opcode was used here
+0803: 
+0500:   player 'è' skin == '¸ÿÿÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' 
+hex
+ 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07
+ 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37
+ 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35
+ 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34
+ 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E
+ 09 34 34 32 36 35 31 35 37 39 D2 08 05 AA
+end
+050F: get_max_wanted_level_to '«¬' 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 7.357602E-40 = 1 // $ = int  // Note: the incorrect math opcode was used here
+00BE: text_clear_all 
+01E4: text_1number_lowpriority 'QNSJ_9' 8@ time 1000 1 
+jump -18261 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+-704642048 = // $ = int 
+0004: 'î…òM' = '«¸ÿÿ' // $ = int  // Note: the incorrect math opcode was used here
+hex
+ 87 FF FF D1 07 0E 04 58 42 58 59 0E 09 34 34 32
+ 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09
+ 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58
+ 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D2 08 05 AA
+end
+050F: get_max_wanted_level_to '«¬' 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ö' = 77@ // $ = int  // Note: the incorrect math opcode was used here
+hex
+ 01 35 87 FF FF EE
+end
+0505: get_nearest_tyre_to_point 'òM' 'ÿ
+' '' store_to 
+hex
+ 01 6C B3 FF FF BE 00 E4 01 51 4E 53 4A 5F
+end
+0039:   // @ == int  // Note: the incorrect math opcode was used here
+0803: 
+0500:   player 'è9€' skin == 
+0204:   actor 'M' near_car_in_car '€' radius -22147 $64 unknown '«¸ÿÿÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' // never used in VC 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 7.357602E-40 = 1 // $ = int  // Note: the incorrect math opcode was used here
+00BE: text_clear_all 
+01E4: text_1number_lowpriority 'QNSJ_9' 8@ time 1000 1 
+9@ = 2 // @ = int 
+jump @NONAME_30923 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+// @ = int 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: '~„' = '®ÿÿP' // $ = int  // Note: the incorrect math opcode was used here
+hex
+ FF FF
+end
+jump -18261 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+'Ö' = 178 // $ = int 
+00DE:   player 0 driving_vehicle_type #FAGGIO 
+jf -21527 
+gosub -13008 
+jump -18261 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'P' = // $ = int  // Note: the incorrect math opcode was used here
+hex
+ 01 AB B8 FF FF D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58
+ 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07
+ 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37
+ 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35
+ 31 35 37 39 D2 08 05 AA
+end
+050F: get_max_wanted_level_to '«¬' 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'P' = // $ = int  // Note: the incorrect math opcode was used here
+hex
+ 01 AB B8 FF FF D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58
+ 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07
+ 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37
+ 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35
+ 31 35 37 39 D2 08 05 AA
+end
+050F: get_max_wanted_level_to '«¬' 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'à' = '‡ÿÿÖ' // $ = int  // Note: the incorrect math opcode was used here
+0400: create_coordinate 
+0204:   actor 'á' near_car_in_car 0 radius 5 'á' unknown 0 // never used in VC 
+hex
+ 04 0D
+end
+jf @NONAME_30923 
+05DF: write_memory 4638266 size 1 value 117 virtual_protect 1 
+jump -23445 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+// @ = int 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+-704642048 = // $ = int 
+0404: increment_fires_extinguished 
+80E1:   not player 0 pressed_button 2 
+80E1:   not player 0 pressed_button 3 
+80E1:   not player 0 pressed_button 5 
+80E1:   not player 0 pressed_button 7 
+80E1:   not player 0 pressed_button 13 
+jf -23445 
+gosub -24110 
+jump @NONAME_30923 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+// @ = int 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+'ß:ÆF' = 17069060 // $ = int 
+05DF: write_memory 4703408 size 1 value 0 virtual_protect 1 
+05DF: write_memory 4633481 size 1 value 0 virtual_protect 1 
+05DF: write_memory 4633999 size 1 value 0 virtual_protect 1 
+Camera.SetBehindPlayer
+jump @NONAME_30923 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+// @ = int 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ö' = '9' // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority $256(19713@,0f) '5‡ÿÿs' -30923 'ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' time "442651579" 'ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' 
+090E: 
+hex
+ 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58
+ 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D2 08 05 AA
+end
+050F: get_max_wanted_level_to '«¬' 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'îñM' = '5‡ÿÿ9€' // $ = int  // Note: the incorrect math opcode was used here
+0400: create_coordinate '¾' '_5' 0 from_object &77 offset -26093 6.439247E-40 2 
+is_camera_in_widescreen_mode 
+0500:   player 'Ð' skin == '™ÿÿÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' 
+hex
+ 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07
+ 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37
+ 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35
+ 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34
+ 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E
+ 09 34 34 32 36 35 31 35 37 39 D2 08 05 AA
+end
+050F: get_max_wanted_level_to '«¬' 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 6.439247E-40 = 1 // $ = int  // Note: the incorrect math opcode was used here
+00BE: text_clear_all 
+02FF: text_3numbers_lowpriority 'QNSJ_4' 3@ 4@ 6@ time time 2000 1 
+jump @NONAME_26133 
+
+:NONAME_26133
+wait 0 
+gosub -24777 
+if 
+85EE:   not key_pressed 1009 //VK_... 
+jf @NONAME_26133 
+jump @NONAME_30923 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ö' = 77@ // $ = int  // Note: the incorrect math opcode was used here
+hex
+ 01 35 87 FF FF D6
+end
+0400: create_coordinate 
+hex
+ 01 35 87 FF FF D6
+end
+0400: create_coordinate 
+85EE:   not key_pressed 1019 //VK_... 
+jf -28891 
+if 
+85EE:   not key_pressed 1020 //VK_... 
+jf @NONAME_28914 
+if 
+85EE:   not key_pressed 1021 //VK_... 
+jf -29583 
+if 
+85EE:   not key_pressed 1022 //VK_... 
+jf @NONAME_29606 
+if 
+85EE:   not key_pressed 1025 //VK_... 
+jf -27519 
+if 
+85EE:   not key_pressed 1026 //VK_... 
+jf -28190 
+jump @NONAME_30923 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+// @ = int 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+768@s = 1536 // $ = int 
+hex
+ CD CC CC 3D
+end
+6@ += 1 // @ += int 
+  1.1 > 5@ // float > @ 
+jf @NONAME_27560 
+jump -28252 
+
+:NONAME_27560
+5@ = 0.1 // @ = float 
+6@ = 1 // @ = int 
+jump -28252 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+// @ = int 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: '' = '€' // $ = int  // Note: the incorrect math opcode was used here
+0100:   actor '¼‘ÿÿ' near_point_in_car '‘ÿÿ' 1.0 5.520892E-40 radius 10 $64 '¤‘ÿÿ¾' sphere 'QNSJ_3' 
+0303: text_4numbers_highpriority 
+0403: save_highest_ambulance_level 
+is_camera_in_widescreen_mode 
+0500:   player 'Ð' skin == '‡ÿÿÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Òª«¬' 
+hex
+ 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07
+ 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37
+ 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35
+ 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34
+ 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E
+ 09 34 34 32 36 35 31 35 37 39 D2 08 05 AA
+end
+050F: get_max_wanted_level_to '«¬' 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: '[' = 'Z' // $ = int  // Note: the incorrect math opcode was used here
+jump @NONAME_28937 
+
+:NONAME_28914
+0063: 1@ -= 5@ // @ -= @ float 
+0062: 3@ -= 6@ // @ -= @ int 
+jump @NONAME_28937 
+
+:NONAME_28937
+gosub -30275 
+00BE: text_clear_all 
+02FF: text_3numbers_lowpriority 'QNSJ_1' 3@ 4@ 6@ time time 2000 1 
+jump @NONAME_30923 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: '[' = 'Z' // $ = int  // Note: the incorrect math opcode was used here
+jump @NONAME_29629 
+
+:NONAME_29606
+0063: 2@ -= 5@ // @ -= @ float 
+0062: 4@ -= 6@ // @ -= @ int 
+jump @NONAME_29629 
+
+:NONAME_29629
+gosub -30902 
+00BE: text_clear_all 
+02FF: text_3numbers_lowpriority 'QNSJ_2' 3@ 4@ 6@ time time 2000 1 
+jump @NONAME_30923 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+'ß¬¬h' = 3 // $ = int 
+wait 0 
+jump @NONAME_30923 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+// @ = int 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+'ßœ¬h' = 3 // $ = int 
+jump 0 
+jump @NONAME_30923 
+
+:NONAME_30923
+return 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+// @ = int 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'îM' = '5‡ÿÿî…NM' // $ = int  // Note: the incorrect math opcode was used here
+jf -32247 
+05EE:   key_pressed 77 //VK_... 
+jf @NONAME_30923 
+0085: 3@ = 12@ // @ = @ int 
+0085: 4@ = 13@ // @ = @ int 
+0086: 1@ = 10@ // $ = $ float 
+0086: 2@ = 11@ // $ = $ float 
+gosub -30275 
+gosub -30902 
+00BE: text_clear_all 
+02FD: text_2numbers_highpriority 'QNSJ_7' 3@ 4@ time 2000 1 
+jump @NONAME_30923 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: '…' = '…' // $ = int  // Note: the incorrect math opcode was used here
+0086: 10@ = 1@ // $ = $ float 
+0086: 11@ = 2@ // $ = $ float 
+00BE: text_clear_all 
+02FD: text_2numbers_highpriority 'QNSJ_6' 3@ 4@ time 2000 1 
+jump @NONAME_30923 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'îòM' = '5‡ÿÿ
+' // $ = int  // Note: the incorrect math opcode was used here
+0400: create_coordinate -33589 '9€' 
+hex
+ 01 33 7A FF
+end
+02FF: text_3numbers_lowpriority 
+hex
+ 01 1A 75 FF FF D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58
+ 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07
+ 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37
+ 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35
+ 31 35 37 39 D2 08 05 AA
+end
+050F: get_max_wanted_level_to '«¬' 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+hex
+ 04 00 07 00 03 01 00 06 CD
+end
+0004:  = 'ÌL?' // $ = int  // Note: the incorrect math opcode was used here
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ 00 40
+end
+3@ = 8 // @ = int 
+4@ = 20 // @ = int 
+00BE: text_clear_all 
+00BC: text_highpriority 'QNSJ_8' time 2000 1 
+jump -34917 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+// @ = int 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+hex
+ 04 00 07 00 03 01 00 06 CD
+end
+0004:  = 'ÌÌ>' // $ = int  // Note: the incorrect math opcode was used here
+hex
+ 06 CD CC 0C C0 06
+end
+0300: text_3numbers_highpriority 1024@ 6 
+0403: save_highest_ambulance_level 
+hex
+ 04 EA BE 00
+end
+00BC: text_highpriority 'QNSJ_10' time 2000 1 
+jump -34917 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+// @ = int 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+'ß¬¬h' = 3 // $ = int 
+wait 0 
+05DF: write_memory 6859932 size 4 value 2@ virtual_protect 0 
+jump -35558 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+// @ = int 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+-536869888 = '€' // $ = int 
+hex
+ FF FF
+end
+85EE:   not key_pressed 1010 //VK_... 
+jf -35558 
+jump @NONAME_30923 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 1.286773E-39 = 1 // $ = int  // Note: the incorrect math opcode was used here
+jump -33589 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+// @ = int 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: '' = '9' // $ = int  // Note: the incorrect math opcode was used here
+0100:   actor '5‡ÿÿP' near_point_in_car 'jÿÿ' -37535 'âpf' radius 2013528324 15@ 
+05E1: call_function 5580032 num_params 2 pop 2 15@ 0@ 
+05E1: call_function 5619648 num_params 3 pop 3 0 0 15@ 
+05E1: call_function 6690976 num_params 1 pop 1 15@ 
+return 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0508: vehicle 'ª«¬' close_all_doors 
+// @ = int 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'By: Xbxy  -China' = '  -China' // $ = int  // Note: the incorrect math opcode was used here
+hex
+ 00 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35
+ 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34
+ 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E
+ 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42
+ 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E
+ 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39
+ D2 08 05 AA
+end
+050F: get_max_wanted_level_to '«¬' 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ì' = // $ = int  // Note: the incorrect math opcode was used here
+0500:   player '˜' skin == 4 
+0300: text_3numbers_highpriority 
+hex
+ 00 51 00 D1 07 0E 04 58 42 58 59 0E 09 34 34 32
+ 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09
+ 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58
+ 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D2 08 05 AA
+end
+050F: get_max_wanted_level_to '«¬' 
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Òª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ú	XBXY	442651579Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" time 'Ú	XBXY	442651579Ú	XBXY	442651579Û	ª«¬' "442651579" 
+09DA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 DB
+end
+0509: 255 = distance_between_point 'ª«¬' 5.5 and_point 6 0 
+0 = 'Û	ª«¬' // $ = int 
+hex
+ 05 AC 0F 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ü	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'ú	XBXY	442651579ú	XBXY	442651579ú	XBXY	442651579û	s' = "442651579" // $ = int  // Note: the incorrect math opcode was used here
+09FA: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 FA
+ 09 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 FB 09 01 73 1E 06
+end
+0100:   actor 'ƒE' near_point_in_car 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40 05 8F 02 04
+end
+0500:   player 'ïV' skin == 401011 
+8301:   not text_3numbers_mediumpriority 'E' 5.5 655 0 time 22255 0 
+0004: 'ü	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'ü	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'D&QW	HEX' = // $ = int  // Note: the incorrect math opcode was used here

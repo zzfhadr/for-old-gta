@@ -1,0 +1,676 @@
+// This file was decompiled using VCSCM.ini published on 2021-05-25
+{$CLEO .cs}
+{$USE Restoration}
+
+script_name 'A' 
+wait 500 
+jump -419 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58
+ 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07
+ 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37
+ 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35
+ 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34
+ 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E
+ 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42
+ 58 59 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0208: 6 = random_float '¨>¬>°>' 5.5 
+0004: 255 = 0 // $ = int  // Note: the incorrect math opcode was used here
+0004: 'Ò¨>¬>°>' = $4012 // $ = int  // Note: the incorrect math opcode was used here
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ò¨>¬>°>' // $ = int 
+hex
+ 02 B0 3E 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ò¨>¬>°>' // $ = int 
+hex
+ 02 B0 3E 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+-704642048 = // $ = int 
+hex
+ 04 01 56 02 02 08 00 DF 80 02 0C 00 4D 00 01 5D
+ FE
+end
+0104:   actor 'V' near_actor  radius 'ÿÿàB	¡' 
+0104:   actor 0 near_actor 11@ radius 'àC	¡' 201523204 
+if and
+  11@ == 67 // @ == int 
+  12@ == 71 // @ == int 
+jf -419 
+05DF: write_memory 10553666 size 1 value 0 virtual_protect 0 
+03E5: text_box 'GGGC_1' 
+jump -1409 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58
+ 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07
+ 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37
+ 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35
+ 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34
+ 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E
+ 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42
+ 58 59 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0208: 6 = random_float '¨>¬>°>' 5.5 
+0004: 255 = 0 // $ = int  // Note: the incorrect math opcode was used here
+0004: 'Ò¨>¬>°>' = $4012 // $ = int  // Note: the incorrect math opcode was used here
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ò¨>¬>°>' // $ = int 
+hex
+ 02 B0 3E 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ò¨>¬>°>' // $ = int 
+hex
+ 02 B0 3E 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+'àB	¡' = 184745988 // $ = int 
+hex
+ 00 E0
+end
+0105:   actor 'C	¡' near_actor_on_foot 12@ radius 'Ö' // never used in VC or gta 3 
+hex
+ 04 43
+end
+  12@ == 71 // @ == int 
+jf -1409 
+05DF: write_memory 10553666 size 1 value 0 virtual_protect 0 
+03E5: text_box 'GGGC_2' 
+wait 1000 
+jump -419 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58
+ 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07
+ 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37
+ 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35
+ 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34
+ 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E
+ 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42
+ 58 59 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0208: 6 = random_float '¨>¬>°>' 5.5 
+0004: 255 = 0 // $ = int  // Note: the incorrect math opcode was used here
+0004: 'Ò¨>¬>°>' = $4012 // $ = int  // Note: the incorrect math opcode was used here
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ò¨>¬>°>' // $ = int 
+hex
+ 02 B0 3E 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ò¨>¬>°>' // $ = int 
+hex
+ 02 B0 3E 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: -301988864 = 6917 // $ = int  // Note: the incorrect math opcode was used here
+hex
+ 04 4D
+end
+0100:   actor 'düÿÿß€' near_point_in_car 
+jf -1409 
+if and
+84AD:   not actor $PLAYER_ACTOR in_water 
+029F:   player $PLAYER_CHAR stopped 
+jf -1409 
+85EE:   not key_pressed 49 //VK_... 
+jf -1917 
+85EE:   not key_pressed 50 //VK_... 
+jf -2360 
+85EE:   not key_pressed 51 //VK_... 
+jf -2803 
+85EE:   not key_pressed 52 //VK_... 
+jf -3246 
+85EE:   not key_pressed 53 //VK_... 
+jf -3689 
+jump -1409 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58
+ 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07
+ 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37
+ 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35
+ 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34
+ 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E
+ 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42
+ 58 59 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0208: 6 = random_float '¨>¬>°>' 5.5 
+0004: 255 = 0 // $ = int  // Note: the incorrect math opcode was used here
+0004: 'Ò¨>¬>°>' = $4012 // $ = int  // Note: the incorrect math opcode was used here
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ò¨>¬>°>' // $ = int 
+hex
+ 02 B0 3E 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ò¨>¬>°>' // $ = int 
+hex
+ 02 B0 3E 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 3.684182E-40 = 175 // $ = int  // Note: the incorrect math opcode was used here
+gosub -4132 
+gosub -4949 
+00BE: text_clear_all 
+0217: text_styled 'GGGC_3' time 1000 style 5 
+jump -5442 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58
+ 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07
+ 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37
+ 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35
+ 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34
+ 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E
+ 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42
+ 58 59 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0208: 6 = random_float '¨>¬>°>' 5.5 
+0004: 255 = 0 // $ = int  // Note: the incorrect math opcode was used here
+0004: 'Ò¨>¬>°>' = $4012 // $ = int  // Note: the incorrect math opcode was used here
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ò¨>¬>°>' // $ = int 
+hex
+ 02 B0 3E 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ò¨>¬>°>' // $ = int 
+hex
+ 02 B0 3E 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 3.684182E-40 = 141 // $ = int  // Note: the incorrect math opcode was used here
+gosub -4132 
+gosub -4949 
+00BE: text_clear_all 
+0217: text_styled 'GGGC_4' time 1000 style 5 
+jump -5442 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58
+ 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07
+ 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37
+ 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35
+ 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34
+ 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E
+ 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42
+ 58 59 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0208: 6 = random_float '¨>¬>°>' 5.5 
+0004: 255 = 0 // $ = int  // Note: the incorrect math opcode was used here
+0004: 'Ò¨>¬>°>' = $4012 // $ = int  // Note: the incorrect math opcode was used here
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ò¨>¬>°>' // $ = int 
+hex
+ 02 B0 3E 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ò¨>¬>°>' // $ = int 
+hex
+ 02 B0 3E 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 3.684182E-40 = 135 // $ = int  // Note: the incorrect math opcode was used here
+gosub -4132 
+gosub -4949 
+00BE: text_clear_all 
+0217: text_styled 'GGGC_5' time 1000 style 5 
+jump -5442 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58
+ 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07
+ 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37
+ 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35
+ 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34
+ 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E
+ 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42
+ 58 59 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0208: 6 = random_float '¨>¬>°>' 5.5 
+0004: 255 = 0 // $ = int  // Note: the incorrect math opcode was used here
+0004: 'Ò¨>¬>°>' = $4012 // $ = int  // Note: the incorrect math opcode was used here
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ò¨>¬>°>' // $ = int 
+hex
+ 02 B0 3E 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ò¨>¬>°>' // $ = int 
+hex
+ 02 B0 3E 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 3.684182E-40 = 156 // $ = int  // Note: the incorrect math opcode was used here
+gosub -4132 
+gosub -4949 
+00BE: text_clear_all 
+0217: text_styled 'GGGC_6' time 1000 style 5 
+jump -5442 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58
+ 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07
+ 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37
+ 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35
+ 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34
+ 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E
+ 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42
+ 58 59 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0208: 6 = random_float '¨>¬>°>' 5.5 
+0004: 255 = 0 // $ = int  // Note: the incorrect math opcode was used here
+0004: 'Ò¨>¬>°>' = $4012 // $ = int  // Note: the incorrect math opcode was used here
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ò¨>¬>°>' // $ = int 
+hex
+ 02 B0 3E 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ò¨>¬>°>' // $ = int 
+hex
+ 02 B0 3E 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 3.684182E-40 = 145 // $ = int  // Note: the incorrect math opcode was used here
+gosub -4132 
+gosub -4949 
+00BE: text_clear_all 
+0217: text_styled 'GGGC_7' time 1000 style 5 
+jump -5442 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58
+ 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07
+ 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37
+ 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35
+ 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34
+ 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E
+ 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42
+ 58 59 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0208: 6 = random_float '¨>¬>°>' 5.5 
+0004: 255 = 0 // $ = int  // Note: the incorrect math opcode was used here
+0004: 'Ò¨>¬>°>' = $4012 // $ = int  // Note: the incorrect math opcode was used here
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ò¨>¬>°>' // $ = int 
+hex
+ 02 B0 3E 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ò¨>¬>°>' // $ = int 
+hex
+ 02 B0 3E 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'G' = '‚' // $ = int  // Note: the incorrect math opcode was used here
+hex
+ EE FF FF 51 00 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58
+ 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07
+ 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37
+ 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35
+ 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34
+ 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E
+ 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42
+ 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E
+ 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39
+ D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31
+ 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32
+ 36 35 31 35 37 39 D2 08 02 A8
+end
+023E: flash_car '¬>°>' '°@' 
+0400: create_coordinate 
+0004: 'Ò¨>¬>°>' = $4012 // $ = int  // Note: the incorrect math opcode was used here
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ò¨>¬>°>' // $ = int 
+hex
+ 02 B0 3E 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ò¨>¬>°>' // $ = int 
+hex
+ 02 B0 3E 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Q' = 'XY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579ÑXBXY	442651579Ò¨>¬>°>' // $ = int  // Note: the incorrect math opcode was used here
+hex
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58
+ 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07
+ 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37
+ 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35
+ 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34
+ 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E
+ 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42
+ 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E
+ 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39
+ D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31
+ 35 37 39 D2
+end
+0208: 6 = random_float '¨>¬>°>' 5.5 
+0004: 255 = 0 // $ = int  // Note: the incorrect math opcode was used here
+0004: 'Ò¨>¬>°>' = $4012 // $ = int  // Note: the incorrect math opcode was used here
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ò¨>¬>°>' // $ = int 
+hex
+ 02 B0 3E 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ò¨>¬>°>' // $ = int 
+hex
+ 02 B0 3E 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'p' = 'Ä' // $ = int  // Note: the incorrect math opcode was used here
+0000: NOP 
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ A0 40
+end
+0006: // @ = int  // Note: the incorrect math opcode was used here
+0000: NOP 
+0103:   actor // never used in VC 
+0203:   actor 
+0303: text_4numbers_highpriority 
+Car.Create(5@, 4@, 1@, 2@, 3@)
+Car.SetImmunities(5@, 1, 1, 1, 1, 1)
+Car.Angle(5@) = 6@
+0369: put_player $PLAYER_CHAR in_car 5@ 
+wait 100 
+Car.RemoveReferences(5@)
+return 
+07D1: 
+040E: 
+hex
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36
+ 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34
+ 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59
+ 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58
+ 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07
+ 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37
+ 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35
+ 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34
+ 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E
+ 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42
+ 58 59 0E 09 34 34 32 36 35 31 35 37 39 D2
+end
+0208: 6 = random_float '¨>¬>°>' 5.5 
+0004: 255 = 0 // $ = int  // Note: the incorrect math opcode was used here
+0004: 'Ò¨>¬>°>' = $4012 // $ = int  // Note: the incorrect math opcode was used here
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ò¨>¬>°>' // $ = int 
+hex
+ 02 B0 3E 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ò¨>¬>°>' // $ = int 
+hex
+ 02 B0 3E 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'I' = 'ô' // $ = int  // Note: the incorrect math opcode was used here
+hex
+ FF D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35
+ 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34
+ 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E
+ 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42
+ 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E
+ 04 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39
+ D1 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31
+ 35 37 39 D1 07 0E 04 58 42 58 59 0E 09 34 34 32
+ 36 35 31 35 37 39 D1 07 0E 04 58 42 58 59 0E 09
+ 34 34 32 36 35 31 35 37 39 D1 07 0E 04 58 42 58
+ 59 0E 09 34 34 32 36 35 31 35 37 39 D1 07 0E 04
+ 58 42 58 59 0E 09 34 34 32 36 35 31 35 37 39 D1
+ 07 0E 04 58 42 58 59 0E 09 34 34 32 36 35 31 35
+ 37 39 D2 08 02 A8
+end
+023E: flash_car '¬>°>' '°@' 
+0400: create_coordinate 
+0004: 'Ò¨>¬>°>' = $4012 // $ = int  // Note: the incorrect math opcode was used here
+0006: // @ = int  // Note: the incorrect math opcode was used here
+hex
+ B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ò¨>¬>°>' // $ = int 
+hex
+ 02 B0 3E 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ò¨>¬>°>' // $ = int 
+hex
+ 02 B0 3E 06 00 00 B0 40
+end
+get_weapontype_model 255 = weapon 0 
+0 = 'Ó	' // $ = int 
+0302: text_4numbers_lowpriority 
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'Ó	' = &3 // $ = int  // Note: the incorrect math opcode was used here
+0300: text_3numbers_highpriority 197376 0 'Ó	' &3 time 
+0103:   actor // never used in VC 
+0303: text_4numbers_highpriority 
+0004: 'E' = // $ = int  // Note: the incorrect math opcode was used here

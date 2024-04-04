@@ -1,0 +1,54 @@
+
+030D: set_total_mission_points_to 154
+0314: set_total_unique_jumps_to 36
+0493: set_tank $2470 contact_explosion 0
+042C: set_total_missions_to 88
+01F7: set_player $PLAYER_CHAR ignored_by_cops_state_to 1
+041E: set_radio_station 9 -1  
+
+//…Ë÷√µÁÃ®   Audio.SetRadioChannel(channel: RadioChannel, startFromMs: int) 
+/*enum RadioChannel
+ 
+   Wildstyle = 0
+   FlashFM = 1
+   KChat = 2
+   Fever = 3
+   VRock = 4
+   VCPR = 5
+   RadioEspantoso = 6
+   Emotion = 7
+   Wave = 8
+   Ambient = 9
+   Off = 10
+   Police = 23
+end*/
+
+03C7: set_sensitivity_to_crime_to 0.1
+0055: put_player $PLAYER_CHAR at 220.3 -1275.5 11.0
+00A1: put_actor $PLAYER_ACTOR at 482.2 -69.9 9.9
+039C: set_car $3996 watertight 1
+03BF: set_player $PLAYER_CHAR ignored_by_everyone_to 1
+03CB: load_scene 83.0 -849.8 9.3                   //Puts the camera in front of the player, pointing towards the player
+0373: set_camera_directly_behind_player
+03ED: set_car $3996 not_damaged_when_upside_down 1
+053C: set_actor $4372 in_players_group_can_fight 0
+057C: set_allow_hurricanes 0
+0592: set_gang 2 attack_player_with_cops 1
+0111: set_wasted_busted_check_to 0
+0219: $681 = create_garage_type 5 door -914.129 -1263.54 10.706 to -906.3 -1266.9 14.421 depth -907.137 -1246.626
+02FA: garage $687 change_to_type 9
+009E: set_actor $2126 path $95 $96 $97 unknown 2.0 1
+04A6: $616 = create_asset_money_pickup_at 93.3 -1472.14 $572 money $617 rate $617
+0489: set_actor 0@ muted 1
+0595: mission_complete
+0318: set_latest_mission_passed 'LAW_1'  // The Party
+0518: $662 = create_available_asset_pickup 'NBMN_L' at $573 $574 $575 price $661  // Press the ~h~~k~~PED_ANSWER_PHONE~ ~w~button to purchase El Swanko Casa for $~1~
+039F: car $3996 race_to $4002 $4003   //Sets the car's heading so that it is facing the 2D coordinate
+0160: point_camera 218.872 -1282.988 12.392 switchstyle 2
+010E: set_player $PLAYER_CHAR minimum_wanted_level_to 4
+
+
+
+
+
+

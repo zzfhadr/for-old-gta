@@ -1,0 +1,140 @@
+// This file was decompiled using SCM.ini published by DimZet13 on 25.11.10
+{$CLEO .cs}
+
+//-------------MAIN---------------
+thread 'COPGUNS'
+01F0: set_max_wanted_level_to 6
+
+:COPGUNS_10
+wait 0 
+01C0: 0@ = player $PLAYER_CHAR wanted_level 
+if 
+  0@ == 2 // integer values 
+else_jump @COPGUNS_18
+Model.Load(#COLT45)
+Model.Load(#PYTHON)
+05DF: write_memory 5161447 size 1 value 18 virtual_protect 1 
+05DF: write_memory 5166978 size 1 value 18 virtual_protect 1 
+05DF: write_memory 5167030 size 1 value 60 virtual_protect 1 
+05DF: write_memory 5161567 size 1 value 3 virtual_protect 1 
+:COPGUNS_18
+jump @COPGUNS_24
+
+:COPGUNS_24
+wait 0
+01C0: 0@ = player $PLAYER_CHAR wanted_level 
+if 
+not 0@ == 2 // integer values 
+else_jump @COPGUNS_10
+05DF: write_memory 5161447 size 1 value 17 virtual_protect 1 
+05DF: write_memory 5166978 size 1 value 17 virtual_protect 1 
+05DF: write_memory 5167030 size 1 value 50 virtual_protect 1 
+05DF: write_memory 5161567 size 1 value 3 virtual_protect 1 
+jump @COPGUNS_25
+
+:COPGUNS_25
+wait 0 
+01C0: 0@ = player $PLAYER_CHAR wanted_level 
+if 
+  0@ == 3 // integer values 
+else_jump @COPGUNS_30
+Model.Load(#UZI)
+05DF: write_memory 5161447 size 1 value 23 virtual_protect 1 
+05DF: write_memory 5166978 size 1 value 23 virtual_protect 1 
+05DF: write_memory 5167030 size 1 value 65 virtual_protect 1 
+05DF: write_memory 5161567 size 1 value 5 virtual_protect 1 
+:COPGUNS_30
+jump @COPGUNS_34
+
+:COPGUNS_34
+wait 0
+01C0: 0@ = player $PLAYER_CHAR wanted_level 
+if 
+not 0@ == 3 // integer values 
+else_jump @COPGUNS_25
+05DF: write_memory 5161447 size 1 value 17 virtual_protect 1 
+05DF: write_memory 5166978 size 1 value 17 virtual_protect 1 
+05DF: write_memory 5167030 size 1 value 50 virtual_protect 1
+05DF: write_memory 5161567 size 1 value 3 virtual_protect 1  
+jump @COPGUNS_35
+
+:COPGUNS_35
+wait 0 
+01C0: 0@ = player $PLAYER_CHAR wanted_level 
+if 
+  0@ == 4 // integer values 
+else_jump @COPGUNS_40
+Model.Load(#CHROMEGUN)
+05DF: write_memory 5161447 size 1 value 19 virtual_protect 1 
+05DF: write_memory 5166978 size 1 value 19 virtual_protect 1 
+05DF: write_memory 5167030 size 1 value 70 virtual_protect 1
+05DF: write_memory 5161567 size 1 value 4 virtual_protect 1  
+
+:COPGUNS_40
+jump @COPGUNS_44
+
+:COPGUNS_44
+wait 0
+01C0: 0@ = player $PLAYER_CHAR wanted_level 
+if 
+not 0@ == 4 // integer values 
+else_jump @COPGUNS_35
+05DF: write_memory 5161447 size 1 value 17 virtual_protect 1 
+05DF: write_memory 5166978 size 1 value 17 virtual_protect 1 
+05DF: write_memory 5167030 size 1 value 50 virtual_protect 1
+05DF: write_memory 5161567 size 1 value 3 virtual_protect 1  
+jump @COPGUNS_45
+
+:COPGUNS_45
+wait 0 
+01C0: 0@ = player $PLAYER_CHAR wanted_level 
+if 
+  0@ == 5 // integer values 
+else_jump @COPGUNS_50
+Model.Load(#MP5LNG)
+05DF: write_memory 5161447 size 1 value 25 virtual_protect 1 
+05DF: write_memory 5166978 size 1 value 25 virtual_protect 1 
+05DF: write_memory 5167030 size 1 value 75 virtual_protect 1
+05DF: write_memory 5161567 size 1 value 5 virtual_protect 1  
+
+:COPGUNS_50         
+jump @COPGUNS_54
+
+:COPGUNS_54
+wait 0
+01C0: 0@ = player $PLAYER_CHAR wanted_level 
+if 
+not 0@ == 5 // integer values 
+else_jump @COPGUNS_45
+05DF: write_memory 5161447 size 1 value 17 virtual_protect 1 
+05DF: write_memory 5166978 size 1 value 17 virtual_protect 1 
+05DF: write_memory 5167030 size 1 value 50 virtual_protect 1
+05DF: write_memory 5161567 size 1 value 3 virtual_protect 1  
+jump @COPGUNS_55
+
+:COPGUNS_55
+wait 0 
+01C0: 0@ = player $PLAYER_CHAR wanted_level 
+if 
+  0@ == 6 // integer values 
+else_jump @COPGUNS_60
+Model.Load(#M4)
+05DF: write_memory 5161447 size 1 value 26 virtual_protect 1 
+05DF: write_memory 5166978 size 1 value 26 virtual_protect 1 
+05DF: write_memory 5167030 size 1 value 80 virtual_protect 1
+05DF: write_memory 5161567 size 1 value 6 virtual_protect 1  
+
+:COPGUNS_60
+jump @COPGUNS_65
+
+:COPGUNS_65
+wait 0
+01C0: 0@ = player $PLAYER_CHAR wanted_level 
+if 
+not 0@ == 6 // integer values 
+else_jump @COPGUNS_55
+05DF: write_memory 5161447 size 1 value 17 virtual_protect 1 
+05DF: write_memory 5166978 size 1 value 17 virtual_protect 1 
+05DF: write_memory 5167030 size 1 value 50 virtual_protect 1
+05DF: write_memory 5161567 size 1 value 3 virtual_protect 1  
+jump @COPGUNS_10

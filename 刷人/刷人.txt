@@ -1,0 +1,110 @@
+// This file was decompiled using VCSCM.ini published on 2021-05-25
+{$CLEO .cs}
+
+script_name 'XBXY6' 
+
+:XBXY6_10
+wait 0 
+if 
+   Player.Defined($PLAYER_CHAR)
+jf @XBXY6_10 
+if and
+   not Actor.Driving($PLAYER_ACTOR)
+05EE:   key_pressed 79 //VK_...   o
+05EE:   key_pressed 80 //VK_...   p
+jf @XBXY6_10 
+wait 0 
+00BE: text_clear_all 
+Player.CanMove($PLAYER_CHAR, False)
+02A3: enable_widescreen 1 
+6@ = 0 // @ = int 
+01E3: text_1number_styled 'PED' number 6@ time 3000 style 6 
+04C4: create_coordinate 1@ 2@ 3@ from_actor $PLAYER_ACTOR offset 0.0 4.0 1.0 
+
+:XBXY6_125
+gosub @XBXY6_447 
+wait 0 
+if 
+05EE:   key_pressed 65 //VK_...    a
+jf @XBXY6_189 
+wait 0 
+00BE: text_clear_all 
+6@ += 1 // @ += int 
+01E3: text_1number_styled 'PED' number 6@ time 3000 style 6 
+jump @XBXY6_264 
+
+:XBXY6_189
+wait 0 
+if 
+05EE:   key_pressed 68 //VK_...  d
+jf @XBXY6_264 
+wait 0 
+if 
+   not 1 > 6@ // int > @ 
+jf @XBXY6_410 
+00BE: text_clear_all 
+6@ -= 1 // @ -= int 
+01E3: text_1number_styled 'PED' number 6@ time 3000 style 6 
+jump @XBXY6_264 
+
+:XBXY6_264
+wait 0 
+if 
+05EE:   key_pressed 89 //VK_... 
+jf @XBXY6_125 
+if 
+if and
+   not 0 > 6@ // int > @ 
+  106 >= 6@ // int >= @ 
+jf @XBXY6_410 
+wait 100 
+Model.Load(6@)
+038B: load_requested_models 
+
+:XBXY6_323
+wait 0 
+if 
+   Model.Available(6@)
+jf @XBXY6_323 
+wait 0 
+Player.CanMove($PLAYER_CHAR, True)
+02A3: enable_widescreen 0 
+wait 100 
+Actor.Create(0@, 4, 6@, 1@, 2@, 3@)
+01DF: tie_actor 0@ to_player $PLAYER_CHAR 
+Actor.RemoveReferences(0@)
+wait 100 
+Model.Destroy(6@)
+jump @XBXY6_498 
+
+:XBXY6_410
+wait 0 
+00BE: text_clear_all 
+wait 100 
+00BA: text_styled 'PED1' 2000 ms 2 
+wait 2000 
+jump @XBXY6_125 
+
+:XBXY6_447
+wait 0 
+if 
+05EE:   key_pressed 90 //VK_... 
+jf @XBXY6_496 
+00BE: text_clear_all 
+Player.CanMove($PLAYER_CHAR, True)
+02A3: enable_widescreen 0 
+6@ = 0.0 // @ = float 
+jump @XBXY6_10 
+
+:XBXY6_496
+return 
+
+:XBXY6_498
+wait 0 
+0@ = 0.0 // @ = float 
+1@ = 0.0 // @ = float 
+2@ = 0.0 // @ = float 
+3@ = 0.0 // @ = float 
+6@ = 0 // @ = int 
+wait 100 
+jump @XBXY6_10 

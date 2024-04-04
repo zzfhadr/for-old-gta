@@ -1,0 +1,212 @@
+{$VERSION 2.2.0000}
+{$CLEO .cs}
+thread 'Carmax1' 
+//by:xbxy
+//网盘xby.ys168.com
+//论坛xbxy8.com
+//转载请注明出处 
+:1
+wait 0 
+if and
+   Player.Defined($PLAYER_CHAR)
+00E0:   player $PLAYER_CHAR driving 
+jf @1
+03C1: 0@ = player $PLAYER_CHAR car 
+0224: set_car 0@ health_to 10000   //用于修复正在燃烧的交通工具 
+gosub @fix 
+03F5: set_vehicle 0@ apply_damage_rules 0 
+02AC: set_car 0@ immunities 1 1 1 1 1 
+gosub @1a  
+gosub @h
+0006: 15@ 2
+047E:   player $PLAYER_CHAR driving_a_motorbike
+jf @2   
+jump @3
+
+:1a
+84A8:   player $PLAYER_CHAR driving_boat 
+jf @0051
+01EC: make_car 0@ very_heavy 1                                                    
+jump @0051
+
+:2
+wait 0
+if and
+   Player.Defined($PLAYER_CHAR)                                                     
+00DC:   player $PLAYER_CHAR driving 0@
+8119:   car 0@ wrecked                
+jf @end
+gosub @key
+gosub @l
+gosub @f
+gosub @speed
+jump @2   
+
+:3
+wait 0 
+if and
+   Player.Defined($PLAYER_CHAR)   
+8119:   car 0@ wrecked   
+84AD:   not actor $PLAYER_ACTOR in_water  
+jf @end
+gosub @key
+gosub @l
+//gosub @f
+gosub @speed
+05E6: 1@ = actor $PLAYER_ACTOR struct 
+1@ += 0x244 // integer values  
+05E0: 1@ = read_memory 1@ size 1 virtual_protect 0  
+8039: 1@ 60
+jf @end
+0039: 1@ 42
+jf @3
+0223: set_actor $PLAYER_ACTOR health_to 5@
+036A: put_actor $PLAYER_ACTOR in_car 0@
+jump @3                   
+
+    
+:speed
+84A8:   player $PLAYER_CHAR driving_boat 
+jf @0051
+0039: 15@ 1
+jf @0051
+00e1: 0 18
+jf @0051    
+02E3: 3@ = car 0@  
+0208: 4@ = random_float 50.0 150.0 
+0059: 3@ += 4@ 
+04BA: set_car 0@ speed_instantly 3@  
+0006: 15@ 2
+jump @0051  
+
+
+:f
+01F4:   car 0@ flipped
+jf @0051
+2@ = Car.Angle(0@)
+Car.Angle(0@) = 2@
+jump @0051
+
+:l
+if and
+84A8:   player $PLAYER_CHAR driving_boat 
+84C9:   player $PLAYER_CHAR driving_plane
+jf @0051
+047E:   player $PLAYER_CHAR driving_a_motorbike
+jf @l1
+gosub @la
+gosub @lb 
+jump @0051
+:la
+05E7: 1@ = car 0@ struct
+000A: 1@ +=  0x32c 
+05E0: 1@ = read_memory 1@ size 1 virtual_protect 0
+0039: 1@ 1
+jf @0051
+05E7: 1@ = car 0@ struct
+000A: 1@ +=  0x32c 
+gosub @l2
+jump @0051
+:lb
+05E7: 1@ = car 0@ struct
+000A: 1@ +=  0x32d
+05E0: 1@ = read_memory 1@ size 1 virtual_protect 0
+0039: 1@ 1
+jf @0051
+05E7: 1@ = car 0@ struct
+000A: 1@ +=  0x32d 
+gosub @l2
+jump @0051
+
+:l1
+gosub @l1a
+gosub @l1b
+gosub @l1c
+gosub @l1d
+jump @0051
+:l1a
+05E7: 1@ = car 0@ struct
+000A: 1@ +=  0x2a5 
+gosub @l3
+0039: 1@ 1
+jf @0051
+05E7: 1@ = car 0@ struct
+000A: 1@ +=  0x2a5 
+gosub @l2
+jump @0051
+:l1b
+05E7: 1@ = car 0@ struct
+000A: 1@ +=  0x2a6
+gosub @l3
+0039: 1@ 1
+jf @0051
+05E7: 1@ = car 0@ struct
+000A: 1@ +=  0x2a6 
+gosub @l2
+jump @0051
+:l1c
+05E7: 1@ = car 0@ struct
+000A: 1@ +=  0x2a7 
+gosub @l3
+0039: 1@ 1
+jf @0051
+05E7: 1@ = car 0@ struct
+000A: 1@ +=  0x2a7 
+gosub @l2
+jump @0051
+:l1d
+05E7: 1@ = car 0@ struct
+000A: 1@ +=  0x2a8 
+gosub @l3
+0039: 1@ 1
+jf @0051
+05E7: 1@ = car 0@ struct
+000A: 1@ +=  0x2a8 
+gosub @l2
+jump @0051
+:l2
+05DF: write_memory 1@ size 1 value 0 virtual_protect 0
+jump @0051
+:l3
+05E0: 1@ = read_memory 1@ size 1 virtual_protect 0
+jump @0051
+
+:key
+80e1: 0 18
+jf @0051
+0006: 15@ 1
+jump @0051
+
+:fix 
+05E7: 1@ = car 0@ struct 
+1@ += 668 // integer values 
+05E0: 1@ = read_memory 1@ size 1 virtual_protect 0 
+  1@ == 0 // integer values 
+jf @fix1
+05E7: 1@ = car 0@ struct 
+05E3: call_method 5801264 1@ num_params 0 pop 0 
+05DF: write_memory 10553666 size 1 value 87 virtual_protect 0 
+jump @0051 
+
+:fix1
+05E7: 1@ = car 0@ struct 
+05E3: call_method 6332160 1@ num_params 0 pop 0 
+05DF: write_memory 10553666 size 1 value 87 virtual_protect 0 
+jump @0051 
+
+:h
+0225: 5@ = player $PLAYER_CHAR health
+8019:   5@ > 99 // integer values 
+jf @0051
+0006: 5@ 100
+0223: set_actor $PLAYER_ACTOR health_to 5@
+jump @0051
+
+:0051
+0051:
+
+:end
+Car.RemoveReferences(0@)
+0@ = 0 
+wait 100
+jump @1

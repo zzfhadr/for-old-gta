@@ -1,0 +1,118 @@
+// This file was decompiled using VCSCM.ini published on 2021-05-25
+{$CLEO .cs}
+
+script_name 'CY' 
+
+:CY_10
+wait 0
+var
+0@ :int =0
+end 
+if and
+   Player.Defined($PLAYER_CHAR)
+05EE:   key_pressed 67 //VK_...  c
+jf @CY_10
+
+:CY_KBY1
+while 0@ < 100 
+wait 10
+if and
+   Player.Defined($PLAYER_CHAR)
+05EE:   key_pressed 89 //VK_...   y
+then
+jump @CY_KBW1
+end
+0@++
+end
+jump @CY_10
+
+:CY_KBW1
+0@=0
+while 0@ < 100 
+wait 10
+if and
+   Player.Defined($PLAYER_CHAR)
+05EE:   key_pressed 87 //VK_...   W
+then 
+jump @CY_KBX1
+end
+0@++
+end
+jump @CY_10
+
+:CY_KBX1
+0@=0
+while 0@ < 100 
+wait 10
+if and
+   Player.Defined($PLAYER_CHAR) 
+05EE:     88          //VK_...   X
+then
+jump @CY_KBK1
+end
+0@++
+end
+jump @CY_10
+
+:CY_KBK1
+0@=0
+while 0@ < 100 
+wait 10
+if and
+   Player.Defined($PLAYER_CHAR)
+05EE:     75            //VK_...   K
+then
+jump @CY_KBB1
+end
+0@++
+end
+jump @CY_10
+
+:CY_KBB1
+0@=0
+while 0@ < 100
+wait 10
+if and
+   Player.Defined($PLAYER_CHAR)
+05EE:     66           //VK_...   B
+then
+jump @CY_52
+end
+0@++
+end
+jump @CY_10 
+
+:CY_52
+023C: load_special_actor 1 'CHU' 
+038B: load_requested_models 
+
+
+wait 0 
+if 
+023D:   special_actor 1 loaded 
+jf @CY_52 
+0470: 1@ = actor $PLAYER_ACTOR armed_weapon
+04C4: create_coordinate 3@ 4@ 5@ from_actor $PLAYER_ACTOR offset 0.0 1.2 0.0 
+Actor.Create(6@, 4, #SPECIAL01, 3@, 4@, 5@)
+Actor.Health(6@) = 1000
+
+02AB: set_actor 6@ immunities BP 1 FP 1 EP 1 CP 1 MP 1
+01B2: give_actor 6@ weapon 1@ ammo 9999
+0243: set_actor 6@ ped_stats_to 30
+0291: set_actor 6@ attack_when_provoked 1
+02A9: set_actor 6@ immune_to_nonplayer 1
+02E2: set_actor 6@ weapon_accuracy_to 100
+0350: set_actor 6@ maintain_position_when_attacked 1
+0319: set_actor 6@ running 1
+
+01DF: tie_actor 6@ to_player $PLAYER_CHAR 
+if  
+ 02CB:   actor 6@ bounding_sphere_visible
+then
+wait 0
+else
+ 034F: destroy_actor_with_fade 6@
+end
+jf @CY_52 
+wait 1000 
+jump @CY_10 

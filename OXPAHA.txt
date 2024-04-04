@@ -1,0 +1,52 @@
+// This file was decompiled using VCSCM.ini published on 2021-05-25
+{$CLEO .cs}
+
+script_name 'MVGUARD' 
+
+:MVGUARD_10
+Model.Load(#RUGER)
+Model.Load(#M4)
+Model.Load(#M60)
+Model.Load(#PGA)
+Model.Load(#PGB)
+
+:MVGUARD_33
+wait 0 
+if and
+05EE:   key_pressed 9 //VK_... 
+05EE:   key_pressed 56 //VK_... 
+jf @MVGUARD_33 
+04C4: create_coordinate 1@ 2@ 3@ from_actor $PLAYER_ACTOR offset 1.0 0.0 0.0 
+04C4: create_coordinate 4@ 5@ 6@ from_actor $PLAYER_ACTOR offset 2.0 0.0 0.0 
+04C4: create_coordinate 7@ 8@ 9@ from_actor $PLAYER_ACTOR offset 3.0 0.0 0.0 
+Actor.Create(11@, 13, #PGA, 1@, 2@, 3@)
+Actor.Create(12@, 13, #PGB, 4@, 5@, 6@)
+Actor.Create(13@, 13, #PGA, 7@, 8@, 9@)
+01B2: give_actor 11@ weapon 27 ammo 9999 // Load the weapon model before using this 
+01B2: give_actor 12@ weapon 26 ammo 9999 // Load the weapon model before using this 
+01B2: give_actor 13@ weapon 32 ammo 9999 // Load the weapon model before using this 
+011A: set_actor 11@ search_threat 64 
+011A: set_actor 12@ search_threat 64 
+011A: set_actor 13@ search_threat 64 
+Actor.Health(11@) = 250
+Actor.Health(12@) = 250
+Actor.Health(13@) = 250
+01DF: tie_actor 11@ to_player $PLAYER_CHAR 
+01DF: tie_actor 12@ to_player $PLAYER_CHAR 
+01DF: tie_actor 13@ to_player $PLAYER_CHAR 
+02E2: set_actor 11@ weapon_accuracy_to 100 
+02E2: set_actor 12@ weapon_accuracy_to 100 
+02E2: set_actor 13@ weapon_accuracy_to 100 
+
+:MVGUARD_317
+wait 0 
+if and
+   Actor.Dead(11@)
+   Actor.Dead(12@)
+   Actor.Dead(13@)
+jf @MVGUARD_317 
+Actor.DestroyWithFade(11@)
+Actor.DestroyWithFade(12@)
+Actor.DestroyWithFade(13@)
+wait 1000 
+jump @MVGUARD_10 

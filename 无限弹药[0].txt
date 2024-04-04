@@ -1,0 +1,196 @@
+// This file was decompiled using VCSCM.ini published on 2021-05-25
+{$CLEO .cs}
+
+script_name 'INFAMMO' 
+
+:INFAMMO_10
+wait 0 
+if 
+02D7:   player $PLAYER_CHAR current_weapon == 12 
+jf @INFAMMO_51 
+017A: set_player $PLAYER_CHAR weapon 12 ammo_to 999999 
+jump @INFAMMO_10 
+
+:INFAMMO_51
+wait 0 
+if 
+02D7:   player $PLAYER_CHAR current_weapon == 13 
+jf @INFAMMO_92 
+017A: set_player $PLAYER_CHAR weapon 13 ammo_to 999999 
+jump @INFAMMO_51 
+
+:INFAMMO_92
+wait 0 
+if 
+02D7:   player $PLAYER_CHAR current_weapon == 14 
+jf @INFAMMO_133 
+017A: set_player $PLAYER_CHAR weapon 14 ammo_to 999999 
+jump @INFAMMO_92 
+
+:INFAMMO_133
+wait 0 
+if 
+02D7:   player $PLAYER_CHAR current_weapon == 15 
+jf @INFAMMO_174 
+017A: set_player $PLAYER_CHAR weapon 15 ammo_to 999999 
+jump @INFAMMO_133 
+
+:INFAMMO_174
+wait 0 
+if 
+02D7:   player $PLAYER_CHAR current_weapon == 17 
+jf @INFAMMO_215 
+017A: set_player $PLAYER_CHAR weapon 17 ammo_to 999999 
+jump @INFAMMO_174 
+
+:INFAMMO_215
+wait 0 
+if 
+02D7:   player $PLAYER_CHAR current_weapon == 18 
+jf @INFAMMO_256 
+017A: set_player $PLAYER_CHAR weapon 18 ammo_to 999999 
+jump @INFAMMO_215 
+
+:INFAMMO_256
+wait 0 
+if 
+02D7:   player $PLAYER_CHAR current_weapon == 19 
+jf @INFAMMO_297 
+017A: set_player $PLAYER_CHAR weapon 19 ammo_to 999999 
+jump @INFAMMO_256 
+
+:INFAMMO_297
+wait 0 
+if 
+02D7:   player $PLAYER_CHAR current_weapon == 20 
+jf @INFAMMO_338 
+017A: set_player $PLAYER_CHAR weapon 20 ammo_to 999999 
+jump @INFAMMO_297 
+
+:INFAMMO_338
+wait 0 
+if 
+02D7:   player $PLAYER_CHAR current_weapon == 21 
+jf @INFAMMO_379 
+017A: set_player $PLAYER_CHAR weapon 21 ammo_to 999999 
+jump @INFAMMO_338 
+
+:INFAMMO_379
+wait 0 
+if 
+02D7:   player $PLAYER_CHAR current_weapon == 22 
+jf @INFAMMO_420 
+017A: set_player $PLAYER_CHAR weapon 22 ammo_to 999999 
+jump @INFAMMO_379 
+
+:INFAMMO_420
+wait 0 
+if 
+02D7:   player $PLAYER_CHAR current_weapon == 23 
+jf @INFAMMO_461 
+017A: set_player $PLAYER_CHAR weapon 23 ammo_to 999999 
+jump @INFAMMO_420 
+
+:INFAMMO_461
+wait 0 
+if 
+02D7:   player $PLAYER_CHAR current_weapon == 24 
+jf @INFAMMO_502 
+017A: set_player $PLAYER_CHAR weapon 24 ammo_to 999999 
+jump @INFAMMO_461 
+
+:INFAMMO_502
+wait 0 
+if 
+02D7:   player $PLAYER_CHAR current_weapon == 25 
+jf @INFAMMO_543 
+017A: set_player $PLAYER_CHAR weapon 25 ammo_to 999999 
+jump @INFAMMO_502 
+
+:INFAMMO_543
+wait 0 
+if 
+02D7:   player $PLAYER_CHAR current_weapon == 26 
+jf @INFAMMO_584 
+017A: set_player $PLAYER_CHAR weapon 26 ammo_to 999999 
+jump @INFAMMO_543 
+
+:INFAMMO_584
+wait 0 
+if 
+02D7:   player $PLAYER_CHAR current_weapon == 27 
+jf @INFAMMO_625 
+017A: set_player $PLAYER_CHAR weapon 27 ammo_to 999999 
+jump @INFAMMO_584 
+
+:INFAMMO_625
+wait 0 
+if 
+02D7:   player $PLAYER_CHAR current_weapon == 28 
+jf @INFAMMO_666 
+017A: set_player $PLAYER_CHAR weapon 28 ammo_to 999999 
+jump @INFAMMO_625 
+
+:INFAMMO_666
+wait 0 
+if 
+02D7:   player $PLAYER_CHAR current_weapon == 29 
+jf @INFAMMO_707 
+017A: set_player $PLAYER_CHAR weapon 29 ammo_to 999999 
+jump @INFAMMO_666 
+
+:INFAMMO_707
+wait 0 
+if 
+02D7:   player $PLAYER_CHAR current_weapon == 30 
+jf @INFAMMO_748 
+017A: set_player $PLAYER_CHAR weapon 30 ammo_to 999999 
+jump @INFAMMO_707 
+
+:INFAMMO_748
+wait 0 
+if 
+02D7:   player $PLAYER_CHAR current_weapon == 31 
+jf @INFAMMO_789 
+017A: set_player $PLAYER_CHAR weapon 31 ammo_to 999999 
+jump @INFAMMO_748 
+
+:INFAMMO_789
+wait 0 
+if 
+02D7:   player $PLAYER_CHAR current_weapon == 32 
+jf @INFAMMO_830 
+017A: set_player $PLAYER_CHAR weapon 32 ammo_to 999999 
+jump @INFAMMO_789 
+
+:INFAMMO_830
+wait 0 
+if 
+02D7:   player $PLAYER_CHAR current_weapon == 33 
+jf @INFAMMO_871 
+017A: set_player $PLAYER_CHAR weapon 33 ammo_to 999999 
+jump @INFAMMO_830 
+
+:INFAMMO_871
+wait 0 
+if 
+02D7:   player $PLAYER_CHAR current_weapon == 28 
+jf @INFAMMO_912 
+017A: set_player $PLAYER_CHAR weapon 28 ammo_to 999999 
+jump @INFAMMO_871 
+
+:INFAMMO_912
+wait 0 
+if 
+02D7:   player $PLAYER_CHAR current_weapon == 29 
+jf @INFAMMO_953 
+017A: set_player $PLAYER_CHAR weapon 29 ammo_to 999999 
+jump @INFAMMO_912 
+
+:INFAMMO_953
+wait 0 
+if 
+02D7:   player $PLAYER_CHAR current_weapon == 36 
+jf @INFAMMO_10 
+017A: set_player $PLAYER_CHAR weapon 36 ammo_to 999999 
+jump @INFAMMO_953 

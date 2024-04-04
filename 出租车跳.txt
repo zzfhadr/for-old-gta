@@ -1,0 +1,14 @@
+{$CLEO .cs}
+script_name 'TAXJ' 
+:TAXJ
+wait 100
+if  Player.Defined($PLAYER_CHAR)
+then
+0572: set_taxi_boost_jump 1
+end
+jump @TAXJ //我发现这个还不能不要，整个代码必需是闭着的 
+
+
+
+
+

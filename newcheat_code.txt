@@ -1,0 +1,745 @@
+{$CLEO}
+
+//New Cheat Code CLEO
+//Writer is Flandre
+//Create at 2014/09/21
+0000:
+
+//Var Defined 
+Var
+0@:int
+1@:int
+2@:int
+3@:int
+4@:int
+5@:int
+end
+
+//Const Defined 
+const
+Player = $PLAYER_ACTOR
+Cheat = 0@
+C4 = 1@
+C3 = 2@
+C2 = 3@
+C1 = 4@
+KEYB = 48
+KEYE = 57
+rec1 = 10553666
+rec2 = 10553667
+rec3 = 10553668
+rec4 = 10553669
+K5 = 0x38
+K6 = 0x39
+K7 = 0x3A
+K8 = 0x3B
+K9 = 0x3C
+
+//CheatCode
+
+
+//Cheat Codes
+Cheat1 = 411 //THUGSTOOLS
+Cheat2 = 412 //PROFESSIONALTOOLS
+Cheat3 = 413 //NUTTERTOOLS
+Cheat4 = 414 //PRECIOUSPROTECTION
+Cheat5 = 415 //ASPIRINE
+Cheat6 = 416 //YOUWONTTAKEMEALIVE
+Cheat7 = 417 //LEAVEMEALONE
+Cheat8 = 418 //APLEASANTDAY
+Cheat9 = 419 //ALOVELYDAY
+Cheat10 = 420 //ABITDRIEG
+Cheat11 = 421 //CATSANDDOGS
+Cheat12 = 422 //CANTSEEATHING
+Cheat13 = 423 //PANZER
+Cheat14 = 424 //LIFEISPASSINGMEBY 
+Cheat15 = 425 //BIGBANG
+Cheat16 = 426 //STILLLIKEDRESSINGUP 
+Cheat17 = 427 //FIGHTFIGHTFIGHT
+Cheat18 = 428 //NOBODYLIKESME  
+Cheat19 = 429 //CERTAINDEATH 
+Cheat20 = 430 //DEEPFRIEDMRSBARS
+Cheat21 = 431 //PROGRAMMER
+Cheat22 = 432 //OURGODGIVENRIGHTTOBEARARMS
+Cheat23 = 433 //ONSPEED
+Cheat24 = 434 //BOOOOOORING 
+Cheat25 = 435 //WHEELSAREALLINEED 
+Cheat26 = 436 //COMEFLYWITHME 
+Cheat27 = 437 //GRIPISEVERYTHING
+Cheat28 = 438 //CHASESTAT 
+Cheat29 = 439 //WELOVEOURDICK
+Cheat30 = 440 //SEAWAYS
+Cheat31 = 441 //GOTOSP
+Cheat32 = 442 //GOTOOV
+Cheat33 = 443 //GOTOSH
+Cheat34 = 444 //GOTOWH
+Cheat35 = 445 //REALTIME
+Cheat36 = 446 //GAMETIME
+Cheat37 = 447 //8 o'clock
+Cheat38 = 448 //12 o'clock
+Cheat39 = 449 //22 o'clock
+Cheat40 = 450 //1 o'clock
+end
+
+//-----Cheat CLEO Beginning------
+:Cheat
+while true
+repeat
+hex
+ 01 00 04 00
+end
+until 0256: 0
+Cheat = 0 //Cheat Clean
+//------Cheat Key Judge----------
+05E0: C4 rec1 1 0
+05E0: C3 rec2 1 0
+05E0: C2 rec3 1 0
+05E0: C1 rec4 1 0
+if and
+  C4 >= KEYB //0
+  not C4 > KEYE //9
+  C3 > KEYB //0
+  not C3 > KEYE
+  C2 > 51 //0
+  not C2 > KEYE //9
+  C1 == 84
+jf @Cheat 
+05DF: rec1 4 0 0
+C2 -= KEYB
+C3 -= KEYB
+C4 -= KEYB
+C2 *= 100 //C2*100000
+C3 *= 10 //C3*10000
+Cheat += C2 //0+C2
+Cheat += C3 //C2+C3
+Cheat += C4 //C2+C3+C4 
+//-----End-------
+//-----Cheat Code Judge--------
+if
+not Cheat == Cheat1 //4115
+jf @Cheat1
+if
+not Cheat == Cheat2 //4126
+jf @Cheat2
+if
+not Cheat == Cheat3 //4137
+jf @Cheat3
+if
+not Cheat == Cheat4 //4148
+jf @Cheat4
+if
+not Cheat == Cheat5 //4159
+jf @Cheat5
+if
+not Cheat == Cheat6 //4165
+jf @Cheat6
+if
+not Cheat == Cheat7 //4176
+jf @Cheat7
+if
+not Cheat == Cheat8 //4187
+jf @Cheat8
+if
+not Cheat == Cheat9 //4198
+jf @Cheat9
+if
+not Cheat == Cheat10 //4209
+jf @Cheat10
+if
+not Cheat == Cheat11 //4215
+jf @Cheat11
+if
+not Cheat == Cheat12 //4226
+jf @Cheat12
+if
+not Cheat == Cheat13 //4237
+jf @Cheat13
+if
+not Cheat == Cheat14 //4248
+jf @Cheat14
+if
+not Cheat == Cheat15 //4259
+jf @Cheat15
+if
+not Cheat == Cheat16 //4265
+jf @Cheat16
+if
+not Cheat == Cheat17 //4276
+jf @Cheat17
+if
+not Cheat == Cheat18 //4287
+jf @Cheat18
+if
+not Cheat == Cheat19 //4298
+jf @Cheat19
+if
+not Cheat == Cheat20 //4309
+jf @Cheat20
+if
+not Cheat == Cheat21 //4315
+jf @Cheat21
+if
+not Cheat == Cheat22 //4326
+jf @Cheat22
+if
+not Cheat == Cheat23 //4337
+jf @Cheat23
+if
+not Cheat == Cheat24 //4348
+jf @Cheat24
+if
+not Cheat == Cheat25 //4359
+jf @Cheat25
+if
+not Cheat == Cheat26 //4365
+jf @Cheat26
+if
+not Cheat == Cheat27 //4376
+jf @Cheat27
+if
+not Cheat == Cheat28 //4387
+jf @Cheat28
+if
+not Cheat == Cheat29 //4398
+jf @Cheat29
+if
+not Cheat == Cheat30 //4409
+jf @Cheat30
+if
+not Cheat == Cheat31 //4415
+jf @Cheat31
+if
+not Cheat == Cheat32 //4426
+jf @Cheat32
+if
+not Cheat == Cheat33 //4437
+jf @Cheat33
+if
+not Cheat == Cheat34 //4448
+jf @Cheat34
+if
+not Cheat == Cheat35 //4459
+jf @Cheat35
+if
+not Cheat == Cheat36 //4465
+jf @Cheat36
+if
+not Cheat == Cheat37 //4476
+jf @Cheat37
+if
+not Cheat == Cheat38 //4487
+jf @Cheat38
+if
+not Cheat == Cheat39 //4498
+jf @Cheat39
+if
+not Cheat == Cheat40 //4509
+jf @Cheat40
+//Add Your Cheat Code Judge in here---------
+
+Cheat = 0 //Cheat Clean
+jump @Cheat
+//-----End-------
+
+//-----Cheat Codes--------
+
+:Cheat1
+wait 0
+05DF: 0x6D85E4 4 K5 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat1
+05DF: 0x6D85E4 4 0x50565156 0
+jump @Cheat
+
+:Cheat2
+wait 0
+05DF: 0x6D85F0 4 K6 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat2
+05DF: 0x6D85F0 4 0x50565156 0
+jump @Cheat
+
+:Cheat3
+wait 0
+05DF: 0x6D8604 4 K7 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat3
+05DF: 0x6D8604 4 0x50565156 0
+jump @Cheat
+
+:Cheat4
+wait 0
+05DF: 0x6D8610 4 K8 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat4
+05DF: 0x6D8610 4 0x55505451 0
+jump @Cheat
+
+:Cheat5
+wait 0
+05DF: 0x6D8624 4 K9 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat5
+05DF: 0x6D8624 4 0x53505348 0
+jump @Cheat
+
+:Cheat6
+wait 0
+05DF: 0x686FD0 4 K5 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat6
+05DF: 0x686FD0 4 0x4D505B48 0
+jump @Cheat
+
+:Cheat7
+wait 0
+05DF: 0x686FE4 4 K6 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat7
+05DF: 0x686FE4 4 0x4D565348 0
+jump @Cheat
+
+:Cheat8
+wait 0
+05DF: 0x686FF4 4 K7 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat8
+05DF: 0x686FF4 4 0x554B465C 0
+jump @Cheat
+
+:Cheat9
+wait 0
+05DF: 0x687004 4 K8 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat9
+05DF: 0x687004 4 0x5A4B465C 0
+jump @Cheat
+
+:Cheat10
+wait 0
+05DF: 0x687010 4 K9 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat10
+05DF: 0x687010 4 0x53504A4A 0
+jump @Cheat
+
+:Cheat11
+wait 0
+05DF: 0x68701C 4 K5 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat11
+05DF: 0x68701C 4 0x45564C56 0
+jump @Cheat
+
+:Cheat12
+wait 0
+05DF: 0x688580 4 K6 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat12
+05DF: 0x688580 4 0x4950534A 0
+jump @Cheat
+
+:Cheat13
+wait 0
+05DF: 0x688590 4 K7 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat13
+05DF: 0x688590 4 0x4F614A55 0
+jump @Cheat
+
+:Cheat14
+wait 0
+05DF: 0x688598 4 K8 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat14
+05DF: 0x688598 4 0x4E4C475C 0
+jump @Cheat
+
+:Cheat15
+wait 0
+05DF: 0x6885AC 4 K9 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat15
+05DF: 0x6885AC 4 0x4348534A 0
+jump @Cheat
+
+:Cheat16
+wait 0
+05DF: 0x6885B4 4 K5 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat16
+05DF: 0x6885B4 4 0x4F4E5A53 0
+jump @Cheat
+
+:Cheat17
+wait 0
+05DF: 0x6885C8 4 K6 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat17
+05DF: 0x6885C8 4 0x4A4E4D57 0
+jump @Cheat
+
+:Cheat18
+wait 0
+05DF: 0x6885D8 4 K7 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat18
+05DF: 0x6885D8 4 0x465A5248 0
+jump @Cheat
+
+:Cheat19
+wait 0
+05DF: 0x68F160 4 K8 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat19
+05DF: 0x68F160 4 0x4648594B 0
+jump @Cheat
+
+:Cheat20
+wait 0
+05DF: 0x68F170 4 K9 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat20
+05DF: 0x68F170 4 0x43485756 0
+jump @Cheat
+
+:Cheat21
+wait 0
+05DF: 0X68F184 4 K5 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat21
+05DF: 0X68F184 4 0x4E544A55 0
+jump @Cheat
+
+:Cheat22
+wait 0
+05DF: 0x695128 4 K6 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat22
+05DF: 0x695128 4 0x42595256 0
+jump @Cheat
+
+:Cheat23
+wait 0
+05DF: 0x695144 4 K7 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat23
+05DF: 0x695144 4 0x514C4A47 0
+jump @Cheat
+
+:Cheat24
+wait 0
+05DF: 0x69514C 4 K8 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat24
+05DF: 0x69514C 4 0x5350534A 0
+jump @Cheat
+
+:Cheat25
+wait 0
+05DF: 0x695158 4 K9 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat25
+05DF: 0x695158 4 0x4F4C4A47 0
+jump @Cheat
+
+:Cheat26
+wait 0
+05DF: 0x69516C 4 K5 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat26
+05DF: 0x69516C 4 0x554F5248 0
+jump @Cheat
+
+:Cheat27
+wait 0
+05DF: 0x69517C 4 K6 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat27
+05DF: 0x69517C 4 0x4950534A 0
+jump @Cheat
+
+:Cheat28
+wait 0
+05DF: 0x695070 4 K7 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat28
+05DF: 0x695070 4 0x545B4657 0
+jump @Cheat
+
+:Cheat29
+wait 0
+05DF: 0x6DC408 4 K8 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat29
+05DF: 0x6DC408 4 0x4550484E 0
+jump @Cheat
+
+:Cheat30
+wait 0
+05DF: 0x6DC418 4 K9 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat30
+05DF: 0x6DC418 4 0x58485E56 0
+jump @Cheat
+
+:Cheat31
+wait 0
+05E0: C4 rec1 1 0
+if
+C4 == 53
+jf @Cheat31
+05DF: rec1 4 0 0
+fade 0 2000
+wait 2000
+01B4: 0 0 
+02A3: 1
+gosub @GOTOHP
+04A2: 11@ 425.7622 713.8177 60.1351 100
+wait 35000
+04A2: 11@ 425.7622 713.8177 11.1351 30
+wait 6000
+03E2: Player
+wait 2000
+04A2: 11@ 425.7622 713.8177 60.1351 30
+wait 5000
+01EB: 1.0
+00A6: 11@
+009B: 12@
+01B4: 0 1
+02A3: 0 
+jump @Cheat
+
+:Cheat32
+wait 0
+05E0: C4 rec1 1 0
+if
+C4 == 54
+jf @Cheat32
+05DF: rec1 4 0 0
+fade 0 2000
+wait 2000
+01B4: 0 0
+gosub @GOTOHP
+04A2: 11@ -126.6772 -948.2245 60.1351 100
+wait 22000
+04A2: 11@ -126.6772 -948.2245 11.1351 30
+wait 6000
+03E2: Player
+wait 2000
+04A2: 11@ -126.6772 -948.2245 60.1351 30
+wait 5000
+01EB: 1.0
+00A6: 11@
+009B: 12@
+01B4: 0 1
+02A3: 0 
+jump @Cheat
+
+:Cheat33
+wait 0
+05E0: C4 rec1 1 0
+if
+C4 == 55
+jf @Cheat33
+05DF: rec1 4 0 0
+fade 0 2000
+wait 2000
+01B4: 0 0 
+02A3: 1
+gosub @GOTOHP
+04A2: 11@ -818.2221 1171.6927 60.811 100
+wait 40000
+04A2: 11@ -818.2221 1171.6927 10.811 30
+wait 6000
+03E2: Player
+wait 2000
+04A2: 11@ -818.2221 1171.6927 60.811 30
+wait 5000
+01EB: 1.0
+00A6: 11@
+009B: 12@
+01B4: 0 1
+02A3: 0 
+jump @Cheat
+
+:Cheat34
+wait 0
+05E0: C4 rec1 1 0
+if
+C4 == 56
+jf @Cheat34
+05DF: rec1 4 0 0
+fade 0 2000
+wait 2000
+01B4: 0 0
+02A3: 1
+gosub @GOTOHP
+04A2: 11@ -860.0004 -471.6468 60.8273 100
+wait 18000
+04A2: 11@ -860.0004 -471.6468 10.8273 30
+wait 6000
+03E2: Player
+wait 2000
+04A2: 11@ -860.0004 -471.6468 60.8273 30
+wait 5000
+01EB: 1.0
+00A6: 11@
+009B: 12@
+01B4: 0 1
+02A3: 0 
+jump @Cheat
+
+:Cheat35
+wait 0
+05E0: C4 rec1 1 0
+if
+C4 == 57
+jf @Cheat35
+05DF: rec1 4 0 0
+05DF: 9958068 4 60000 0 
+jump @Cheat
+
+:Cheat36
+wait 0
+05E0: C4 rec1 1 0
+if
+C4 == 53
+jf @Cheat36
+05DF: rec1 4 0 0
+05DF: 9958068 4 1000 0 
+jump @Cheat
+
+:Cheat37
+wait 0
+05E0: C4 rec1 1 0
+if
+C4 == 54
+jf @Cheat37
+05DF: rec1 4 0 0
+00C0: 8 0 
+jump @Cheat
+
+:Cheat38
+wait 0
+05E0: C4 rec1 1 0
+if
+C4 == 55
+jf @Cheat38
+05DF: rec1 4 0 0
+00C0: 12 0  
+jump @Cheat
+
+:Cheat39
+wait 0
+05E0: C4 rec1 1 0
+if
+C4 == 56
+jf @Cheat39
+05DF: rec1 4 0 0
+00C0: 22 0 
+jump @Cheat
+
+:Cheat40
+wait 0
+05E0: C4 rec1 1 0
+if
+C4 == 57
+jf @Cheat40
+05DF: rec1 4 0 0
+00C0: 1 0  
+jump @Cheat
+
+//Add Your Cheat Code in here---------
+
+//-----End-------
+
+:GOTOHP
+wait 0
+0247: 218 //Model load
+0247: 4 //Model load
+038B: //load required
+if and
+0248: 218 //Model loaded
+0248: 4 //Model loaded
+jf @GOTOHP
+01EB: 0.0
+00A1: Player -284.0106 -487.3556 11.0501
+0173: Player = 2.1096
+00A5: 11@ 218 -284.0613 -480.4745 10.9745
+0175: 11@ 273.7486
+009A: 12@ 4 4 -290.0613 -480.4745 10.9745 
+036A: 12@ 11@
+015F: -258.208 -488.6058 20.0464 0.0 0.0 0.0
+0160: -284.0613 -480.4745 10.9745 2
+wait 2000
+fade 1 2000
+01D4: Player 11@
+0158: 11@ 15 2
+wait 2500
+04A2: 11@ -284.0613 -480.4745 30.9745 30
+wait 4000 
+02EB:
+return 
+
+//-----Cheat CLEO Ending------

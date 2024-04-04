@@ -1,0 +1,62 @@
+{$CLEO .cs}
+//press c and 4 to creat
+//press z and 1-4 to teleport to miku in 1-4.
+// 034F: destroy_actor_with_fade $1037 // The actor fades away like a ghost freeing game memory 
+script_name 'XRR' 
+:XRR_1
+wait 0
+var
+6@ : int = 0
+4@ : int =0
+end
+:XRR_2
+wait 0
+if 
+05EE:   key_pressed 80 //VK_...   p
+then 
+
+wait 0
+if 
+not 6@ <107
+then 
+6@ = 0
+end
+
+if
+6@ == 8
+then 
+6@ =9
+end
+
+wait 10
+if  
+056D:   actor 0@ defined
+then
+009B: destroy_actor_instantly 0@
+end 
+
+
+Model.Load(6@)
+038B: load_requested_models 
+
+if 
+Model.Available(6@)
+then
+wait 10
+04C4: create_coordinate 1@ 2@ 3@ from_actor $PLAYER_ACTOR offset 0.0 4.0 1.0 
+Actor.Create(0@, 4, 6@, 1@, 2@, 3@)
+01DF: tie_actor 0@ to_player $PLAYER_CHAR 
+Actor.RemoveReferences(0@)
+wait 10 
+Model.Destroy(6@)
+else
+jump @XRR_2
+end
+
+
+6@++
+wait 1000
+jump @XRR_2 
+
+end
+jump  @XRR_2

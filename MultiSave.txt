@@ -1,0 +1,65 @@
+{$CLEO}
+
+05E5: 1@ = game_version
+if 
+    1@ == 0
+then
+    1@ = 0x6D8C92 
+else
+    if
+        1@ == 1
+    then
+        1@ = 0x6D8C6A
+    else
+        05DC: end_custom_thread
+    end
+end
+
+while true
+    wait 0
+    if
+        0@ == 0
+    then
+        if and
+            $ONMISSION == 0
+            8449:   not actor $PLAYER_ACTOR in_a_car 
+        then
+            gosub @ACTIVATE_SAVEENTRY
+        end    
+    else
+        if or
+            $ONMISSION <> 0
+            0449:   actor $PLAYER_ACTOR in_a_car 
+        then
+            gosub @DEACTIVATE_SAVEENTRY
+        end    
+    end
+end
+
+:ACTIVATE_SAVEENTRY
+0085: 2@ = 1@
+05df: write_memory 2@ size 2 value 4 virtual_protect 0
+//FET_
+2@ += 2
+05df: write_memory 2@ size 4 value 0x5f544546 virtual_protect 0
+//SG
+2@ += 4
+05df: write_memory 2@ size 4 value 0x4753 virtual_protect 0
+2@ += 5
+05df: write_memory 2@ size 1 value 15 virtual_protect 0
+0@ = 1
+return
+
+:DEACTIVATE_SAVEENTRY
+0085: 2@ = 1@
+05df: write_memory 2@ size 2 value 34 virtual_protect 0
+//FEDS
+2@ += 2
+05df: write_memory 2@ size 4 value 0x53444546 virtual_protect 0
+//_TB
+2@ += 4
+05df: write_memory 2@ size 4 value 0x42545F virtual_protect 0
+2@ += 5
+05df: write_memory 2@ size 1 value 0 virtual_protect 0
+0@ = 0
+return

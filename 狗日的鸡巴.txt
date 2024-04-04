@@ -1,0 +1,25 @@
+{$CLEO .cs}//sir,yes sir mission hleperw
+script_name 'GRDJB'
+:GRDJB
+wait 0
+if and
+Player.Defined($PLAYER_CHAR)
+05EE:   key_pressed 66 //B
+then
+0055: put_player $PLAYER_CHAR at    -243.3604 -1360.8988 8.113   //c point
+else
+jump  @GRDJB
+end
+wait 500
+:GRDJB1
+wait 0
+if and 
+Player.Defined($PLAYER_CHAR)
+05EE:   key_pressed 66 //B
+then 
+0055: put_player $PLAYER_CHAR at    -807.9341 -117.7123 10.7578
+else
+jump @GRDJB1
+end
+ wait 500
+jump @GRDJB

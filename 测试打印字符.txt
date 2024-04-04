@@ -1,0 +1,13 @@
+{$CLEO .cs}
+0000:
+:1
+wait 0
+if and
+   Player.Defined($PLAYER_CHAR)
+05EE:   key_pressed 67 //VK_...  c 
+05EE:   key_pressed 50 //VK_... 2 
+jf @1
+03E5: text_box 'CHU1_'
+wait 1000
+
+jump @1

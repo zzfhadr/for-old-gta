@@ -1,0 +1,128 @@
+ {$CLEO .cs}
+ script_name 'WODE'
+ var
+ 10@ : int =0  //130-236 180 and 181 is plane mode not availbe vehicle  6000之后是加车插件   
+ end 
+ :WODE_1
+ wait 0
+ if and
+ 044A:   player $PLAYER_CHAR on_foot
+ player.Defined($PLAYER_CHAR)
+ 05EE:   32  //spacebar
+ 05EE:   49 //1 
+ then
+ 10@=6001     //  跑车  
+ jump @WODE_SHUA
+ end
+ 
+  if and
+ 044A:   player $PLAYER_CHAR on_foot
+ player.Defined($PLAYER_CHAR)
+ 05EE:   32  //spacebar
+ 05EE:   50 //2
+ then
+ 10@=6002  //面包车
+ jump @WODE_SHUA
+ end
+ 
+  if and
+ 044A:   player $PLAYER_CHAR on_foot
+ player.Defined($PLAYER_CHAR)
+ 05EE:   32  //spacebar
+ 05EE:   51 //3 
+ then
+ 10@=6000   //警车 
+ jump @WODE_SHUA
+ end
+  
+  if and
+ 044A:   player $PLAYER_CHAR on_foot
+ player.Defined($PLAYER_CHAR)
+ 05EE:   32  //spacebar
+ 05EE:   52 //4 
+ then
+ 10@=141  //  infu... 
+ jump @WODE_SHUA
+ end
+  
+  if and
+ 044A:   player $PLAYER_CHAR on_foot
+ player.Defined($PLAYER_CHAR)
+ 05EE:   32  //spacebar
+ 05EE:   53 //5
+  
+ then
+ 10@=217  // 正常直升机 
+ jump @WODE_SHUA
+ end
+  
+  if and
+ 044A:   player $PLAYER_CHAR on_foot
+ player.Defined($PLAYER_CHAR)
+ 05EE:   32  //spacebar
+ 05EE:   54 //6 
+ then
+ 10@=162   //坦克 
+ jump @WODE_SHUA
+ end
+  
+  if and
+ 044A:   player $PLAYER_CHAR on_foot
+ player.Defined($PLAYER_CHAR)
+ 05EE:   32  //spacebar
+ 05EE:   55 //7 
+ then
+ 10@=227  //警用直升机 
+ jump @WODE_SHUA
+ end
+  
+  if and
+ 044A:   player $PLAYER_CHAR on_foot
+ player.Defined($PLAYER_CHAR)
+ 05EE:   32  //spacebar
+ 05EE:   56 //8 
+ then
+ 10@=191  //PCJ600
+ jump @WODE_SHUA
+ end
+  
+  if and
+ 044A:   player $PLAYER_CHAR on_foot  //139, 	stretch所谓的隐藏车，A点，不知道是不是 
+ player.Defined($PLAYER_CHAR)
+ 05EE:   32  //spacebar
+ 05EE:   57 //9 
+ then
+ 10@=216  // 考夫曼出租车 
+ jump @WODE_SHUA
+ end
+  
+  if and
+ 044A:   player $PLAYER_CHAR on_foot
+ player.Defined($PLAYER_CHAR)
+ 05EE:   32  //spacebar
+ 05EE:   48 //0 
+ then
+ 10@=155   //阿帕奇 
+ jump @WODE_SHUA
+ end
+ 
+
+ jump @WODE_1
+ 
+ :WODE_SHUA
+ wait 0
+  0247: request_model   10@//#INFERNUS
+ 0170: 4@ = player $PLAYER_CHAR z_angle  
+ 04C4: create_coordinate 0@ 1@ 2@ from_actor $PLAYER_ACTOR offset 0.0 3.0 0.0 
+ if 
+ 0248: 10@//#INFERNUS    
+ jf @WODE_1  
+ 00A5: 3@ = create_car 10@ at 0@ 1@ 2@     //#INFERNUS
+ 0175: set_car 3@ z_angle_to 4@ 
+ 0369: put_player $PLAYER_CHAR in_car 3@
+ wait 100
+ Car.RemoveReferences(3@) 
+ wait 1000
+ jump @WODE_1
+  
+                          

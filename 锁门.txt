@@ -1,0 +1,67 @@
+{$CLEO .cs}
+//坐上车时关门，按Tab开关门（在车上），离开车时开门 
+//039E  SET_CHAR_CANT_BE_DRAGGED_OUT
+script_name 'LOCKTT'
+var 
+1@ :int =0
+2@ : int = 0
+end 
+:LOCKTT_1
+wait 0
+if  and
+0443:   player $PLAYER_CHAR sitting_in_any_car
+Player.Defined($PLAYER_CHAR)
+then
+ jump @LOCKTT_L
+else
+if 1@ == 1
+then 
+jump @LOCKTT_O
+else 
+jump @LOCKTT_1
+end
+end
+
+:LOCKTT_L
+wait 0
+if 
+1@ == 0
+jf @LOCKTT_L1
+ 
+03C1: 0@ = player $PLAYER_CHAR car_no_save 
+053F: set_car 0@ tires_vulnerable 0 
+020A: set_car 0@ door_status_to 2 
+  03E5: text_box  'GUANMEN'
+1@=1 
+wait 1000
+:LOCKTT_L1         
+wait 0
+if and
+   Player.Defined($PLAYER_CHAR)
+00E0:   player $PLAYER_CHAR in_any_car 
+05EE:   key_pressed 9 //VK_...  tab
+then 
+jump @LOCKTT_O
+end 
+jump @LOCKTT_1
+
+
+:LOCKTT_O
+wait 0 
+053F: set_car 0@ tires_vulnerable 0 
+020A: set_car 0@ door_status_to 0 
+00BC: text_highpriority 'KAIMEN' time 1000 1 
+1@=0 
+wait 1000 
+:LOCKTT_O1
+wait 0
+if 
+00E0:   player $PLAYER_CHAR in_any_car 
+jf @LOCKTT_1
+if and
+   Player.Defined($PLAYER_CHAR)
+05EE:   key_pressed 9 //VK_...  tab
+jf @LOCKTT_O1
+
+jump @LOCKTT_1
+

@@ -1,0 +1,12 @@
+1.不在车内时按V（视角）开启
+2.开启后按V关闭
+3.开启后长按V顺移至摄像机处并关闭
+4.开启后滚轮可调整速度
+
+1. Press V(camera) when not in vehicles to enable it;
+2. Press V(camera) when it's enabled to disable it;
+3. Holding V(camera) when enabled will put you at the position of the camera and disable it;
+4. Scrolling the mouse wheel(prev weapon, next weapon) can change the speed.
+
+
+By VC_FoolMan

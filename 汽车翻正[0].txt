@@ -1,0 +1,19 @@
+// This file was decompiled using VCSCM.ini published on 2021-05-25
+{$CLEO .cs}
+
+0000: NOP 
+
+:NONAME_2
+wait 0 
+if 
+   Player.Defined($PLAYER_CHAR)
+jf @NONAME_2 
+if and
+00E0:   player $PLAYER_CHAR in_any_car 
+05EE:   key_pressed 88 //VK_... 
+jf @NONAME_2 
+03C1: 1@ = player $PLAYER_CHAR car_no_save 
+wait 0 
+2@ = Car.Angle(1@)
+Car.Angle(1@) = 2@
+jump @NONAME_2 

@@ -1,0 +1,36 @@
+// This file was decompiled using VCSCM.ini published on 2021-05-25
+{$CLEO .cs}
+
+script_name 'GUN' 
+ var
+ 1@ : int
+ end
+:GUN_10 
+1@ = 0
+if 
+1@ == 1
+then 
+wait 1000
+end
+Player.WantedLevel($PLAYER_CHAR) = 0
+if and 
+player.Defined($PLAYER_CHAR)
+05EE: 48
+then 
+jump @GUN_11
+end
+jump @GUN_10
+:GUN_11
+if 
+1@ ==0
+then 
+wait 1000
+end
+if and 
+player.Defined($PLAYER_CHAR)
+05EE: 48
+then
+1@ = 1 
+jump @GUN_10 
+end 
+jump @GUN_11

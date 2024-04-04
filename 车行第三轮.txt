@@ -1,0 +1,55 @@
+ {$CLEO .cs}    //139 205  151
+ script_name 'WODE'
+ var
+ 10@ : int =145  //130-236 180 and 181 is plane mode not availbe vehicle  
+ 11@ : int = 0  
+ end 
+ :WODE_1      
+ wait 0
+ while 11@ < 6
+ if and
+ 044A:   player $PLAYER_CHAR on_foot
+ player.Defined($PLAYER_CHAR)
+ 05EE:     51 //6 
+ then
+ 0247: request_model   10@//#INFERNUS
+ 0170: 4@ = player $PLAYER_CHAR z_angle  
+ 04C4: create_coordinate 0@ 1@ 2@ from_actor $PLAYER_ACTOR offset 0.0 7.0 0.0 
+ if 
+ 0248: 10@//#INFERNUS    
+ jf @WODE_1  
+ 00A5: 3@ = create_car 10@ at 0@ 1@ 2@     //#INFERNUS
+ 0175: set_car 3@ z_angle_to 4@ 
+// 0369: put_player $PLAYER_CHAR in_car 3@
+ wait 100
+ Car.RemoveReferences(3@) 
+ 03E5: text_box 'WDISP_1'  
+ else
+ jump @WODE_1
+ end
+ if 11@ == 0
+ then
+ 10@ =141
+ end
+ if 11@ == 1
+ then
+ 10@ =159
+ end
+  if 11@ == 2
+ then
+ 10@ =207
+ end
+  if 11@ == 3
+ then
+ 10@ =210
+ end
+  if 11@ == 4
+ then
+ 10@ =132
+ end 
+ 11@++
+ wait 500
+ end
+ jump @WODE_1
+  
+                          

@@ -1,0 +1,80 @@
+// This file was decompiled using VCSCM.ini published on 2021-05-25
+{$CLEO .cs}
+
+script_name 'FRE_LUK' 
+
+:FRE_LUK_10
+wait 0 
+Camera.Restore
+if 
+05EE:   key_pressed 8 //VK_... 
+jf @FRE_LUK_10 
+02A3: enable_widescreen 1 
+015D: set_gamespeed 0.0 
+
+:FRE_LUK_42
+04C4: create_coordinate $6 $7 $8 from_actor $PLAYER_ACTOR offset 0.0 -2.0 1.0 
+04C4: create_coordinate $9 $10 $11 from_actor $PLAYER_ACTOR offset 0.0 0.0 0.0 
+gosub @FRE_LUK_358 
+
+:FRE_LUK_107
+wait 0 
+if 
+05EE:   key_pressed 81 //VK_... 
+jf @FRE_LUK_143 
+$6 += 0.1 // $ += float 
+gosub @FRE_LUK_358 
+
+:FRE_LUK_143
+if 
+05EE:   key_pressed 87 //VK_... 
+jf @FRE_LUK_175 
+$6 -= 0.1 // $ -= float 
+gosub @FRE_LUK_358 
+
+:FRE_LUK_175
+if 
+05EE:   key_pressed 65 //VK_... 
+jf @FRE_LUK_207 
+$7 += 0.1 // $ += float 
+gosub @FRE_LUK_358 
+
+:FRE_LUK_207
+if 
+05EE:   key_pressed 83 //VK_... 
+jf @FRE_LUK_239 
+$7 -= 0.1 // $ -= float 
+gosub @FRE_LUK_358 
+
+:FRE_LUK_239
+if 
+05EE:   key_pressed 90 //VK_... 
+jf @FRE_LUK_271 
+$8 += 0.1 // $ += float 
+gosub @FRE_LUK_358 
+
+:FRE_LUK_271
+if 
+05EE:   key_pressed 88 //VK_... 
+jf @FRE_LUK_303 
+$8 -= 0.1 // $ -= float 
+gosub @FRE_LUK_358 
+
+:FRE_LUK_303
+if 
+05EE:   key_pressed 35 //VK_... 
+jf @FRE_LUK_336 
+02A3: enable_widescreen 0 
+015D: set_gamespeed 1.0 
+jump @FRE_LUK_10 
+
+:FRE_LUK_336
+if 
+05EE:   key_pressed 36 //VK_... 
+jf @FRE_LUK_107 
+jump @FRE_LUK_42 
+
+:FRE_LUK_358
+Camera.SetPosition($6, $7, $8, 0.0, 0.0, 0.0)
+Camera.PointAt($9, $10, $11, 2)
+return 

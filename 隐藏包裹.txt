@@ -1,0 +1,523 @@
+{$CLEO .cs}
+script_name 'YIBA'
+var 
+0@:int =0
+end 
+:YIBA
+wait 0
+if  and
+Player.Defined($PLAYER_CHAR)
+05EE:   key_pressed 66 //B
+then
+0@+=1
+else
+jump @YIBA
+end
+
+if 0@ ==  1
+then
+0055: put_player $PLAYER_CHAR at 479.5076 -1718.6752 15.6543 
+end 
+
+if 0@ ==  2
+then
+0055: put_player $PLAYER_CHAR at -104.4305 -1599.9633 10.2728
+end
+
+if 0@ ==  3
+then
+0055: put_player $PLAYER_CHAR at -171.901 -1342.1506 3.9702
+end
+
+if 0@ ==  4
+then
+0055: put_player $PLAYER_CHAR at -234.6141 -1083.0356 13.6891
+end
+
+if 0@ ==  5
+then
+0055: put_player $PLAYER_CHAR at  -234.178 -932.003 9.8638
+end
+
+if 0@ ==  6
+then
+0055: put_player $PLAYER_CHAR at 87.3565 -991.7079 19.1671 
+end
+
+if 0@ ==  7
+then
+0055: put_player $PLAYER_CHAR at 205.4874 -887.7239 12.1869
+end
+
+if 0@ ==  8
+then
+0055: put_player $PLAYER_CHAR at 69.3874 -796.5868 11.7308
+end
+
+if 0@ ==  9
+then
+0055: put_player $PLAYER_CHAR at 183.2635 -652.9235 10.8851
+end
+
+if 0@ ==  10
+then
+0055: put_player $PLAYER_CHAR at 321.4266 -774.6419 22.8691
+end
+
+if 0@ ==  11
+then
+0055: put_player $PLAYER_CHAR at 707.8359 -498.5323 12.3517
+end
+
+if 0@ ==  12
+then
+0055: put_player $PLAYER_CHAR at 371.4139 -469.357 13.8172 
+end
+
+if 0@ ==  13
+then
+0055: put_player $PLAYER_CHAR at 107.806 -551.7425 14.7282  
+end
+
+if 0@ ==  14
+then
+0055: put_player $PLAYER_CHAR at 70.2255 -479.3726 13.6849
+end
+
+if 0@ ==  15
+then
+0055: put_player $PLAYER_CHAR at 53.7162 -446.9173 8.4455 
+end
+
+if 0@ ==  16
+then
+0055: put_player $PLAYER_CHAR at 299.4421 -277.9484 11.9591
+end
+
+if 0@ ==  17
+then
+0055: put_player $PLAYER_CHAR at 266.1727 -249.8601 36.1694
+end
+
+if 0@ ==  18
+then
+0055: put_player $PLAYER_CHAR at 234.3585 -132.2634 8.0934
+end
+
+if 0@ ==  19
+then
+0055: put_player $PLAYER_CHAR at 424.7138 89.1787 11.2959
+end
+
+if 0@ ==  20
+then
+0055: put_player $PLAYER_CHAR at 491.685 -45.6651 10.0509
+end
+
+if 0@ ==  21
+then
+0055: put_player $PLAYER_CHAR at 589.1432 34.9078 16.7573
+end
+
+if 0@ ==  22
+then
+0055: put_player $PLAYER_CHAR at 472.6788 116.3995 11.2381
+end
+
+if 0@ ==  23
+then
+0055: put_player $PLAYER_CHAR at 379.3192 212.8069 11.3862
+end
+
+if 0@ ==  24
+then
+0055: put_player $PLAYER_CHAR at 162.2883 246.2326 12.2874
+end
+
+if 0@ ==  25
+then
+0055: put_player $PLAYER_CHAR at 42.9978 -151.2732 12.2842
+end
+
+if 0@ ==  26
+then
+0055: put_player $PLAYER_CHAR at 43.5839 -15.0862 17.4021
+end
+
+if 0@ ==  27
+then
+0055: put_player $PLAYER_CHAR at -46.4818 257.357 24.6051
+end
+
+if 0@ ==  28
+then
+0055: put_player $PLAYER_CHAR at 70.503 599.2627 14.5657
+end
+
+if 0@ ==  29
+then
+0055: put_player $PLAYER_CHAR at 289.9147 294.9962 13.5707
+end
+
+if 0@ ==  30
+then
+0055: put_player $PLAYER_CHAR at 352.3444 281.4156 19.6839
+end
+
+if 0@ ==  31
+then
+0055: put_player $PLAYER_CHAR at 401.3315 430.7892 11.437
+end
+
+if 0@ ==  32
+then
+0055: put_player $PLAYER_CHAR at 194.5374 678.9539 12.9707
+end
+
+if 0@ ==  33
+then
+0055: put_player $PLAYER_CHAR at 329.0105 717.1665 22.8969
+end
+
+if 0@ ==  34
+then
+0055: put_player $PLAYER_CHAR at 271.0973 932.8642 9.8695
+end
+
+if 0@ ==  35
+then
+0055: put_player $PLAYER_CHAR at 891.6938 874.0458 16.4342
+end
+
+if 0@ ==  36
+then
+0055: put_player $PLAYER_CHAR at 561.923 1156.7317 18.9701
+end
+
+if 0@ ==  37
+then
+0055: put_player $PLAYER_CHAR at 470.543 1123.3931 24.579 
+end
+
+if 0@ ==  38
+then
+0055: put_player $PLAYER_CHAR at 407.4626 1017.6445 25.3203
+end
+
+if 0@ ==  39
+then
+0055: put_player $PLAYER_CHAR at 413.8806 1217.5897 18.4376
+end
+
+if 0@ ==  40
+then
+0055: put_player $PLAYER_CHAR at 306.4788 1177.402 17.4653 
+end
+
+if 0@ ==  41
+then
+0055: put_player $PLAYER_CHAR at 60.837 916.0302 10.8184
+end
+
+if 0@ ==  42
+then
+0055: put_player $PLAYER_CHAR at -41.6735 922.5441 19.4324
+end
+
+if 0@ ==  43
+then
+0055: put_player $PLAYER_CHAR at -16.363 991.9199 10.9029 
+end
+
+if 0@ ==  44
+then
+0055: put_player $PLAYER_CHAR at 82.5837 1113.6449 18.7597 
+end
+
+if 0@ ==  45
+then
+0055: put_player $PLAYER_CHAR at -69.2307 1123.924 17.0775 
+end
+
+if 0@ ==  46
+then
+0055: put_player $PLAYER_CHAR at -237.2012 -588.5918 10.3493
+end
+
+if 0@ ==  47
+then
+0055: put_player $PLAYER_CHAR at -518.9247 -599.2883 10.3733
+end
+
+if 0@ ==  48
+then
+0055: put_player $PLAYER_CHAR at -310.3299 -415.4626 10.1147
+end
+
+if 0@ ==  49
+then
+0055: put_player $PLAYER_CHAR at -245.239 -323.7604 10.2586 
+end
+
+if 0@ ==  50
+then
+0055: put_player $PLAYER_CHAR at -580.9186 -422.8304 19.8458 
+end
+
+if 0@ ==  51
+then
+0055: put_player $PLAYER_CHAR at -368.4985 -1733.5792 11.6376
+end
+
+if 0@ ==  52
+then
+0055: put_player $PLAYER_CHAR at -213.0035 -1646.767 13.6337
+end
+
+if 0@ ==  53
+then
+0055: put_player $PLAYER_CHAR at 353.5499 -564.0883 56.4676
+end
+
+if 0@ ==  54
+then
+0055: put_player $PLAYER_CHAR at 519.5341 -135.7565 34.6095 
+end
+
+if 0@ ==  55
+then
+0055: put_player $PLAYER_CHAR at 473.2676 16.6343 33.0712
+end
+
+if 0@ ==  56
+then
+0055: put_player $PLAYER_CHAR at -1737.7561 -299.6281 14.8683
+end
+
+if 0@ ==  57
+then
+0055: put_player $PLAYER_CHAR at -1327.9827 -537.1209 13.9167
+end
+
+if 0@ ==  58
+then
+0055: put_player $PLAYER_CHAR at -1726.9143 -418.6108 14.8675
+end
+
+if 0@ ==  59
+then
+0055: put_player $PLAYER_CHAR at -1523.5782 -819.0859 14.8717 
+end
+
+if 0@ ==  60
+then
+0055: put_player $PLAYER_CHAR at -1366.6157 -928.069 20.8941 
+end
+
+if 0@ ==  61
+then
+0055: put_player $PLAYER_CHAR at -1477.2469 -880.724 32.3798 
+end
+
+if 0@ ==  62
+then
+0055: put_player $PLAYER_CHAR at -1567.5117 -1055.3671 21.3175
+end
+
+if 0@ ==  63
+then
+0055: put_player $PLAYER_CHAR at -1562.0035 -1059.3445 14.868
+end
+
+if 0@ ==  64
+then
+0055: put_player $PLAYER_CHAR at -1774.0667 -1053.4364 14.868
+end
+
+if 0@ ==  65
+then
+0055: put_player $PLAYER_CHAR at -1829.3683 -887.2719 14.868
+end
+
+if 0@ ==  66
+then
+0055: put_player $PLAYER_CHAR at -1348.9371 -1090.2982 24.6116 
+end
+
+if 0@ ==  67
+then
+0055: put_player $PLAYER_CHAR at -1281.1107 -1146.2108 22.2614
+end
+
+if 0@ ==  68
+then
+0055: put_player $PLAYER_CHAR at -1369.3367 -1255.4021 18.2101
+end
+
+if 0@ ==  69
+then
+0055: put_player $PLAYER_CHAR at -1265.0435 -1346.7274 29.6993
+end
+
+if 0@ ==  70
+then
+0055: put_player $PLAYER_CHAR at -1160.5549 -1333.5731 14.936
+end
+
+if 0@ ==  71
+then
+0055: put_player $PLAYER_CHAR at -1187.1504 -1041.4078 14.8677
+end
+
+if 0@ ==  72
+then
+0055: put_player $PLAYER_CHAR at -1064.2345 -965.7994 14.8677
+end
+
+if 0@ ==  73
+then
+0055: put_player $PLAYER_CHAR at -1090.4045 -1199.0936 11.203
+end
+
+if 0@ ==  74
+then
+0055: put_player $PLAYER_CHAR at -829.211 -1461.097 12.6419 
+end
+
+if 0@ ==  75
+then
+0055: put_player $PLAYER_CHAR at -620.4581 -1342.7057 16.3728
+end
+
+if 0@ ==  76
+then
+0055: put_player $PLAYER_CHAR at -802.1378 -1185.3243 11.1043
+end
+
+if 0@ ==  77
+then
+0055: put_player $PLAYER_CHAR at -1017.6839 -874.5005 17.9701
+end
+
+if 0@ ==  78
+then
+0055: put_player $PLAYER_CHAR at -1179.297 -718.9843 22.8788
+end
+
+if 0@ ==  79
+then
+0055: put_player $PLAYER_CHAR at -855.3371 -631.84 11.3756 
+end
+
+if 0@ ==  80
+then
+0055: put_player $PLAYER_CHAR at -1093.4183 -600.0853 26.0209
+end
+
+if 0@ ==  81
+then
+0055: put_player $PLAYER_CHAR at -1179.7898 -576.3411 12.8144
+end
+
+if 0@ ==  82
+then
+0055: put_player $PLAYER_CHAR at -1131.5627 -355.5644 15.0355
+end
+
+if 0@ ==  83
+then
+0055: put_player $PLAYER_CHAR at -1195.1615 -317.8196 10.9423
+end
+
+if 0@ ==  84
+then
+0055: put_player $PLAYER_CHAR at -994.0828 -250.2181 10.7332
+end
+
+if 0@ ==  85
+then
+0055: put_player $PLAYER_CHAR at -1105.0714 -121.0177 20.1631
+end
+
+if 0@ ==  86
+then
+0055: put_player $PLAYER_CHAR at -1033.5242 43.7316 11.1903 
+end
+
+if 0@ ==  87
+then
+0055: put_player $PLAYER_CHAR at -975.2729 191.8353 12.6477
+end
+
+if 0@ ==  88
+then
+0055: put_player $PLAYER_CHAR at -979.0778 266.5221 9.0893 
+end
+
+if 0@ ==  89
+then
+0055: put_player $PLAYER_CHAR at -856.0062 228.5711 12.9998
+end
+
+if 0@ ==  90
+then
+0055: put_player $PLAYER_CHAR at -1072.3705 351.7241 11.263
+end
+
+if 0@ ==  91
+then
+0055: put_player $PLAYER_CHAR at -1161.6136 431.0956 11.0898
+end
+
+if 0@ ==  92
+then
+0055: put_player $PLAYER_CHAR at -898.7468 430.4431 10.9791
+end
+
+if 0@ ==  93
+then
+0055: put_player $PLAYER_CHAR at -567.6074 775.8826 22.8768
+end
+
+if 0@ ==  94
+then
+0055: put_player $PLAYER_CHAR at -790.5078 1119.4617 9.8542
+end
+
+if 0@ ==  95
+then
+0055: put_player $PLAYER_CHAR at -451.9185 1119.8749 61.7874
+end
+
+if 0@ ==  96
+then
+0055: put_player $PLAYER_CHAR at -247.2257 1219.0677 10.8371
+end
+
+if 0@ ==  97
+then
+0055: put_player $PLAYER_CHAR at -450.9253 1286.3953 12.6812
+end
+
+if 0@ ==  98
+then
+0055: put_player $PLAYER_CHAR at -764.3979 1266.007 11.5737 
+end
+
+if 0@ ==  99
+then
+0055: put_player $PLAYER_CHAR at -1549.9437 1403.0657 8.7368
+end
+
+if 0@ ==  100
+then
+0055: put_player $PLAYER_CHAR at -1024.9337 -1493.9091 19.4087
+0@ = 0
+end
+
+
+
+
+
+wait 700
+jump @YIBA

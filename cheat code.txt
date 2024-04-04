@@ -1,0 +1,128 @@
+{$CLEO}
+
+//New Cheat Code CLEO
+//Writer is Flandre  Borrower is zzf
+//Create at 2021-8-23
+0000:
+
+//Var Defined 
+Var
+1@:int
+end
+
+//Const Defined 
+const
+C4 = 1@
+rec1 = 10553666
+K5 = 0x38
+K6 = 0x39
+K7 = 0x3A
+K9 = 0x3C
+
+end
+
+
+:Cheat
+wait 0
+while true
+repeat
+hex
+ 01 00 04 00
+end
+until 0256: 0
+05DF: rec1 4 0 0
+
+
+if and
+   Player.Defined($PLAYER_CHAR)
+05EE:   key_pressed 17 //VK_... ctrl
+05EE: 49 //1
+then 
+jump  @Cheat1
+end
+
+if and
+   Player.Defined($PLAYER_CHAR)
+05EE:   key_pressed 17 //VK_... ctrl
+05EE: 50 //2
+then 
+jump  @Cheat2
+end
+
+if and
+   Player.Defined($PLAYER_CHAR)
+05EE:   key_pressed 17 //VK_... ctrl
+05EE: 51 //3
+then 
+jump  @Cheat3
+end
+
+if and
+   Player.Defined($PLAYER_CHAR)
+05EE:   key_pressed 17 //VK_... ctrl
+05EE: 52 //4
+then 
+jump  @Cheat27
+end
+
+if and
+   Player.Defined($PLAYER_CHAR)
+05EE:   key_pressed 17 //VK_... ctrl
+05EE: 53 //5
+then 
+jump  @Cheat30
+end
+
+
+:Cheat1  //THUGSTOOLS
+wait 0
+05DF: 0x6D85E4 4 K5 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat1
+05DF: 0x6D85E4 4 0x50565156 0
+jump @Cheat
+
+:Cheat2   //PROFESSIONALTOOLS
+wait 0
+05DF: 0x6D85F0 4 K6 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat2
+05DF: 0x6D85F0 4 0x50565156 0
+jump @Cheat
+
+:Cheat3     //NUTTERTOOLS
+wait 0
+05DF: 0x6D8604 4 K7 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat3
+05DF: 0x6D8604 4 0x50565156 0
+jump @Cheat
+
+
+:Cheat27   //GRIPISEVERYTHING
+wait 0
+05DF: 0x69517C 4 K6 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat27
+05DF: 0x69517C 4 0x4950534A 0
+jump @Cheat
+
+
+:Cheat30     //SEAWAYS
+wait 0
+05DF: 0x6DC418 4 K9 0
+05E0: C4 rec1 1 0
+if
+C4 == 32
+jf @Cheat30
+05DF: 0x6DC418 4 0x58485E56 0
+jump @Cheat
+

@@ -1,0 +1,11 @@
+// This file was decompiled using VCSCM.ini published on 2021-05-25
+{$CLEO .cs}
+
+script_name 'HEAL' 
+//055F: set_player $PLAYER_CHAR max_armour += 1000
+//055E: set_player $PLAYER_CHAR max_health += 1000
+:HEAL_10
+wait 0 
+Actor.Health($PLAYER_ACTOR) = 200
+035F: set_actor $PLAYER_ACTOR armour_to 100
+jump @HEAL_10 

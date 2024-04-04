@@ -1,0 +1,12 @@
+ {$CLEO .cs}
+0000: NOP 
+:NONAME_2 
+if    and
+   Player.Defined($PLAYER_CHAR)
+   05EE: 114
+jf @NONAME_2
+04C4: create_coordinate 1@ 2@ 3@ from_actor $PLAYER_ACTOR offset 0.0 1.2 0.0 
+009A: $255 = create_actor 6 #COP at 1@ 2@ 3@
+01DF: tie_actor $255 to_player $PLAYER_CHAR
+wait 777
+jump @NONAME_2

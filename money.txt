@@ -1,0 +1,23 @@
+{$CLEO .cs}
+0000:
+ wait 10
+ if
+    Player.Defined($PLAYER_CHAR) 
+    then 
+      
+ 0330: set_player $PLAYER_CHAR infinite_run_to 1
+ 055D: make_player $PLAYER_CHAR fireproof 1
+ 02AB: set_actor $PLAYER_ACTOR immunities BP 1 FP 1 EP 1 CP 1 MP 1
+ 02A9: set_actor $PLAYER_ACTOR immune_to_nonplayer 1
+ end
+:1
+wait 0
+ if  and
+    Player.Defined($PLAYER_CHAR)
+05EE:   key_pressed 57   //9
+05EE:    79 //o
+jf @1
+Player.Money($PLAYER_CHAR) += 1048576 
+ wait 600
+jump @1
+0A93: terminate_this_custom_script

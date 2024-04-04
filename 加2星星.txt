@@ -1,0 +1,14 @@
+{$CLEO .cs}
+script_name 'STARP'
+:STARP
+wait 0
+if and
+05EE: 107 //numpad +
+   Player.Defined($PLAYER_CHAR)
+   jf  @STARP
+  0@ = player.WantedLevel($PLAYER_CHAR)
+  0@ +=2
+  player.WantedLevel($PLAYER_CHAR)=0@
+   03E5: text_box 'WDISP_4'
+   wait 700
+   jump @STARP

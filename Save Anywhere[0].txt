@@ -1,0 +1,19 @@
+// This file was decompiled using VCSCM.ini published on 2021-05-25
+{$CLEO .cs}
+
+script_name 'SAVEA' 
+
+:SAVEA_10
+wait 250 
+if 
+   Player.Defined($PLAYER_CHAR)
+jf @SAVEA_10 
+if 
+   not Actor.Driving($PLAYER_ACTOR)
+jf @SAVEA_10 
+if and
+05EE:   key_pressed 9 //VK_... 
+05EE:   key_pressed 83 //VK_... 
+jf @SAVEA_10 
+03D8: show_save_screen 
+jump @SAVEA_10 

@@ -1,0 +1,16 @@
+{$CLEO}
+0000: 
+
+:INFIN
+wait 0  
+if
+Player.Defined($PLAYER_CHAR)
+jf @INFIN
+0470: 0@ = actor $PLAYER_ACTOR current_weapon
+
+if  
+not  0@ == 370
+jf @INFIN 
+01B2: give_actor $PLAYER_ACTOR weapon 0@ ammo 999999 
+0331: set_player $PLAYER_CHAR fast_reload 1 
+jump @INFIN

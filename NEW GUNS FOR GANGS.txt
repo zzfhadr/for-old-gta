@@ -1,0 +1,22 @@
+// This file was decompiled using VCSCM.ini published on 2021-05-25
+{$CLEO .cs}
+
+script_name 'COLDWEP' 
+
+:COLDWEP_10
+wait 0 
+if 
+   Player.Defined($PLAYER_CHAR)
+jf @COLDWEP_10 
+jump @COLDWEP_37 
+
+:COLDWEP_37
+wait 0 
+0237: set_gang 0 primary_weapon_to 22 secondary_weapon_to 5 
+0237: set_gang 1 primary_weapon_to 24 secondary_weapon_to 3 
+0237: set_gang 2 primary_weapon_to 18 secondary_weapon_to 7 
+0237: set_gang 3 primary_weapon_to 17 secondary_weapon_to 2 
+0237: set_gang 4 primary_weapon_to 24 secondary_weapon_to 6 
+0237: set_gang 5 primary_weapon_to 25 secondary_weapon_to 10 
+0237: set_gang 6 primary_weapon_to 27 secondary_weapon_to 9 
+jump @COLDWEP_10 

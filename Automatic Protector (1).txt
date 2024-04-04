@@ -1,0 +1,37 @@
+// This cleo code is generated using cleo helper by gtafan2u. 
+{$CLEO .cs}
+
+//-------------MAIN---------------
+0000: 
+
+:NONAME_2
+0001: wait 0 ms 
+00D6: if 
+0256:   player $PLAYER_CHAR defined 
+004D: jump_if_false @NONAME_2
+055E: set_player $PLAYER_CHAR max_health += 9999 
+0002: jump @1
+
+:1
+0001: wait 0 ms 
+00D6: if and
+80E0:   not player $PLAYER_CHAR driving
+004D: jump_if_false @1
+0225: 1@ = player $PLAYER_CHAR health
+0002: jump @2
+
+:2
+0001: wait 0 ms
+00D6: if 
+84AD:   not actor $PLAYER_ACTOR in_water 
+004D: jump_if_false @2
+00D6: if
+8183:   not player $PLAYER_CHAR health >= 1@
+004D: jump_if_false @2 
+0225: 2@ = player $PLAYER_CHAR health
+000E: 1@ -= 2@ // integer values
+0006: 3@ = 2 // integer values  
+000A: 3@ * 1@ // integer values
+000A: 2@ += 3@ // integer values 
+0222: set_player $PLAYER_CHAR health_to 2@ 
+0002: jump @1
