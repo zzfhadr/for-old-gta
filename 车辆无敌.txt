@@ -1,0 +1,37 @@
+// This file was decompiled using VCSCM.ini published on 2021-05-25
+{$CLEO .cs}
+
+script_name 'IMMUNE' 
+  //0493: set_tank $2470 contact_explosion 0
+  //02AC: set_car 0@ immunities BP 1 FP 1 EP 1 CP 1 MP 1
+
+:IMMUNE_10
+wait 10 
+if 
+   Player.Defined($PLAYER_CHAR)
+jf @IMMUNE_10 
+if  
+0449:   actor $PLAYER_ACTOR sitting_in_any_car 
+jf @IMMUNE_10 
+0@ = Actor.CurrentCar($PLAYER_ACTOR)
+0441: 1@ = car 0@ model 
+053F: set_car 0@ tires_vulnerability 1
+03F5: set_vehicle 0@ apply_damage_rules 0
+039C: set_car 0@ watertight 1
+Car.SetImmunities(0@, 1, 1, 1, 1, 1)
+if
+1@ == 190
+then
+jump @IMMUNE_10 
+end
+if  
+04A7: not  actor $PLAYER_ACTOR driving_boat
+then
+jump @IMMUNE_10 
+end
+//0906: set_object 0@ mass_to  25000.0  // float
+01EC: make_car 0@ very_heavy 1
+jump @IMMUNE_10 
+
+
+

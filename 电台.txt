@@ -1,0 +1,30 @@
+{$CLEO .cs}
+
+script_name 'DIAN'
+var
+0@:int = 0
+end
+:DIAN
+wait 0
+if  and
+0449:   actor $PLAYER_ACTOR in_a_car
+   Player.Defined($PLAYER_CHAR)
+   0@ == 0
+then
+041E: set_radio_station 12 //? 12 13 14 15 16 17 18 19 20 21
+0@ = 1 
+else
+jump @DIAN
+end
+
+:DIAN_1
+wait 0
+if 
+00DF:   actor $PLAYER_ACTOR driving
+then
+jump @DIAN_1
+else
+0@ = 0
+end
+
+jump @DIAN

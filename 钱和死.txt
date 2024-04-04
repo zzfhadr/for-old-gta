@@ -1,0 +1,24 @@
+{$CLEO .cs}
+0000:
+:1
+wait 0
+ if  and
+    Player.Defined($PLAYER_CHAR)
+0AB0:   is_key_pressed 57   //9
+0AB0:   is_key_pressed 79 //o
+then
+Player.Money($PLAYER_CHAR) += 1048576 
+ wait 600
+end
+
+ if and
+ 0AB0:   is_key_pressed 82   //r
+0AB0:   is_key_pressed 77 //m
+  0AB0:   is_key_pressed 191 // /
+then
+05BE: AS_actor $PLAYER_ACTOR die
+wait 600
+end
+
+jump @1
+0A93: terminate_this_custom_script

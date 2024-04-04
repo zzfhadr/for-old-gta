@@ -1,0 +1,54 @@
+  // This file was decompiled using VCSCM.ini published on 2021-05-25
+{$CLEO .cs} 
+
+script_name 'JCTT1'
+  var
+ 1@ : int = 1
+ end
+
+:JCTT1_10
+wait 0
+jump @JCTT1_12
+:JCTT1_11
+wait 0  //
+if 
+1@ == 0
+then
+09B6: set_actor $PLAYER_ACTOR  wanted_by_police 1 
+wait 1000 
+  1@ = 1 // $ == int  
+end
+
+if and
+   Player.Defined($PLAYER_CHAR)
+is_key_pressed 48 //VK_...    0
+is_key_pressed 80 //p
+jf @JCTT1_11
+
+03E5: show_text_box 'WDISP_2' 
+
+ 
+:JCTT1_12
+wait 0  //至关重要不加死机 
+if 
+Player.Defined($PLAYER_CHAR)
+jf @JCTT1_12
+09B6: set_actor $PLAYER_ACTOR  wanted_by_police 0
+:JCTT1_13
+wait 0
+Player.ClearWantedLevel($PLAYER_CHAR)  //有一秒的延迟，。。。暂时没想到好的方法 
+ if    
+ 1@ == 1 // $ == int 
+then
+ wait 1000 
+    1@ = 0 // $ == int 
+end
+
+
+ if and
+   Player.Defined($PLAYER_CHAR)
+is_key_pressed 48 //VK_...0 
+is_key_pressed 80 //p
+jf @JCTT1_13 
+03E5: show_text_box 'WDISP_3' 
+jump @JCTT1_11

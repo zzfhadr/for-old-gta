@@ -1,0 +1,3 @@
+安装CLEO主程序后把chara.cs放入CLEO文件夹，把ped.ifp替换到游戏目录的anim文件夹里，用IMGTool工具打开models\gta3.img，把cuizy.dff和cuizy.txd添加到gta3.img里。
+
+按Tab+p变性，再按Tab+p变回来。

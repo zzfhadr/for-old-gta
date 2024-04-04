@@ -1,0 +1,148 @@
+// This file was decompiled using SASCM.ini published on 2021-07-05
+{$CLEO .cs}
+
+script_name "PLAYER_FIST_DAMAGE" 
+0662: printstring "GAME_VERSION_1.0_ORIGINAL" 
+0662: printstring "FIST_DAMAGE_CONTROLLER" 
+0662: printstring "SUPER_STRENGHT" 
+0662: printstring "HEADS_POP_OFF" 
+0662: printstring "VERSION_2.1" 
+0662: printstring "WEAPON_MELEE_ONLY" 
+
+:PLAYER_FIST_DAMAGE_148
+wait 0 
+if 
+   Player.Defined($PLAYER_CHAR)
+jf @PLAYER_FIST_DAMAGE_148 
+if 
+   not Actor.Dead($PLAYER_ACTOR)
+jf @PLAYER_FIST_DAMAGE_148 
+read_memory 1@ = read_memory 12010640 size 4 virtual_protect 0 
+1@ += 4 
+read_memory 1@ = read_memory 1@ size 4 virtual_protect 0 
+2@ = 0 
+
+:PLAYER_FIST_DAMAGE_224
+read_memory 3@ = read_memory 1@ size 1 virtual_protect 0 
+1@ += 1 
+if and
+  3@ >= 0 
+  128 > 3@ 
+jf @PLAYER_FIST_DAMAGE_569 
+005A: 3@ += 2@ // (int) 
+if 
+056D:   actor 3@ defined 
+jf @PLAYER_FIST_DAMAGE_569 
+if 
+803C:   not  $PLAYER_ACTOR == 3@ // (int) 
+jf @PLAYER_FIST_DAMAGE_569 
+if 
+051A:   actor 3@ damaged_by_actor $PLAYER_ACTOR 
+jf @PLAYER_FIST_DAMAGE_569 
+if 
+//031D:   actor 3@ hit_by_weapon 0
+031D:   actor 3@ hit_by_weapon 8 
+/*031D:   actor 3@ hit_by_weapon 1 
+031D:   actor 3@ hit_by_weapon 2 
+031D:   actor 3@ hit_by_weapon 3 
+031D:   actor 3@ hit_by_weapon 4
+031D:   actor 3@ hit_by_weapon 14  
+//031D:   actor 3@ hit_by_weapon 5 
+//031D:   actor 3@ hit_by_weapon 6 
+031D:   actor 3@ hit_by_weapon 7 */
+jf @PLAYER_FIST_DAMAGE_569 
+0467: clear_actor 3@ last_weapon_damage 
+04C4: store_coords_to 4@ 5@ 6@ from_actor $PLAYER_ACTOR with_offset 0.0 6.0 0.0 
+04C4: store_coords_to 7@ 8@ 9@ from_actor $PLAYER_ACTOR with_offset 0.0 0.0 0.0 
+0063: 4@ -= 7@ // (float) 
+0063: 5@ -= 8@ // (float) 
+0063: 6@ -= 9@ // (float) 
+4@ *= 40.0 
+5@ *= 40.0 
+Actor.StorePos(3@, 7@, 8@, 9@)
+08C7: put_actor 3@ at 7@ 8@ 9@ dont_warp_gang 
+083C: set_actor 3@ velocity_in_direction_XYZ 4@ 5@ 6@ 
+Actor.Health(3@) = -1
+0321: AS_actor 3@ die_headshotted 
+0687: clear_actor 3@ task 
+0321: AS_actor 3@ die_headshotted 
+
+:PLAYER_FIST_DAMAGE_569
+2@ += 256 
+if 
+  2@ > 35584 
+jf @PLAYER_FIST_DAMAGE_224 
+read_memory 13@ = read_memory 12010644 size 4 virtual_protect 0 
+13@ += 4 
+read_memory 13@ = read_memory 13@ size 4 virtual_protect 0 
+14@ = 0 
+
+:PLAYER_FIST_DAMAGE_638
+read_memory 15@ = read_memory 13@ size 1 virtual_protect 0 
+13@ += 1 
+if and
+  15@ >= 0 
+  128 > 15@ 
+jf @PLAYER_FIST_DAMAGE_944 
+005A: 15@ += 14@ // (int) 
+if 
+056E:   car 15@ defined 
+jf @PLAYER_FIST_DAMAGE_944 
+03F5: set_car 15@ apply_damage_rules 1 
+if 
+051C:   car 15@ damaged_by_actor $PLAYER_ACTOR 
+jf @PLAYER_FIST_DAMAGE_944 
+if 
+//031E:   car 15@ hit_by_weapon 0 
+031E:   car 15@ hit_by_weapon 8
+/*031E:   car 15@ hit_by_weapon 1 
+031E:   car 15@ hit_by_weapon 2 
+031E:   car 15@ hit_by_weapon 3 
+031E:   car 15@ hit_by_weapon 4 
+031E:   car 15@ hit_by_weapon 14 
+//031E:   car 15@ hit_by_weapon 5 
+//031E:   car 15@ hit_by_weapon 6 
+031E:   car 15@ hit_by_weapon 7  */
+jf @PLAYER_FIST_DAMAGE_944 
+0468: clear_car 15@ last_weapon_damage 
+04C4: store_coords_to 16@ 17@ 18@ from_actor $PLAYER_ACTOR with_offset 0.0 3.0 0.0 
+04C4: store_coords_to 19@ 20@ 21@ from_actor $PLAYER_ACTOR with_offset 0.0 0.0 0.0 
+0063: 16@ -= 19@ // (float) 
+0063: 17@ -= 20@ // (float) 
+16@ *= 2.0 
+17@ *= 2.0 
+07D5: set_car 15@ velocity_in_direction_XYZ 16@ 17@ 0.0 rotation_velocitiesXY 0.0 0.0 unk 0.0 
+081D: set_car 15@ engine_broken 1 
+073C: car 15@ damage_componentB 1 
+
+:PLAYER_FIST_DAMAGE_944
+14@ += 256 
+if 
+  14@ > 27904 
+jf @PLAYER_FIST_DAMAGE_638 
+read_memory 22@ = read_memory 12010652 size 4 virtual_protect 0 
+22@ += 4 
+read_memory 22@ = read_memory 22@ size 4 virtual_protect 0 
+23@ = 0 
+
+:PLAYER_FIST_DAMAGE_1011
+read_memory 24@ = read_memory 22@ size 1 virtual_protect 0 
+22@ += 1 
+if and
+  24@ >= 0 
+  128 > 24@ 
+jf @PLAYER_FIST_DAMAGE_1103 
+005A: 24@ += 23@ // (int) 
+if or
+08FF:   object 24@ received_damage_type 0 
+08FF:   object 24@ received_damage_type 1 
+jf @PLAYER_FIST_DAMAGE_1103 
+071F: set_object 24@ health_to 0 
+0723: break_object 24@ intensity 5 
+
+:PLAYER_FIST_DAMAGE_1103
+23@ += 256 
+if 
+  23@ > 89344 
+jf @PLAYER_FIST_DAMAGE_1011 
+jump @PLAYER_FIST_DAMAGE_148 

@@ -1,0 +1,24 @@
+// This file was decompiled using SASCM.ini published on 2021-07-05
+{$CLEO .cs}
+
+script_name 'OUTRO_PLAYER' 
+
+:OUTRO_PLAYER_19
+wait 0
+if 
+  Player.Defined($PLAYER_CHAR)
+jf @OUTRO_PLAYER_19 
+023C: load_special_actor 'CSELLA' as 1 // models 290-299 
+023D:   special_actor 1 loaded 
+jump @OUTRO_PLAYER_48 
+
+:OUTRO_PLAYER_48
+wait 0 
+0296: unload_special_actor 1 
+   Model.Available(#SPECIAL01)
+jf @OUTRO_PLAYER_19 
+09C7: change_player $PLAYER_CHAR model_to #SPECIAL01 
+wait 1500 
+//081A: set_actor $PLAYER_ACTOR weapon_skill_to 2 
+Model.Destroy(#SPECIAL01)
+terminate_this_script 

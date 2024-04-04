@@ -1,0 +1,5 @@
+rm /×ÔÉ±
+91  ÎäÆ÷
+space + 0~9 ³µ
+shift free move
+F10 free camer

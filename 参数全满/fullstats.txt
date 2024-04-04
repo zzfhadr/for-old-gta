@@ -1,0 +1,53 @@
+// This file was decompiled using SASCM.ini published on 2021-07-05
+{$CLEO .cs}
+
+script_name 'MONEY' 
+
+:MONEY_11
+wait 0 
+if 
+is_key_pressed 9 
+jf @MONEY_11 
+wait 0 
+Actor.Armour($PLAYER_ACTOR) = 99900000
+Player.Money($PLAYER_CHAR) += 250000
+Actor.Health($PLAYER_ACTOR) = 500000000
+Player.WantedLevel($PLAYER_CHAR) = 0
+0998: add_respect 5000 
+062A: change_float_stat 80 to 2000.0 
+062A: change_float_stat 225 to 1000.0 
+062A: change_float_stat 160 to 1000.0 
+062A: change_float_stat 223 to 1000.0 
+062A: change_float_stat 229 to 1000.0 
+062A: change_float_stat 230 to 1000.0 
+062A: change_float_stat 69 to 1000.0 
+062A: change_float_stat 70 to 1000.0 
+062A: change_float_stat 71 to 1000.0 
+062A: change_float_stat 72 to 1000.0 
+062A: change_float_stat 73 to 1000.0 
+062A: change_float_stat 74 to 1000.0 
+062A: change_float_stat 75 to 1000.0 
+062A: change_float_stat 76 to 1000.0 
+062A: change_float_stat 77 to 1000.0 
+062A: change_float_stat 78 to 1000.0 
+0629: change_integer_stat 181 to 4 
+062A: change_float_stat 24 to 573.0 
+062A: change_float_stat 165 to 200.0 
+062A: change_float_stat 165 to 1000.0 
+062A: change_float_stat 21 to 0.0 
+062A: change_float_stat 22 to 1000.0 
+062A: change_float_stat 23 to 1000.0 
+set_weather 17 
+jump @MONEY_299 
+
+:MONEY_299
+wait 0 
+if 
+is_key_pressed 9 
+jf @MONEY_299 
+wait 0 
+Actor.Armour($PLAYER_ACTOR) = 999
+Player.Money($PLAYER_CHAR) += 50000
+Actor.Health($PLAYER_ACTOR) = 2250
+Player.WantedLevel($PLAYER_CHAR) = 0
+jump @MONEY_299 

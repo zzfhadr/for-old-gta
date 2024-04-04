@@ -1,0 +1,57 @@
+// This file was decompiled using SASCM.ini published on 2021-01-30
+{$CLEO .cs}
+
+03A4: script_name 'NURSE GIRL' 
+
+:NG_01
+0001: wait 0 ms 
+00D6: if 
+0256:   player $PLAYER_CHAR defined 
+004D: jump_if_false @NG_01 
+00D6: if 
+0038:   $ONMISSION == 0 
+004D: jump_if_false @NG_01 
+00D6: if 
+00FE:   actor $PLAYER_ACTOR sphere 0 in_sphere -2564.6223 1161.6079 56.3922 radius 50.0 50.0 50.0 
+00D6: if 
+0102:   actor $PLAYER_ACTOR in_sphere -2564.6223 1161.6079 56.3922 radius 3.0 3.0 3.0 sphere 1 stopped_on_foot 
+004D: jump_if_false @NG_01 
+0247: load_model #NURGRL3 
+0247: load_model #CUNTGUN 
+038B: load_requested_models 
+009A: 1@ = create_actor_pedtype 8 model #NURGRL3 at -2561.2666 1155.3926 56.6046
+0223: set_actor 1@ health_to 1500 
+0173: set_actor 1@ Z_angle_to 341 
+060B: set_actor 1@ decision_maker_to 11@ 
+0245: set_actor 1@ walk_style_to "SEXYWOMAN" 
+07FE: set_actor 1@ fighting_style_to 6 moves 6 
+05DE: AS_actor 1@ walk_around_ped_path 
+07DD: set_actor 1@ attack_rate 100 // previously known as temper_to 
+02E0:   actor 1@ firing_weapon 
+01B2: give_actor 1@ weapon 33 ammo 999 // Load the weapon model before using this 
+02E2: set_actor 1@ weapon_accuracy_to 80 
+081A: set_actor 1@ weapon_skill_to 2 
+0001: wait 10000 ms
+0249: release_model #NURGRL3
+0249: release_model #CUNTGUN
+
+:NG_03
+0001: wait 500 ms
+if 
+   Actor.Dead(1@)
+004D: jump_if_false @NG_04
+0002: jump @NG_05
+
+:NG_04
+0001: wait 500 ms 
+if or 
+   Actor.Dead($PLAYER_ACTOR)
+80FE:   not actor $PLAYER_ACTOR sphere 0 in_sphere -2561.2666 1155.3926 56.6046 radius 190.0 190.0 190.0 
+004D: jump_if_false @NG_03
+0002: jump @NG_05
+
+:NG_05
+wait 15000 
+01C2: remove_references_to_actor 1@ // Like turning an actor into a random pedestrian 
+01B7: release_weather 
+0002: jump @NG_01

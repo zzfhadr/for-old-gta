@@ -1,0 +1,14 @@
+安装CLEO主程序后把vehiecle.cs放入CLEO文件夹。
+
+按小键盘的数字键分别对应十个交通工具：
+
+1   NRG500摩托车	56	9
+2   PCJ600摩托车	55	8  	
+3   #COPBIKE车	48	7
+4   Turismo车	53	0
+5   Infernus车  50	2
+6   #HYDRA车	52	3
+7   #PACKER车	51	5
+8   jetpack车	49	4
+9   Rhino坦克	54	1
+0   SQUALO 	57	6

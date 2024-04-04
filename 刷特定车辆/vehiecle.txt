@@ -1,0 +1,115 @@
+// This file was decompiled using SASCM.ini published on 2021-07-05
+{$CLEO .cs}
+
+script_name 'VEHIECLE' 
+
+ var
+ 10@ : int =0   
+ end 
+ :VEHIECLE_1
+ wait 0
+ if and
+ 044B:   actor $PLAYER_ACTOR on_foot
+ player.Defined($PLAYER_CHAR)
+ is_key_pressed   32  //spacebar
+ is_key_pressed  49 //1 
+ then
+ 10@=477     //  跑车  
+ jump @VEHIECLE_SHUA
+ end
+  if and
+ 044B:   actor $PLAYER_ACTOR on_foot
+ player.Defined($PLAYER_CHAR)
+ is_key_pressed   32  //spacebar
+ is_key_pressed  50 //2
+ then
+ 10@=477     //  跑车  
+ jump @VEHIECLE_SHUA
+ end
+  if and
+ 044B:   actor $PLAYER_ACTOR on_foot
+ player.Defined($PLAYER_CHAR)
+ is_key_pressed   32  //spacebar
+ is_key_pressed  51 //3 
+ then
+ 10@=477     //  跑车  
+ jump @VEHIECLE_SHUA
+ end
+  if and
+ 044B:   actor $PLAYER_ACTOR on_foot
+ player.Defined($PLAYER_CHAR)
+ is_key_pressed   32  //spacebar
+ is_key_pressed  52 //4 
+ then
+ 10@=477     //  跑车  
+ jump @VEHIECLE_SHUA
+ end
+  if and
+ 044B:   actor $PLAYER_ACTOR on_foot
+ player.Defined($PLAYER_CHAR)
+ is_key_pressed   32  //spacebar
+ is_key_pressed  53 //5 
+ then
+ 10@=477     //  跑车  
+ jump @VEHIECLE_SHUA
+ end
+  if and
+ 044B:   actor $PLAYER_ACTOR on_foot
+ player.Defined($PLAYER_CHAR)
+ is_key_pressed   32  //spacebar
+ is_key_pressed  54 //6 
+ then
+ 10@=477     //  跑车  
+ jump @VEHIECLE_SHUA
+ end
+  if and
+ 044B:   actor $PLAYER_ACTOR on_foot
+ player.Defined($PLAYER_CHAR)
+ is_key_pressed   32  //spacebar
+ is_key_pressed  55 //7 
+ then
+ 10@=477     //  跑车  
+ jump @VEHIECLE_SHUA
+ end
+  if and
+ 044B:   actor $PLAYER_ACTOR on_foot
+ player.Defined($PLAYER_CHAR)
+ is_key_pressed   32  //spacebar
+ is_key_pressed  56 //8 
+ then
+ 10@=477     //  跑车  
+ jump @VEHIECLE_SHUA
+ end
+  if and
+ 044B:   actor $PLAYER_ACTOR on_foot
+ player.Defined($PLAYER_CHAR)
+ is_key_pressed   32  //spacebar
+ is_key_pressed  57 //9 
+ then
+ 10@=477     //  跑车  
+ jump @VEHIECLE_SHUA   
+ end
+  if and
+ 044B:   actor $PLAYER_ACTOR on_foot
+ player.Defined($PLAYER_CHAR)
+ is_key_pressed   32  //spacebar
+ is_key_pressed  48 //0 
+ then
+ 10@=477     //  跑车  
+ jump @VEHIECLE_SHUA
+ end
+
+:VEHIECLE_SHUA
+wait 0
+0247: 10@
+if 
+0248:   model 10@ available
+jf @VEHIECLE_1
+0172: 4@ = actor $PLAYER_ACTOR Z_angle
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 2.0 0.0 
+00A5: 0@ = create_car 10@ at 1@ 2@ 3@
+Car.Health(0@) = 1500
+0175: set_car 0@ Z_angle_to 4@
+036A: put_actor $PLAYER_ACTOR in_car 0@
+Car.RemoveReferences(0@)
+jump @VEHIECLE_1 

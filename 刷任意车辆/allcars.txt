@@ -1,0 +1,6004 @@
+// This file was decompiled using SASCM.ini published on 2021-07-05
+{$CLEO .cs}
+
+script_name 'ALLCARS' 
+
+:ALLCARS_11
+wait 0 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 48 
+   not is_key_pressed 96 
+jf @ALLCARS_9893 
+if or
+   not is_key_pressed 76 
+   not is_key_pressed 65 
+   not is_key_pressed 78 
+jf @ALLCARS_9893 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 48 
+   not is_key_pressed 97 
+jf @ALLCARS_10009 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 65 
+   not is_key_pressed 82 
+   not is_key_pressed 49 
+jf @ALLCARS_10009 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 48 
+   not is_key_pressed 98 
+jf @ALLCARS_10125 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 85 
+   not is_key_pressed 70 
+jf @ALLCARS_10125 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 48 
+   not is_key_pressed 99 
+jf @ALLCARS_10241 
+if or
+   not is_key_pressed 76 
+   not is_key_pressed 73 
+   not is_key_pressed 78 
+jf @ALLCARS_10241 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 48 
+   not is_key_pressed 100 
+jf @ALLCARS_10357 
+if or
+   not is_key_pressed 80 
+   not is_key_pressed 69 
+   not is_key_pressed 82 
+   not is_key_pressed 49 
+jf @ALLCARS_10357 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 48 
+   not is_key_pressed 101 
+jf @ALLCARS_10473 
+if or
+   not is_key_pressed 83 
+   not is_key_pressed 69 
+   not is_key_pressed 78 
+jf @ALLCARS_10473 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 48 
+   not is_key_pressed 102 
+jf @ALLCARS_10589 
+if or
+   not is_key_pressed 68 
+   not is_key_pressed 85 
+   not is_key_pressed 77 
+jf @ALLCARS_10589 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 48 
+   not is_key_pressed 103 
+jf @ALLCARS_10705 
+if or
+   not is_key_pressed 70 
+   not is_key_pressed 73 
+   not is_key_pressed 82 
+   not is_key_pressed 50 
+jf @ALLCARS_10705 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 48 
+   not is_key_pressed 104 
+jf @ALLCARS_10821 
+if or
+   not is_key_pressed 84 
+   not is_key_pressed 82 
+   not is_key_pressed 65 
+   not is_key_pressed 53 
+jf @ALLCARS_10821 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 48 
+   not is_key_pressed 105 
+jf @ALLCARS_10937 
+if or
+   not is_key_pressed 83 
+   not is_key_pressed 84 
+   not is_key_pressed 82 
+   not is_key_pressed 50 
+jf @ALLCARS_10937 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 49 
+   not is_key_pressed 96 
+jf @ALLCARS_11053 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 65 
+   not is_key_pressed 78 
+jf @ALLCARS_11053 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 49 
+   not is_key_pressed 97 
+jf @ALLCARS_11169 
+if or
+   not is_key_pressed 73 
+   not is_key_pressed 78 
+   not is_key_pressed 70 
+jf @ALLCARS_11169 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 49 
+   not is_key_pressed 98 
+jf @ALLCARS_11285 
+if or
+   not is_key_pressed 86 
+   not is_key_pressed 79 
+   not is_key_pressed 32 
+jf @ALLCARS_11285 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 49 
+   not is_key_pressed 99 
+jf @ALLCARS_11401 
+if or
+   not is_key_pressed 80 
+   not is_key_pressed 79 
+   not is_key_pressed 78 
+jf @ALLCARS_11401 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 49 
+   not is_key_pressed 100 
+jf @ALLCARS_11517 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 85 
+   not is_key_pressed 76 
+jf @ALLCARS_11517 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 49 
+   not is_key_pressed 101 
+jf @ALLCARS_11633 
+if or
+   not is_key_pressed 67 
+   not is_key_pressed 72 
+   not is_key_pressed 69 
+jf @ALLCARS_11633 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 49 
+   not is_key_pressed 102 
+jf @ALLCARS_11749 
+if or
+   not is_key_pressed 65 
+   not is_key_pressed 77 
+   not is_key_pressed 66 
+jf @ALLCARS_11749 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 49 
+   not is_key_pressed 103 
+jf @ALLCARS_11865 
+if or
+   not is_key_pressed 76 
+   not is_key_pressed 69 
+   not is_key_pressed 86 
+jf @ALLCARS_11865 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 49 
+   not is_key_pressed 104 
+jf @ALLCARS_11981 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 79 
+   not is_key_pressed 32 
+jf @ALLCARS_11981 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 49 
+   not is_key_pressed 105 
+jf @ALLCARS_12097 
+if or
+   not is_key_pressed 69 
+   not is_key_pressed 83 
+   not is_key_pressed 80 
+jf @ALLCARS_12097 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 50 
+   not is_key_pressed 96 
+jf @ALLCARS_12213 
+if or
+   not is_key_pressed 84 
+   not is_key_pressed 65 
+   not is_key_pressed 88 
+jf @ALLCARS_12213 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 50 
+   not is_key_pressed 97 
+jf @ALLCARS_12329 
+if or
+   not is_key_pressed 87 
+   not is_key_pressed 65 
+   not is_key_pressed 83 
+jf @ALLCARS_12329 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 50 
+   not is_key_pressed 98 
+jf @ALLCARS_12445 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 79 
+   not is_key_pressed 32 
+jf @ALLCARS_12445 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 50 
+   not is_key_pressed 99 
+jf @ALLCARS_12561 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 82 
+   not is_key_pressed 87 
+jf @ALLCARS_12561 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 50 
+   not is_key_pressed 100 
+jf @ALLCARS_12677 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 70 
+   not is_key_pressed 73 
+   not is_key_pressed 49 
+jf @ALLCARS_12677 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 50 
+   not is_key_pressed 101 
+jf @ALLCARS_12793 
+if or
+   not is_key_pressed 72 
+   not is_key_pressed 85 
+   not is_key_pressed 78 
+   not is_key_pressed 49 
+jf @ALLCARS_12793 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 50 
+   not is_key_pressed 102 
+jf @ALLCARS_12909 
+if or
+   not is_key_pressed 80 
+   not is_key_pressed 69 
+   not is_key_pressed 82 
+   not is_key_pressed 51 
+jf @ALLCARS_12909 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 50 
+   not is_key_pressed 103 
+jf @ALLCARS_13025 
+if or
+   not is_key_pressed 69 
+   not is_key_pressed 78 
+   not is_key_pressed 70 
+jf @ALLCARS_13025 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 50 
+   not is_key_pressed 104 
+jf @ALLCARS_13141 
+if or
+   not is_key_pressed 83 
+   not is_key_pressed 69 
+   not is_key_pressed 67 
+jf @ALLCARS_13141 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 50 
+   not is_key_pressed 105 
+jf @ALLCARS_13257 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 65 
+   not is_key_pressed 78 
+   not is_key_pressed 50 
+jf @ALLCARS_13257 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 51 
+   not is_key_pressed 96 
+jf @ALLCARS_13373 
+if or
+   not is_key_pressed 80 
+   not is_key_pressed 69 
+   not is_key_pressed 82 
+   not is_key_pressed 50 
+jf @ALLCARS_13373 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 51 
+   not is_key_pressed 97 
+jf @ALLCARS_13489 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 85 
+   not is_key_pressed 83 
+jf @ALLCARS_13489 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 51 
+   not is_key_pressed 98 
+jf @ALLCARS_13605 
+if or
+   not is_key_pressed 82 
+   not is_key_pressed 72 
+   not is_key_pressed 73 
+jf @ALLCARS_13605 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 51 
+   not is_key_pressed 99 
+jf @ALLCARS_13721 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 65 
+   not is_key_pressed 82 
+   not is_key_pressed 50 
+jf @ALLCARS_13721 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 51 
+   not is_key_pressed 100 
+jf @ALLCARS_13837 
+if or
+   not is_key_pressed 72 
+   not is_key_pressed 79 
+   not is_key_pressed 84 
+   not is_key_pressed 49 
+jf @ALLCARS_13837 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 51 
+   not is_key_pressed 101 
+jf @ALLCARS_13953 
+if or
+   not is_key_pressed 65 
+   not is_key_pressed 82 
+   not is_key_pressed 84 
+   not is_key_pressed 49 
+jf @ALLCARS_13953 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 51 
+   not is_key_pressed 102 
+jf @ALLCARS_14069 
+if or
+   not is_key_pressed 80 
+   not is_key_pressed 69 
+   not is_key_pressed 82 
+   not is_key_pressed 52 
+jf @ALLCARS_14069 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 51 
+   not is_key_pressed 103 
+jf @ALLCARS_14185 
+if or
+   not is_key_pressed 67 
+   not is_key_pressed 79 
+   not is_key_pressed 65 
+   not is_key_pressed 49 
+jf @ALLCARS_14185 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 51 
+   not is_key_pressed 104 
+jf @ALLCARS_14301 
+if or
+   not is_key_pressed 67 
+   not is_key_pressed 65 
+   not is_key_pressed 66 
+jf @ALLCARS_14301 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 51 
+   not is_key_pressed 105 
+jf @ALLCARS_14417 
+if or
+   not is_key_pressed 83 
+   not is_key_pressed 84 
+   not is_key_pressed 65 
+   not is_key_pressed 49 
+jf @ALLCARS_14417 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 52 
+   not is_key_pressed 96 
+jf @ALLCARS_14533 
+if or
+   not is_key_pressed 82 
+   not is_key_pressed 85 
+   not is_key_pressed 77 
+jf @ALLCARS_14533 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 52 
+   not is_key_pressed 97 
+jf @ALLCARS_14649 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 52 
+   not is_key_pressed 98 
+jf @ALLCARS_14765 
+if or
+   not is_key_pressed 82 
+   not is_key_pressed 79 
+   not is_key_pressed 77 
+jf @ALLCARS_14765 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 52 
+   not is_key_pressed 99 
+jf @ALLCARS_14881 
+if or
+   not is_key_pressed 80 
+   not is_key_pressed 65 
+   not is_key_pressed 67 
+jf @ALLCARS_14881 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 52 
+   not is_key_pressed 100 
+jf @ALLCARS_14997 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 79 
+   not is_key_pressed 78 
+   not is_key_pressed 49 
+jf @ALLCARS_14997 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 52 
+   not is_key_pressed 101 
+jf @ALLCARS_15113 
+if or
+   not is_key_pressed 65 
+   not is_key_pressed 68 
+   not is_key_pressed 77 
+jf @ALLCARS_15113 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 52 
+   not is_key_pressed 102 
+jf @ALLCARS_15229 
+if or
+   not is_key_pressed 83 
+   not is_key_pressed 81 
+   not is_key_pressed 85 
+jf @ALLCARS_15229 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 52 
+   not is_key_pressed 103 
+jf @ALLCARS_15345 
+if or
+   not is_key_pressed 83 
+   not is_key_pressed 69 
+   not is_key_pressed 65 
+jf @ALLCARS_15345 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 52 
+   not is_key_pressed 104 
+jf @ALLCARS_15461 
+if or
+   not is_key_pressed 80 
+   not is_key_pressed 73 
+   not is_key_pressed 90 
+jf @ALLCARS_15461 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 52 
+   not is_key_pressed 105 
+jf @ALLCARS_15577 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 53 
+   not is_key_pressed 96 
+jf @ALLCARS_15693 
+if or
+   not is_key_pressed 65 
+   not is_key_pressed 82 
+   not is_key_pressed 84 
+   not is_key_pressed 50 
+jf @ALLCARS_15693 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 53 
+   not is_key_pressed 97 
+jf @ALLCARS_15809 
+if or
+   not is_key_pressed 84 
+   not is_key_pressed 85 
+   not is_key_pressed 82 
+jf @ALLCARS_15809 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 53 
+   not is_key_pressed 98 
+jf @ALLCARS_15925 
+if or
+   not is_key_pressed 83 
+   not is_key_pressed 80 
+   not is_key_pressed 69 
+jf @ALLCARS_15925 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 53 
+   not is_key_pressed 99 
+jf @ALLCARS_16041 
+if or
+   not is_key_pressed 82 
+   not is_key_pressed 69 
+   not is_key_pressed 32 
+jf @ALLCARS_16041 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 53 
+   not is_key_pressed 100 
+jf @ALLCARS_16157 
+if or
+   not is_key_pressed 84 
+   not is_key_pressed 82 
+   not is_key_pressed 79 
+   not is_key_pressed 49 
+jf @ALLCARS_16157 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 53 
+   not is_key_pressed 101 
+jf @ALLCARS_16273 
+if or
+   not is_key_pressed 70 
+   not is_key_pressed 76 
+   not is_key_pressed 65 
+   not is_key_pressed 50 
+jf @ALLCARS_16273 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 53 
+   not is_key_pressed 102 
+jf @ALLCARS_16389 
+if or
+   not is_key_pressed 89 
+   not is_key_pressed 65 
+   not is_key_pressed 78 
+jf @ALLCARS_16389 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 53 
+   not is_key_pressed 103 
+jf @ALLCARS_16505 
+if or
+   not is_key_pressed 67 
+   not is_key_pressed 65 
+   not is_key_pressed 68 
+   not is_key_pressed 49 
+jf @ALLCARS_16505 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 53 
+   not is_key_pressed 104 
+jf @ALLCARS_16621 
+if or
+   not is_key_pressed 83 
+   not is_key_pressed 79 
+   not is_key_pressed 76 
+jf @ALLCARS_16621 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 53 
+   not is_key_pressed 105 
+jf @ALLCARS_16737 
+if or
+   not is_key_pressed 84 
+   not is_key_pressed 79 
+   not is_key_pressed 80 
+jf @ALLCARS_16737 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 54 
+   not is_key_pressed 96 
+jf @ALLCARS_16853 
+if or
+   not is_key_pressed 83 
+   not is_key_pressed 75 
+   not is_key_pressed 73 
+jf @ALLCARS_16853 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 54 
+   not is_key_pressed 97 
+jf @ALLCARS_16969 
+if or
+   not is_key_pressed 80 
+   not is_key_pressed 67 
+   not is_key_pressed 74 
+jf @ALLCARS_16969 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 54 
+   not is_key_pressed 98 
+jf @ALLCARS_17085 
+if or
+   not is_key_pressed 70 
+   not is_key_pressed 65 
+   not is_key_pressed 71 
+jf @ALLCARS_17085 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 54 
+   not is_key_pressed 99 
+jf @ALLCARS_17201 
+if or
+   not is_key_pressed 70 
+   not is_key_pressed 82 
+   not is_key_pressed 69 
+jf @ALLCARS_17201 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 54 
+   not is_key_pressed 100 
+jf @ALLCARS_17317 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 54 
+   not is_key_pressed 101 
+jf @ALLCARS_17433 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 54 
+   not is_key_pressed 102 
+jf @ALLCARS_17549 
+if or
+   not is_key_pressed 71 
+   not is_key_pressed 76 
+   not is_key_pressed 69 
+   not is_key_pressed 49 
+jf @ALLCARS_17549 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 54 
+   not is_key_pressed 103 
+jf @ALLCARS_17665 
+if or
+   not is_key_pressed 79 
+   not is_key_pressed 67 
+   not is_key_pressed 69 
+jf @ALLCARS_17665 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 54 
+   not is_key_pressed 104 
+jf @ALLCARS_17781 
+if or
+   not is_key_pressed 83 
+   not is_key_pressed 65 
+   not is_key_pressed 78 
+   not is_key_pressed 49 
+jf @ALLCARS_17781 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 54 
+   not is_key_pressed 105 
+jf @ALLCARS_17897 
+if or
+   not is_key_pressed 83 
+   not is_key_pressed 80 
+   not is_key_pressed 65 
+jf @ALLCARS_17897 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 55 
+   not is_key_pressed 96 
+jf @ALLCARS_18013 
+if or
+   not is_key_pressed 80 
+   not is_key_pressed 65 
+   not is_key_pressed 84 
+jf @ALLCARS_18013 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 55 
+   not is_key_pressed 97 
+jf @ALLCARS_18129 
+if or
+   not is_key_pressed 81 
+   not is_key_pressed 85 
+   not is_key_pressed 65 
+jf @ALLCARS_18129 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 55 
+   not is_key_pressed 98 
+jf @ALLCARS_18245 
+if or
+   not is_key_pressed 67 
+   not is_key_pressed 79 
+   not is_key_pressed 65 
+   not is_key_pressed 50 
+jf @ALLCARS_18245 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 55 
+   not is_key_pressed 99 
+jf @ALLCARS_18361 
+if or
+   not is_key_pressed 68 
+   not is_key_pressed 73 
+   not is_key_pressed 78 
+jf @ALLCARS_18361 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 55 
+   not is_key_pressed 100 
+jf @ALLCARS_18477 
+if or
+   not is_key_pressed 72 
+   not is_key_pressed 69 
+   not is_key_pressed 82 
+jf @ALLCARS_18477 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 55 
+   not is_key_pressed 101 
+jf @ALLCARS_18593 
+if or
+   not is_key_pressed 83 
+   not is_key_pressed 65 
+   not is_key_pressed 66 
+jf @ALLCARS_18593 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 55 
+   not is_key_pressed 102 
+jf @ALLCARS_18709 
+if or
+   not is_key_pressed 82 
+   not is_key_pressed 85 
+   not is_key_pressed 83 
+jf @ALLCARS_18709 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 55 
+   not is_key_pressed 103 
+jf @ALLCARS_18825 
+if or
+   not is_key_pressed 90 
+   not is_key_pressed 82 
+   not is_key_pressed 51 
+jf @ALLCARS_18825 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 55 
+   not is_key_pressed 104 
+jf @ALLCARS_18941 
+if or
+   not is_key_pressed 87 
+   not is_key_pressed 65 
+   not is_key_pressed 76 
+jf @ALLCARS_18941 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 55 
+   not is_key_pressed 105 
+jf @ALLCARS_19057 
+if or
+   not is_key_pressed 82 
+   not is_key_pressed 69 
+   not is_key_pressed 71 
+jf @ALLCARS_19057 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 56 
+   not is_key_pressed 96 
+jf @ALLCARS_19173 
+if or
+   not is_key_pressed 67 
+   not is_key_pressed 79 
+   not is_key_pressed 77 
+   not is_key_pressed 50 
+jf @ALLCARS_19173 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 56 
+   not is_key_pressed 97 
+jf @ALLCARS_19289 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 77 
+   not is_key_pressed 88 
+jf @ALLCARS_19289 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 56 
+   not is_key_pressed 98 
+jf @ALLCARS_19405 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 85 
+   not is_key_pressed 82 
+jf @ALLCARS_19405 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 56 
+   not is_key_pressed 99 
+jf @ALLCARS_19521 
+if or
+   not is_key_pressed 67 
+   not is_key_pressed 65 
+   not is_key_pressed 77 
+jf @ALLCARS_19521 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 56 
+   not is_key_pressed 100 
+jf @ALLCARS_19637 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 65 
+   not is_key_pressed 82 
+jf @ALLCARS_19637 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 56 
+   not is_key_pressed 101 
+jf @ALLCARS_19753 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 65 
+   not is_key_pressed 71 
+   not is_key_pressed 51 
+jf @ALLCARS_19753 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 56 
+   not is_key_pressed 102 
+jf @ALLCARS_19869 
+if or
+   not is_key_pressed 68 
+   not is_key_pressed 79 
+   not is_key_pressed 90 
+jf @ALLCARS_19869 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 56 
+   not is_key_pressed 103 
+jf @ALLCARS_19985 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 65 
+   not is_key_pressed 86 
+jf @ALLCARS_19985 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 56 
+   not is_key_pressed 104 
+jf @ALLCARS_20101 
+if or
+   not is_key_pressed 86 
+   not is_key_pressed 67 
+   not is_key_pressed 78 
+jf @ALLCARS_20101 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 56 
+   not is_key_pressed 105 
+jf @ALLCARS_20217 
+if or
+   not is_key_pressed 82 
+   not is_key_pressed 65 
+   not is_key_pressed 78 
+jf @ALLCARS_20217 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 57 
+   not is_key_pressed 96 
+jf @ALLCARS_20333 
+if or
+   not is_key_pressed 70 
+   not is_key_pressed 66 
+   not is_key_pressed 73 
+   not is_key_pressed 50 
+jf @ALLCARS_20333 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 57 
+   not is_key_pressed 97 
+jf @ALLCARS_20449 
+if or
+   not is_key_pressed 86 
+   not is_key_pressed 73 
+   not is_key_pressed 82 
+jf @ALLCARS_20449 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 57 
+   not is_key_pressed 98 
+jf @ALLCARS_20565 
+if or
+   not is_key_pressed 71 
+   not is_key_pressed 82 
+   not is_key_pressed 69 
+jf @ALLCARS_20565 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 57 
+   not is_key_pressed 99 
+jf @ALLCARS_20681 
+if or
+   not is_key_pressed 74 
+   not is_key_pressed 69 
+   not is_key_pressed 84 
+jf @ALLCARS_20681 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 57 
+   not is_key_pressed 100 
+jf @ALLCARS_20797 
+if or
+   not is_key_pressed 72 
+   not is_key_pressed 79 
+   not is_key_pressed 84 
+   not is_key_pressed 53 
+jf @ALLCARS_20797 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 57 
+   not is_key_pressed 101 
+jf @ALLCARS_20913 
+if or
+   not is_key_pressed 83 
+   not is_key_pressed 65 
+   not is_key_pressed 78 
+   not is_key_pressed 50 
+jf @ALLCARS_20913 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 57 
+   not is_key_pressed 102 
+jf @ALLCARS_21029 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 76 
+   not is_key_pressed 73 
+jf @ALLCARS_21029 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 57 
+   not is_key_pressed 103 
+jf @ALLCARS_21145 
+if or
+   not is_key_pressed 80 
+   not is_key_pressed 79 
+   not is_key_pressed 76 
+jf @ALLCARS_21145 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 57 
+   not is_key_pressed 104 
+jf @ALLCARS_21261 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 79 
+   not is_key_pressed 88 
+   not is_key_pressed 50 
+jf @ALLCARS_21261 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 57 
+   not is_key_pressed 105 
+jf @ALLCARS_21377 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 69 
+   not is_key_pressed 78 
+jf @ALLCARS_21377 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 48 
+   not is_key_pressed 96 
+jf @ALLCARS_21493 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 69 
+   not is_key_pressed 83 
+jf @ALLCARS_21493 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 48 
+   not is_key_pressed 97 
+jf @ALLCARS_21609 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 48 
+   not is_key_pressed 98 
+jf @ALLCARS_21725 
+if or
+   not is_key_pressed 72 
+   not is_key_pressed 79 
+   not is_key_pressed 84 
+   not is_key_pressed 51 
+jf @ALLCARS_21725 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 48 
+   not is_key_pressed 99 
+jf @ALLCARS_21841 
+if or
+   not is_key_pressed 72 
+   not is_key_pressed 79 
+   not is_key_pressed 84 
+   not is_key_pressed 52 
+jf @ALLCARS_21841 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 48 
+   not is_key_pressed 100 
+jf @ALLCARS_21957 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 76 
+   not is_key_pressed 79 
+jf @ALLCARS_21957 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 48 
+   not is_key_pressed 101 
+jf @ALLCARS_22073 
+if or
+   not is_key_pressed 82 
+   not is_key_pressed 78 
+   not is_key_pressed 67 
+jf @ALLCARS_22073 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 48 
+   not is_key_pressed 102 
+jf @ALLCARS_22189 
+if or
+   not is_key_pressed 83 
+   not is_key_pressed 85 
+   not is_key_pressed 80 
+jf @ALLCARS_22189 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 48 
+   not is_key_pressed 103 
+jf @ALLCARS_22305 
+if or
+   not is_key_pressed 69 
+   not is_key_pressed 76 
+   not is_key_pressed 32 
+   not is_key_pressed 49 
+jf @ALLCARS_22305 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 48 
+   not is_key_pressed 104 
+jf @ALLCARS_22421 
+if or
+   not is_key_pressed 74 
+   not is_key_pressed 79 
+   not is_key_pressed 85 
+jf @ALLCARS_22421 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 48 
+   not is_key_pressed 105 
+jf @ALLCARS_22537 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 73 
+   not is_key_pressed 75 
+jf @ALLCARS_22537 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 49 
+   not is_key_pressed 96 
+jf @ALLCARS_22653 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 84 
+   not is_key_pressed 66 
+jf @ALLCARS_22653 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 79 
+   not is_key_pressed 85 
+jf @ALLCARS_22653 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 49 
+   not is_key_pressed 97 
+jf @ALLCARS_22769 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 69 
+   not is_key_pressed 65 
+jf @ALLCARS_22769 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 49 
+   not is_key_pressed 98 
+jf @ALLCARS_22885 
+if or
+   not is_key_pressed 67 
+   not is_key_pressed 82 
+   not is_key_pressed 79 
+jf @ALLCARS_22885 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 49 
+   not is_key_pressed 99 
+jf @ALLCARS_23001 
+if or
+   not is_key_pressed 83 
+   not is_key_pressed 84 
+   not is_key_pressed 85 
+jf @ALLCARS_23001 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 49 
+   not is_key_pressed 100 
+jf @ALLCARS_23117 
+if or
+   not is_key_pressed 80 
+   not is_key_pressed 69 
+   not is_key_pressed 84 
+   not is_key_pressed 49 
+jf @ALLCARS_23117 
+if or
+   not is_key_pressed 84 
+   not is_key_pressed 65 
+   not is_key_pressed 78 
+jf @ALLCARS_23117 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 49 
+   not is_key_pressed 101 
+jf @ALLCARS_23233 
+if or
+   not is_key_pressed 82 
+   not is_key_pressed 79 
+   not is_key_pressed 65 
+jf @ALLCARS_23233 
+if or
+   not is_key_pressed 82 
+   not is_key_pressed 68 
+   not is_key_pressed 84 
+jf @ALLCARS_23233 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 49 
+   not is_key_pressed 102 
+jf @ALLCARS_23349 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 69 
+   not is_key_pressed 66 
+jf @ALLCARS_23349 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 49 
+   not is_key_pressed 103 
+jf @ALLCARS_23465 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 65 
+   not is_key_pressed 74 
+jf @ALLCARS_23465 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 49 
+   not is_key_pressed 104 
+jf @ALLCARS_23581 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 85 
+   not is_key_pressed 67 
+jf @ALLCARS_23581 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 49 
+   not is_key_pressed 105 
+jf @ALLCARS_23697 
+if or
+   not is_key_pressed 83 
+   not is_key_pressed 72 
+   not is_key_pressed 65 
+jf @ALLCARS_23697 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 50 
+   not is_key_pressed 96 
+jf @ALLCARS_23813 
+if or
+   not is_key_pressed 72 
+   not is_key_pressed 89 
+   not is_key_pressed 82 
+jf @ALLCARS_23813 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 50 
+   not is_key_pressed 97 
+jf @ALLCARS_23929 
+if or
+   not is_key_pressed 70 
+   not is_key_pressed 67 
+   not is_key_pressed 82 
+jf @ALLCARS_23929 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 50 
+   not is_key_pressed 98 
+jf @ALLCARS_24045 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 82 
+   not is_key_pressed 71 
+jf @ALLCARS_24045 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 50 
+   not is_key_pressed 99 
+jf @ALLCARS_24161 
+if or
+   not is_key_pressed 67 
+   not is_key_pressed 79 
+   not is_key_pressed 80 
+   not is_key_pressed 49 
+jf @ALLCARS_24161 
+if or
+   not is_key_pressed 72 
+   not is_key_pressed 80 
+   not is_key_pressed 86 
+jf @ALLCARS_24161 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 50 
+   not is_key_pressed 100 
+jf @ALLCARS_24277 
+if or
+   not is_key_pressed 67 
+   not is_key_pressed 69 
+   not is_key_pressed 77 
+jf @ALLCARS_24277 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 50 
+   not is_key_pressed 101 
+jf @ALLCARS_24393 
+if or
+   not is_key_pressed 84 
+   not is_key_pressed 79 
+   not is_key_pressed 87 
+jf @ALLCARS_24393 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 50 
+   not is_key_pressed 102 
+jf @ALLCARS_24509 
+if or
+   not is_key_pressed 70 
+   not is_key_pressed 79 
+   not is_key_pressed 82 
+   not is_key_pressed 50 
+jf @ALLCARS_24973 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 50 
+   not is_key_pressed 103 
+jf @ALLCARS_24625 
+if or
+   not is_key_pressed 67 
+   not is_key_pressed 65 
+   not is_key_pressed 68 
+   not is_key_pressed 50 
+jf @ALLCARS_24625 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 50 
+   not is_key_pressed 104 
+jf @ALLCARS_24741 
+if or
+   not is_key_pressed 70 
+   not is_key_pressed 66 
+   not is_key_pressed 73 
+   not is_key_pressed 51 
+jf @ALLCARS_24741 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 50 
+   not is_key_pressed 105 
+jf @ALLCARS_24857 
+if or
+   not is_key_pressed 87 
+   not is_key_pressed 73 
+   not is_key_pressed 76 
+jf @ALLCARS_24857 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 51 
+   not is_key_pressed 96 
+jf @ALLCARS_24973 
+if or
+   not is_key_pressed 70 
+   not is_key_pressed 79 
+   not is_key_pressed 82 
+   not is_key_pressed 49 
+jf @ALLCARS_24973 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 51 
+   not is_key_pressed 97 
+jf @ALLCARS_25089 
+if or
+   not is_key_pressed 84 
+   not is_key_pressed 82 
+   not is_key_pressed 65 
+   not is_key_pressed 54 
+jf @ALLCARS_25089 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 51 
+   not is_key_pressed 98 
+jf @ALLCARS_25205 
+if or
+   not is_key_pressed 67 
+   not is_key_pressed 79 
+   not is_key_pressed 77 
+   not is_key_pressed 49 
+jf @ALLCARS_25205 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 51 
+   not is_key_pressed 99 
+jf @ALLCARS_25321 
+if or
+   not is_key_pressed 70 
+   not is_key_pressed 69 
+   not is_key_pressed 76 
+jf @ALLCARS_25321 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 51 
+   not is_key_pressed 100 
+jf @ALLCARS_25437 
+if or
+   not is_key_pressed 82 
+   not is_key_pressed 69 
+   not is_key_pressed 77 
+   not is_key_pressed 50 
+jf @ALLCARS_25437 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 51 
+   not is_key_pressed 101 
+jf @ALLCARS_25553 
+if or
+   not is_key_pressed 83 
+   not is_key_pressed 76 
+   not is_key_pressed 65 
+jf @ALLCARS_25553 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 51 
+   not is_key_pressed 102 
+jf @ALLCARS_25669 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 76 
+   not is_key_pressed 65 
+jf @ALLCARS_25669 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 51 
+   not is_key_pressed 103 
+jf @ALLCARS_25785 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 51 
+   not is_key_pressed 104 
+jf @ALLCARS_25901 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 51 
+   not is_key_pressed 105 
+jf @ALLCARS_26017 
+if or
+   not is_key_pressed 86 
+   not is_key_pressed 79 
+   not is_key_pressed 82 
+jf @ALLCARS_26017 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 52 
+   not is_key_pressed 96 
+jf @ALLCARS_26133 
+if or
+   not is_key_pressed 86 
+   not is_key_pressed 73 
+   not is_key_pressed 78 
+jf @ALLCARS_26133 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 52 
+   not is_key_pressed 97 
+jf @ALLCARS_26249 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 85 
+   not is_key_pressed 76 
+jf @ALLCARS_26249 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 52 
+   not is_key_pressed 98 
+jf @ALLCARS_26365 
+if or
+   not is_key_pressed 67 
+   not is_key_pressed 76 
+   not is_key_pressed 79 
+jf @ALLCARS_26365 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 52 
+   not is_key_pressed 99 
+jf @ALLCARS_26481 
+if or
+   not is_key_pressed 83 
+   not is_key_pressed 65 
+   not is_key_pressed 68 
+   not is_key_pressed 49 
+jf @ALLCARS_26481 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 52 
+   not is_key_pressed 100 
+jf @ALLCARS_26597 
+if or
+   not is_key_pressed 70 
+   not is_key_pressed 73 
+   not is_key_pressed 82 
+   not is_key_pressed 49 
+jf @ALLCARS_26597 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 52 
+   not is_key_pressed 101 
+jf @ALLCARS_26713 
+if or
+   not is_key_pressed 72 
+   not is_key_pressed 85 
+   not is_key_pressed 83 
+jf @ALLCARS_26713 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 52 
+   not is_key_pressed 102 
+jf @ALLCARS_26829 
+if or
+   not is_key_pressed 73 
+   not is_key_pressed 78 
+   not is_key_pressed 84 
+jf @ALLCARS_26829 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 52 
+   not is_key_pressed 103 
+jf @ALLCARS_26945 
+if or
+   not is_key_pressed 80 
+   not is_key_pressed 82 
+   not is_key_pressed 73 
+jf @ALLCARS_26945 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 52 
+   not is_key_pressed 104 
+jf @ALLCARS_27061 
+if or
+   not is_key_pressed 67 
+   not is_key_pressed 65 
+   not is_key_pressed 82 
+jf @ALLCARS_27061 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 52 
+   not is_key_pressed 105 
+jf @ALLCARS_27177 
+if or
+   not is_key_pressed 84 
+   not is_key_pressed 65 
+   not is_key_pressed 77 
+jf @ALLCARS_27177 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 53 
+   not is_key_pressed 96 
+jf @ALLCARS_27293 
+if or
+   not is_key_pressed 83 
+   not is_key_pressed 85 
+   not is_key_pressed 78 
+jf @ALLCARS_27293 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 53 
+   not is_key_pressed 97 
+jf @ALLCARS_27409 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 69 
+   not is_key_pressed 82 
+   not is_key_pressed 49 
+jf @ALLCARS_27409 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 53 
+   not is_key_pressed 98 
+jf @ALLCARS_27525 
+if or
+   not is_key_pressed 85 
+   not is_key_pressed 84 
+   not is_key_pressed 73 
+   not is_key_pressed 49 
+jf @ALLCARS_27525 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 53 
+   not is_key_pressed 99 
+jf @ALLCARS_27641 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 69 
+   not is_key_pressed 86 
+jf @ALLCARS_27641 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 53 
+   not is_key_pressed 100 
+jf @ALLCARS_27757 
+if or
+   not is_key_pressed 89 
+   not is_key_pressed 79 
+   not is_key_pressed 83 
+jf @ALLCARS_27757 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 53 
+   not is_key_pressed 101 
+jf @ALLCARS_27873 
+if or
+   not is_key_pressed 87 
+   not is_key_pressed 73 
+   not is_key_pressed 78 
+jf @ALLCARS_27873 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 53 
+   not is_key_pressed 102 
+jf @ALLCARS_27989 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 79 
+   not is_key_pressed 78 
+   not is_key_pressed 50 
+jf @ALLCARS_27989 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 53 
+   not is_key_pressed 103 
+jf @ALLCARS_28105 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 79 
+   not is_key_pressed 78 
+   not is_key_pressed 51 
+jf @ALLCARS_28105 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 53 
+   not is_key_pressed 104 
+jf @ALLCARS_28221 
+if or
+   not is_key_pressed 85 
+   not is_key_pressed 82 
+   not is_key_pressed 65 
+jf @ALLCARS_28221 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 53 
+   not is_key_pressed 105 
+jf @ALLCARS_28337 
+if or
+   not is_key_pressed 74 
+   not is_key_pressed 69 
+   not is_key_pressed 83 
+jf @ALLCARS_28337 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 54 
+   not is_key_pressed 96 
+jf @ALLCARS_28453 
+if or
+   not is_key_pressed 83 
+   not is_key_pressed 85 
+   not is_key_pressed 76 
+jf @ALLCARS_28453 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 54 
+   not is_key_pressed 97 
+jf @ALLCARS_28569 
+if or
+   not is_key_pressed 83 
+   not is_key_pressed 84 
+   not is_key_pressed 82 
+   not is_key_pressed 49 
+jf @ALLCARS_28569 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 54 
+   not is_key_pressed 98 
+jf @ALLCARS_28685 
+if or
+   not is_key_pressed 69 
+   not is_key_pressed 76 
+   not is_key_pressed 32 
+   not is_key_pressed 50 
+jf @ALLCARS_28685 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 54 
+   not is_key_pressed 99 
+jf @ALLCARS_28801 
+if or
+   not is_key_pressed 82 
+   not is_key_pressed 65 
+   not is_key_pressed 73 
+jf @ALLCARS_28801 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 54 
+   not is_key_pressed 100 
+jf @ALLCARS_28917 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 54 
+   not is_key_pressed 101 
+jf @ALLCARS_29033 
+if or
+   not is_key_pressed 70 
+   not is_key_pressed 76 
+   not is_key_pressed 65 
+   not is_key_pressed 49 
+jf @ALLCARS_29033 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 54 
+   not is_key_pressed 102 
+jf @ALLCARS_29149 
+if or
+   not is_key_pressed 84 
+   not is_key_pressed 65 
+   not is_key_pressed 72 
+jf @ALLCARS_29149 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 54 
+   not is_key_pressed 103 
+jf @ALLCARS_29265 
+if or
+   not is_key_pressed 83 
+   not is_key_pressed 65 
+   not is_key_pressed 86 
+jf @ALLCARS_29265 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 54 
+   not is_key_pressed 104 
+jf @ALLCARS_29381 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 65 
+   not is_key_pressed 78 
+   not is_key_pressed 49 
+jf @ALLCARS_29381 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 54 
+   not is_key_pressed 105 
+jf @ALLCARS_29497 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 55 
+   not is_key_pressed 96 
+jf @ALLCARS_29613 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 55 
+   not is_key_pressed 97 
+jf @ALLCARS_29729 
+if or
+   not is_key_pressed 75 
+   not is_key_pressed 65 
+   not is_key_pressed 82 
+jf @ALLCARS_29729 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 55 
+   not is_key_pressed 98 
+jf @ALLCARS_29845 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 79 
+   not is_key_pressed 87 
+jf @ALLCARS_29845 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 55 
+   not is_key_pressed 99 
+jf @ALLCARS_29961 
+if or
+   not is_key_pressed 68 
+   not is_key_pressed 85 
+   not is_key_pressed 78 
+jf @ALLCARS_29961 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 55 
+   not is_key_pressed 100 
+jf @ALLCARS_30077 
+if or
+   not is_key_pressed 83 
+   not is_key_pressed 87 
+   not is_key_pressed 69 
+jf @ALLCARS_30077 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 55 
+   not is_key_pressed 101 
+jf @ALLCARS_30193 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 82 
+   not is_key_pressed 79 
+jf @ALLCARS_30193 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 55 
+   not is_key_pressed 102 
+jf @ALLCARS_30309 
+if or
+   not is_key_pressed 84 
+   not is_key_pressed 79 
+   not is_key_pressed 82 
+   not is_key_pressed 50 
+jf @ALLCARS_30309 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 55 
+   not is_key_pressed 103 
+jf @ALLCARS_30425 
+if or
+   not is_key_pressed 65 
+   not is_key_pressed 84 
+   not is_key_pressed 52 
+jf @ALLCARS_30425 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 55 
+   not is_key_pressed 104 
+jf @ALLCARS_30541 
+if or
+   not is_key_pressed 68 
+   not is_key_pressed 70 
+   not is_key_pressed 84 
+jf @ALLCARS_30541 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 55 
+   not is_key_pressed 105 
+jf @ALLCARS_30657 
+if or
+   not is_key_pressed 72 
+   not is_key_pressed 85 
+   not is_key_pressed 78 
+   not is_key_pressed 50 
+jf @ALLCARS_30657 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 56 
+   not is_key_pressed 96 
+jf @ALLCARS_30773 
+if or
+   not is_key_pressed 83 
+   not is_key_pressed 84 
+   not is_key_pressed 65 
+   not is_key_pressed 50 
+jf @ALLCARS_30773 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 56 
+   not is_key_pressed 97 
+jf @ALLCARS_30889 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 70 
+   not is_key_pressed 52 
+jf @ALLCARS_30889 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 56 
+   not is_key_pressed 98 
+jf @ALLCARS_31005 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 69 
+   not is_key_pressed 87 
+jf @ALLCARS_31005 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 56 
+   not is_key_pressed 99 
+jf @ALLCARS_31121 
+if or
+   not is_key_pressed 84 
+   not is_key_pressed 85 
+   not is_key_pressed 71 
+   not is_key_pressed 49 
+jf @ALLCARS_31121 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 56 
+   not is_key_pressed 100 
+jf @ALLCARS_31237 
+if or
+   not is_key_pressed 80 
+   not is_key_pressed 69 
+   not is_key_pressed 84 
+   not is_key_pressed 50 
+jf @ALLCARS_31237 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 56 
+   not is_key_pressed 101 
+jf @ALLCARS_31353 
+if or
+   not is_key_pressed 69 
+   not is_key_pressed 77 
+   not is_key_pressed 80 
+jf @ALLCARS_31353 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 56 
+   not is_key_pressed 102 
+jf @ALLCARS_31469 
+if or
+   not is_key_pressed 87 
+   not is_key_pressed 65 
+   not is_key_pressed 89 
+jf @ALLCARS_31469 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 56 
+   not is_key_pressed 103 
+jf @ALLCARS_31585 
+if or
+   not is_key_pressed 69 
+   not is_key_pressed 85 
+   not is_key_pressed 82 
+jf @ALLCARS_31585 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 56 
+   not is_key_pressed 104 
+jf @ALLCARS_31701 
+if or
+   not is_key_pressed 72 
+   not is_key_pressed 79 
+   not is_key_pressed 84 
+   not is_key_pressed 50 
+jf @ALLCARS_31701 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 56 
+   not is_key_pressed 105 
+jf @ALLCARS_31817 
+if or
+   not is_key_pressed 67 
+   not is_key_pressed 76 
+   not is_key_pressed 85 
+jf @ALLCARS_31817 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 57 
+   not is_key_pressed 96 
+jf @ALLCARS_31933 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 57 
+   not is_key_pressed 97 
+jf @ALLCARS_32049 
+if or
+   not is_key_pressed 65 
+   not is_key_pressed 82 
+   not is_key_pressed 84 
+   not is_key_pressed 51 
+jf @ALLCARS_32049 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 57 
+   not is_key_pressed 98 
+jf @ALLCARS_32165 
+if or
+   not is_key_pressed 65 
+   not is_key_pressed 78 
+   not is_key_pressed 68 
+jf @ALLCARS_32165 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 57 
+   not is_key_pressed 99 
+jf @ALLCARS_32281 
+if or
+   not is_key_pressed 68 
+   not is_key_pressed 79 
+   not is_key_pressed 32 
+jf @ALLCARS_32281 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 57 
+   not is_key_pressed 100 
+jf @ALLCARS_32397 
+if or
+   not is_key_pressed 82 
+   not is_key_pressed 67 
+   not is_key_pressed 32 
+jf @ALLCARS_32397 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 57 
+   not is_key_pressed 101 
+jf @ALLCARS_32513 
+if or
+   not is_key_pressed 76 
+   not is_key_pressed 65 
+   not is_key_pressed 85 
+jf @ALLCARS_32513 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 57 
+   not is_key_pressed 102 
+jf @ALLCARS_32629 
+if or
+   not is_key_pressed 67 
+   not is_key_pressed 79 
+   not is_key_pressed 80 
+   not is_key_pressed 50 
+jf @ALLCARS_32629 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 57 
+   not is_key_pressed 103 
+jf @ALLCARS_32745 
+if or
+   not is_key_pressed 67 
+   not is_key_pressed 79 
+   not is_key_pressed 80 
+   not is_key_pressed 52 
+jf @ALLCARS_32745 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 57 
+   not is_key_pressed 104 
+jf @ALLCARS_32861 
+if or
+   not is_key_pressed 67 
+   not is_key_pressed 79 
+   not is_key_pressed 80 
+   not is_key_pressed 53 
+jf @ALLCARS_32861 
+if or
+   not is_key_pressed 78 
+   not is_key_pressed 57 
+   not is_key_pressed 105 
+jf @ALLCARS_32977 
+if or
+   not is_key_pressed 67 
+   not is_key_pressed 79 
+   not is_key_pressed 80 
+   not is_key_pressed 51 
+jf @ALLCARS_32977 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 48 
+   not is_key_pressed 96 
+jf @ALLCARS_33093 
+if or
+   not is_key_pressed 80 
+   not is_key_pressed 73 
+   not is_key_pressed 67 
+jf @ALLCARS_33093 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 48 
+   not is_key_pressed 97 
+jf @ALLCARS_33209 
+if or
+   not is_key_pressed 83 
+   not is_key_pressed 87 
+   not is_key_pressed 65 
+jf @ALLCARS_33209 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 48 
+   not is_key_pressed 98 
+jf @ALLCARS_33325 
+if or
+   not is_key_pressed 65 
+   not is_key_pressed 76 
+   not is_key_pressed 80 
+jf @ALLCARS_33325 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 48 
+   not is_key_pressed 99 
+jf @ALLCARS_33441 
+if or
+   not is_key_pressed 80 
+   not is_key_pressed 72 
+   not is_key_pressed 79 
+jf @ALLCARS_33441 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 48 
+   not is_key_pressed 100 
+jf @ALLCARS_33557 
+if or
+   not is_key_pressed 71 
+   not is_key_pressed 76 
+   not is_key_pressed 69 
+   not is_key_pressed 50 
+jf @ALLCARS_33557 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 48 
+   not is_key_pressed 101 
+jf @ALLCARS_33673 
+if or
+   not is_key_pressed 83 
+   not is_key_pressed 65 
+   not is_key_pressed 68 
+   not is_key_pressed 50 
+jf @ALLCARS_33673 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 48 
+   not is_key_pressed 102 
+jf @ALLCARS_33789 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 65 
+   not is_key_pressed 71 
+   not is_key_pressed 49 
+jf @ALLCARS_33789 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 48 
+   not is_key_pressed 103 
+jf @ALLCARS_33905 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 65 
+   not is_key_pressed 71 
+   not is_key_pressed 50 
+jf @ALLCARS_33905 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 48 
+   not is_key_pressed 104 
+jf @ALLCARS_34021 
+if or
+   not is_key_pressed 84 
+   not is_key_pressed 85 
+   not is_key_pressed 71 
+   not is_key_pressed 50 
+jf @ALLCARS_34021 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 48 
+   not is_key_pressed 105 
+jf @ALLCARS_34137 
+if or
+   not is_key_pressed 66 
+   not is_key_pressed 79 
+   not is_key_pressed 88 
+   not is_key_pressed 49 
+jf @ALLCARS_34137 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 49 
+   not is_key_pressed 96 
+jf @ALLCARS_34253 
+if or
+   not is_key_pressed 70 
+   not is_key_pressed 65 
+   not is_key_pressed 82 
+jf @ALLCARS_34253 
+if or
+   not is_key_pressed 77 
+   not is_key_pressed 49 
+   not is_key_pressed 97 
+jf @ALLCARS_34369 
+if or
+   not is_key_pressed 85 
+   not is_key_pressed 84 
+   not is_key_pressed 73 
+   not is_key_pressed 50 
+jf @ALLCARS_34369 
+jump @ALLCARS_11 
+
+:ALLCARS_9893
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_9916 
+
+:ALLCARS_9916
+Model.Load(#LANDSTAL)
+wait 0 
+if 
+   Model.Available(#LANDSTAL)
+jf @ALLCARS_9916 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #LANDSTAL, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_10009
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_10032 
+
+:ALLCARS_10032
+Model.Load(#BRAVURA)
+wait 0 
+if 
+   Model.Available(#BRAVURA)
+jf @ALLCARS_10032 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #BRAVURA, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_10125
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_10148 
+
+:ALLCARS_10148
+Model.Load(#BUFFALO)
+wait 0 
+if 
+   Model.Available(#BUFFALO)
+jf @ALLCARS_10148 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #BUFFALO, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_10241
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_10264 
+
+:ALLCARS_10264
+Model.Load(#LINERUN)
+wait 0 
+if 
+   Model.Available(#LINERUN)
+jf @ALLCARS_10264 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #LINERUN, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_10357
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_10380 
+
+:ALLCARS_10380
+Model.Load(#PEREN)
+wait 0 
+if 
+   Model.Available(#PEREN)
+jf @ALLCARS_10380 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #PEREN, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_10473
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_10496 
+
+:ALLCARS_10496
+Model.Load(#SENTINEL)
+wait 0 
+if 
+   Model.Available(#SENTINEL)
+jf @ALLCARS_10496 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #SENTINEL, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_10589
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_10612 
+
+:ALLCARS_10612
+Model.Load(#DUMPER)
+wait 0 
+if 
+   Model.Available(#DUMPER)
+jf @ALLCARS_10612 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #DUMPER, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_10705
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_10728 
+
+:ALLCARS_10728
+Model.Load(#FIRETRUK)
+wait 0 
+if 
+   Model.Available(#FIRETRUK)
+jf @ALLCARS_10728 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #FIRETRUK, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_10821
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_10844 
+
+:ALLCARS_10844
+Model.Load(#TRASH)
+wait 0 
+if 
+   Model.Available(#TRASH)
+jf @ALLCARS_10844 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #TRASH, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_10937
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_10960 
+
+:ALLCARS_10960
+Model.Load(#STRETCH)
+wait 0 
+if 
+   Model.Available(#STRETCH)
+jf @ALLCARS_10960 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #STRETCH, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_11053
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_11076 
+
+:ALLCARS_11076
+Model.Load(#MANANA)
+wait 0 
+if 
+   Model.Available(#MANANA)
+jf @ALLCARS_11076 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #MANANA, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_11169
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_11192 
+
+:ALLCARS_11192
+Model.Load(#INFERNUS)
+wait 0 
+if 
+   Model.Available(#INFERNUS)
+jf @ALLCARS_11192 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #INFERNUS, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_11285
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_11308 
+
+:ALLCARS_11308
+Model.Load(#VOODOO)
+wait 0 
+if 
+   Model.Available(#VOODOO)
+jf @ALLCARS_11308 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #VOODOO, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_11401
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_11424 
+
+:ALLCARS_11424
+Model.Load(#PONY)
+wait 0 
+if 
+   Model.Available(#PONY)
+jf @ALLCARS_11424 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #PONY, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_11517
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_11540 
+
+:ALLCARS_11540
+Model.Load(#MULE)
+wait 0 
+if 
+   Model.Available(#MULE)
+jf @ALLCARS_11540 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #MULE, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_11633
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_11656 
+
+:ALLCARS_11656
+Model.Load(#CHEETAH)
+wait 0 
+if 
+   Model.Available(#CHEETAH)
+jf @ALLCARS_11656 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #CHEETAH, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_11749
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_11772 
+
+:ALLCARS_11772
+Model.Load(#AMBULAN)
+wait 0 
+if 
+   Model.Available(#AMBULAN)
+jf @ALLCARS_11772 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #AMBULAN, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_11865
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_11888 
+
+:ALLCARS_11888
+Model.Load(#LEVIATHN)
+wait 0 
+if 
+   Model.Available(#LEVIATHN)
+jf @ALLCARS_11888 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #LEVIATHN, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_11981
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_12004 
+
+:ALLCARS_12004
+Model.Load(#MOONBEAM)
+wait 0 
+if 
+   Model.Available(#MOONBEAM)
+jf @ALLCARS_12004 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #MOONBEAM, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_12097
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_12120 
+
+:ALLCARS_12120
+Model.Load(#ESPERANT)
+wait 0 
+if 
+   Model.Available(#ESPERANT)
+jf @ALLCARS_12120 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #ESPERANT, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_12213
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_12236 
+
+:ALLCARS_12236
+Model.Load(#TAXI)
+wait 0 
+if 
+   Model.Available(#TAXI)
+jf @ALLCARS_12236 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #TAXI, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_12329
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_12352 
+
+:ALLCARS_12352
+Model.Load(#WASHING)
+wait 0 
+if 
+   Model.Available(#WASHING)
+jf @ALLCARS_12352 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #WASHING, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_12445
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_12468 
+
+:ALLCARS_12468
+Model.Load(#BOBCAT)
+wait 0 
+if 
+   Model.Available(#BOBCAT)
+jf @ALLCARS_12468 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #BOBCAT, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_12561
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_12584 
+
+:ALLCARS_12584
+Model.Load(#MRWHOOP)
+wait 0 
+if 
+   Model.Available(#MRWHOOP)
+jf @ALLCARS_12584 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #MRWHOOP, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_12677
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_12700 
+
+:ALLCARS_12700
+Model.Load(#BFINJECT)
+wait 0 
+if 
+   Model.Available(#BFINJECT)
+jf @ALLCARS_12700 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #BFINJECT, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_12793
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_12816 
+
+:ALLCARS_12816
+Model.Load(#HUNTER)
+wait 0 
+if 
+   Model.Available(#HUNTER)
+jf @ALLCARS_12816 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #HUNTER, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_12909
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_12932 
+
+:ALLCARS_12932
+Model.Load(#PREMIER)
+wait 0 
+if 
+   Model.Available(#PREMIER)
+jf @ALLCARS_12932 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #PREMIER, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_13025
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_13048 
+
+:ALLCARS_13048
+Model.Load(#ENFORCER)
+wait 0 
+if 
+   Model.Available(#ENFORCER)
+jf @ALLCARS_13048 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #ENFORCER, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_13141
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_13164 
+
+:ALLCARS_13164
+Model.Load(#SECURICA)
+wait 0 
+if 
+   Model.Available(#SECURICA)
+jf @ALLCARS_13164 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #SECURICA, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_13257
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_13280 
+
+:ALLCARS_13280
+Model.Load(#BANSHEE)
+wait 0 
+if 
+   Model.Available(#BANSHEE)
+jf @ALLCARS_13280 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #BANSHEE, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_13373
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_13396 
+
+:ALLCARS_13396
+Model.Load(#PREDATOR)
+wait 0 
+if 
+   Model.Available(#PREDATOR)
+jf @ALLCARS_13396 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #PREDATOR, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_13489
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_13512 
+
+:ALLCARS_13512
+Model.Load(#BUS)
+wait 0 
+if 
+   Model.Available(#BUS)
+jf @ALLCARS_13512 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #BUS, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_13605
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_13628 
+
+:ALLCARS_13628
+Model.Load(#RHINO)
+wait 0 
+if 
+   Model.Available(#RHINO)
+jf @ALLCARS_13628 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #RHINO, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_13721
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_13744 
+
+:ALLCARS_13744
+Model.Load(#BARRACKS)
+wait 0 
+if 
+   Model.Available(#BARRACKS)
+jf @ALLCARS_13744 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #BARRACKS, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_13837
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_13860 
+
+:ALLCARS_13860
+Model.Load(#HOTKNIFE)
+wait 0 
+if 
+   Model.Available(#HOTKNIFE)
+jf @ALLCARS_13860 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #HOTKNIFE, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_13953
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_13976 
+
+:ALLCARS_13976
+Model.Load(#ARTICT1)
+wait 0 
+if 
+   Model.Available(#ARTICT1)
+jf @ALLCARS_13976 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #ARTICT1, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_14069
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_14092 
+
+:ALLCARS_14092
+Model.Load(#PREVION)
+wait 0 
+if 
+   Model.Available(#PREVION)
+jf @ALLCARS_14092 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #PREVION, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_14185
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_14208 
+
+:ALLCARS_14208
+Model.Load(#COACH)
+wait 0 
+if 
+   Model.Available(#COACH)
+jf @ALLCARS_14208 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #COACH, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_14301
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_14324 
+
+:ALLCARS_14324
+Model.Load(#CABBIE)
+wait 0 
+if 
+   Model.Available(#CABBIE)
+jf @ALLCARS_14324 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #CABBIE, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_14417
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_14440 
+
+:ALLCARS_14440
+Model.Load(#STALLION)
+wait 0 
+if 
+   Model.Available(#STALLION)
+jf @ALLCARS_14440 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #STALLION, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_14533
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_14556 
+
+:ALLCARS_14556
+Model.Load(#RUMPO)
+wait 0 
+if 
+   Model.Available(#RUMPO)
+jf @ALLCARS_14556 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #RUMPO, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_14649
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_14672 
+
+:ALLCARS_14672
+Model.Load(#RCBANDIT)
+wait 0 
+if 
+   Model.Available(#RCBANDIT)
+jf @ALLCARS_14672 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #RCBANDIT, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_14765
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_14788 
+
+:ALLCARS_14788
+Model.Load(#ROMERO)
+wait 0 
+if 
+   Model.Available(#ROMERO)
+jf @ALLCARS_14788 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #ROMERO, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_14881
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_14904 
+
+:ALLCARS_14904
+Model.Load(#PACKER)
+wait 0 
+if 
+   Model.Available(#PACKER)
+jf @ALLCARS_14904 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #PACKER, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_14997
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_15020 
+
+:ALLCARS_15020
+Model.Load(#MONSTER)
+wait 0 
+if 
+   Model.Available(#MONSTER)
+jf @ALLCARS_15020 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #MONSTER, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_15113
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_15136 
+
+:ALLCARS_15136
+Model.Load(#ADMIRAL)
+wait 0 
+if 
+   Model.Available(#ADMIRAL)
+jf @ALLCARS_15136 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #ADMIRAL, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_15229
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_15252 
+
+:ALLCARS_15252
+Model.Load(#SQUALO)
+wait 0 
+if 
+   Model.Available(#SQUALO)
+jf @ALLCARS_15252 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #SQUALO, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_15345
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_15368 
+
+:ALLCARS_15368
+Model.Load(#SEASPAR)
+wait 0 
+if 
+   Model.Available(#SEASPAR)
+jf @ALLCARS_15368 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 3.0 0.0 
+Car.Create(0@, #SEASPAR, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_15461
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_15484 
+
+:ALLCARS_15484
+Model.Load(#PIZZABOY)
+wait 0 
+if 
+   Model.Available(#PIZZABOY)
+jf @ALLCARS_15484 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #PIZZABOY, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_15577
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_15600 
+
+:ALLCARS_15600
+Model.Load(#TRAM)
+wait 0 
+if 
+   Model.Available(#TRAM)
+jf @ALLCARS_15600 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #TRAM, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_15693
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_15716 
+
+:ALLCARS_15716
+Model.Load(#ARTICT2)
+wait 0 
+if 
+   Model.Available(#ARTICT2)
+jf @ALLCARS_15716 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #ARTICT2, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_15809
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_15832 
+
+:ALLCARS_15832
+Model.Load(#TURISMO)
+wait 0 
+if 
+   Model.Available(#TURISMO)
+jf @ALLCARS_15832 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #TURISMO, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_15925
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_15948 
+
+:ALLCARS_15948
+Model.Load(#SPEEDER)
+wait 0 
+if 
+   Model.Available(#SPEEDER)
+jf @ALLCARS_15948 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #SPEEDER, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_16041
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_16064 
+
+:ALLCARS_16064
+Model.Load(#REEFER)
+wait 0 
+if 
+   Model.Available(#REEFER)
+jf @ALLCARS_16064 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #REEFER, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_16157
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_16180 
+
+:ALLCARS_16180
+Model.Load(#TROPIC)
+wait 0 
+if 
+   Model.Available(#TROPIC)
+jf @ALLCARS_16180 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #TROPIC, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_16273
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_16296 
+
+:ALLCARS_16296
+Model.Load(#FLATBED)
+wait 0 
+if 
+   Model.Available(#FLATBED)
+jf @ALLCARS_16296 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #FLATBED, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_16389
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_16412 
+
+:ALLCARS_16412
+Model.Load(#YANKEE)
+wait 0 
+if 
+   Model.Available(#YANKEE)
+jf @ALLCARS_16412 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #YANKEE, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_16505
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_16528 
+
+:ALLCARS_16528
+Model.Load(#CADDY)
+wait 0 
+if 
+   Model.Available(#CADDY)
+jf @ALLCARS_16528 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #CADDY, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_16621
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_16644 
+
+:ALLCARS_16644
+Model.Load(#SOLAIR)
+wait 0 
+if 
+   Model.Available(#SOLAIR)
+jf @ALLCARS_16644 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #SOLAIR, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_16737
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_16760 
+
+:ALLCARS_16760
+Model.Load(#TOPFUN)
+wait 0 
+if 
+   Model.Available(#TOPFUN)
+jf @ALLCARS_16760 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #TOPFUN, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_16853
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_16876 
+
+:ALLCARS_16876
+Model.Load(#SKIMMER)
+wait 0 
+if 
+   Model.Available(#SKIMMER)
+jf @ALLCARS_16876 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #SKIMMER, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_16969
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_16992 
+
+:ALLCARS_16992
+Model.Load(#PCJ600)
+wait 0 
+if 
+   Model.Available(#PCJ600)
+jf @ALLCARS_16992 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #PCJ600, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_17085
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_17108 
+
+:ALLCARS_17108
+Model.Load(#FAGGIO)
+wait 0 
+if 
+   Model.Available(#FAGGIO)
+jf @ALLCARS_17108 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #FAGGIO, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_17201
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_17224 
+
+:ALLCARS_17224
+Model.Load(#FREEWAY)
+wait 0 
+if 
+   Model.Available(#FREEWAY)
+jf @ALLCARS_17224 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #FREEWAY, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_17317
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_17340 
+
+:ALLCARS_17340
+Model.Load(#RCBARON)
+wait 0 
+if 
+   Model.Available(#RCBARON)
+jf @ALLCARS_17340 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #RCBARON, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_17433
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_17456 
+
+:ALLCARS_17456
+Model.Load(#RCRAIDER)
+wait 0 
+if 
+   Model.Available(#RCRAIDER)
+jf @ALLCARS_17456 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #RCRAIDER, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_17549
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_17572 
+
+:ALLCARS_17572
+Model.Load(#GLENDALE)
+wait 0 
+if 
+   Model.Available(#GLENDALE)
+jf @ALLCARS_17572 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #GLENDALE, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_17665
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_17688 
+
+:ALLCARS_17688
+Model.Load(#OCEANIC)
+wait 0 
+if 
+   Model.Available(#OCEANIC)
+jf @ALLCARS_17688 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #OCEANIC, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_17781
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_17804 
+
+:ALLCARS_17804
+Model.Load(#SANCHEZ)
+wait 0 
+if 
+   Model.Available(#SANCHEZ)
+jf @ALLCARS_17804 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #SANCHEZ, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_17897
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_17920 
+
+:ALLCARS_17920
+Model.Load(#SPARROW)
+wait 0 
+if 
+   Model.Available(#SPARROW)
+jf @ALLCARS_17920 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 3.0 0.0 
+Car.Create(0@, #SPARROW, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_18013
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_18036 
+
+:ALLCARS_18036
+Model.Load(#PATRIOT)
+wait 0 
+if 
+   Model.Available(#PATRIOT)
+jf @ALLCARS_18036 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #PATRIOT, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_18129
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_18152 
+
+:ALLCARS_18152
+Model.Load(#QUAD)
+wait 0 
+if 
+   Model.Available(#QUAD)
+jf @ALLCARS_18152 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #QUAD, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_18245
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_18268 
+
+:ALLCARS_18268
+Model.Load(#COASTG)
+wait 0 
+if 
+   Model.Available(#COASTG)
+jf @ALLCARS_18268 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #COASTG, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_18361
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_18384 
+
+:ALLCARS_18384
+Model.Load(#DINGHY)
+wait 0 
+if 
+   Model.Available(#DINGHY)
+jf @ALLCARS_18384 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #DINGHY, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_18477
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_18500 
+
+:ALLCARS_18500
+Model.Load(#HERMES)
+wait 0 
+if 
+   Model.Available(#HERMES)
+jf @ALLCARS_18500 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #HERMES, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_18593
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_18616 
+
+:ALLCARS_18616
+Model.Load(#SABRE)
+wait 0 
+if 
+   Model.Available(#SABRE)
+jf @ALLCARS_18616 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #SABRE, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_18709
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_18732 
+
+:ALLCARS_18732
+Model.Load(#RUSTLER)
+wait 0 
+if 
+   Model.Available(#RUSTLER)
+jf @ALLCARS_18732 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 6.0 0.0 
+Car.Create(0@, #RUSTLER, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_18825
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_18848 
+
+:ALLCARS_18848
+Model.Load(#ZR350)
+wait 0 
+if 
+   Model.Available(#ZR350)
+jf @ALLCARS_18848 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #ZR350, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_18941
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_18964 
+
+:ALLCARS_18964
+Model.Load(#WALTON)
+wait 0 
+if 
+   Model.Available(#WALTON)
+jf @ALLCARS_18964 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #WALTON, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_19057
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_19080 
+
+:ALLCARS_19080
+Model.Load(#REGINA)
+wait 0 
+if 
+   Model.Available(#REGINA)
+jf @ALLCARS_19080 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #REGINA, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_19173
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_19196 
+
+:ALLCARS_19196
+Model.Load(#COMET)
+wait 0 
+if 
+   Model.Available(#COMET)
+jf @ALLCARS_19196 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #COMET, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_19289
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_19312 
+
+:ALLCARS_19312
+Model.Load(#BMX)
+wait 0 
+if 
+   Model.Available(#BMX)
+jf @ALLCARS_19312 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #BMX, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_19405
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_19428 
+
+:ALLCARS_19428
+Model.Load(#BURRITO)
+wait 0 
+if 
+   Model.Available(#BURRITO)
+jf @ALLCARS_19428 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #BURRITO, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_19521
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_19544 
+
+:ALLCARS_19544
+Model.Load(#CAMPER)
+wait 0 
+if 
+   Model.Available(#CAMPER)
+jf @ALLCARS_19544 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #CAMPER, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_19637
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_19660 
+
+:ALLCARS_19660
+Model.Load(#MARQUIS)
+wait 0 
+if 
+   Model.Available(#MARQUIS)
+jf @ALLCARS_19660 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #MARQUIS, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_19753
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_19776 
+
+:ALLCARS_19776
+Model.Load(#BAGGAGE)
+wait 0 
+if 
+   Model.Available(#BAGGAGE)
+jf @ALLCARS_19776 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #BAGGAGE, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_19869
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_19892 
+
+:ALLCARS_19892
+Model.Load(#DOZER)
+wait 0 
+if 
+   Model.Available(#DOZER)
+jf @ALLCARS_19892 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #DOZER, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_19985
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_20008 
+
+:ALLCARS_20008
+Model.Load(#MAVERICK)
+wait 0 
+if 
+   Model.Available(#MAVERICK)
+jf @ALLCARS_20008 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #MAVERICK, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_20101
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_20124 
+
+:ALLCARS_20124
+Model.Load(#VCNMAV)
+wait 0 
+if 
+   Model.Available(#VCNMAV)
+jf @ALLCARS_20124 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #VCNMAV, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_20217
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_20240 
+
+:ALLCARS_20240
+Model.Load(#RANCHER)
+wait 0 
+if 
+   Model.Available(#RANCHER)
+jf @ALLCARS_20240 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #RANCHER, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_20333
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_20356 
+
+:ALLCARS_20356
+Model.Load(#FBIRANCH)
+wait 0 
+if 
+   Model.Available(#FBIRANCH)
+jf @ALLCARS_20356 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #FBIRANCH, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_20449
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_20472 
+
+:ALLCARS_20472
+Model.Load(#VIRGO)
+wait 0 
+if 
+   Model.Available(#VIRGO)
+jf @ALLCARS_20472 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #VIRGO, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_20565
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_20588 
+
+:ALLCARS_20588
+Model.Load(#GREENWOO)
+wait 0 
+if 
+   Model.Available(#GREENWOO)
+jf @ALLCARS_20588 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #GREENWOO, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_20681
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_20704 
+
+:ALLCARS_20704
+Model.Load(#JETMAX)
+wait 0 
+if 
+   Model.Available(#JETMAX)
+jf @ALLCARS_20704 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #JETMAX, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_20797
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_20820 
+
+:ALLCARS_20820
+Model.Load(#HOTRING)
+wait 0 
+if 
+   Model.Available(#HOTRING)
+jf @ALLCARS_20820 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #HOTRING, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_20913
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_20936 
+
+:ALLCARS_20936
+Model.Load(#SANDKING)
+wait 0 
+if 
+   Model.Available(#SANDKING)
+jf @ALLCARS_20936 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #SANDKING, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_21029
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_21052 
+
+:ALLCARS_21052
+Model.Load(#BLISTAC)
+wait 0 
+if 
+   Model.Available(#BLISTAC)
+jf @ALLCARS_21052 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #BLISTAC, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_21145
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_21168 
+
+:ALLCARS_21168
+Model.Load(#POLMAV)
+wait 0 
+if 
+   Model.Available(#POLMAV)
+jf @ALLCARS_21168 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #POLMAV, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_21261
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_21284 
+
+:ALLCARS_21284
+Model.Load(#BOXVILLE)
+wait 0 
+if 
+   Model.Available(#BOXVILLE)
+jf @ALLCARS_21284 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #BOXVILLE, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_21377
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_21400 
+
+:ALLCARS_21400
+Model.Load(#BENSON)
+wait 0 
+if 
+   Model.Available(#BENSON)
+jf @ALLCARS_21400 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #BENSON, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_21493
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_21516 
+
+:ALLCARS_21516
+Model.Load(#MESA)
+wait 0 
+if 
+   Model.Available(#MESA)
+jf @ALLCARS_21516 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #MESA, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_21609
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_21632 
+
+:ALLCARS_21632
+Model.Load(#RCGOBLIN)
+wait 0 
+if 
+   Model.Available(#RCGOBLIN)
+jf @ALLCARS_21632 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #RCGOBLIN, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_21725
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_21748 
+
+:ALLCARS_21748
+Model.Load(#HOTRINA)
+wait 0 
+if 
+   Model.Available(#HOTRINA)
+jf @ALLCARS_21748 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #HOTRINA, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_21841
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_21864 
+
+:ALLCARS_21864
+Model.Load(#HOTRINB)
+wait 0 
+if 
+   Model.Available(#HOTRINB)
+jf @ALLCARS_21864 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #HOTRINB, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_21957
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_21980 
+
+:ALLCARS_21980
+Model.Load(#BLOODRA)
+wait 0 
+if 
+   Model.Available(#BLOODRA)
+jf @ALLCARS_21980 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #BLOODRA, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_22073
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_22096 
+
+:ALLCARS_22096
+Model.Load(#RNCHLURE)
+wait 0 
+if 
+   Model.Available(#RNCHLURE)
+jf @ALLCARS_22096 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #RNCHLURE, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_22189
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_22212 
+
+:ALLCARS_22212
+Model.Load(#SUPERGT)
+wait 0 
+if 
+   Model.Available(#SUPERGT)
+jf @ALLCARS_22212 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #SUPERGT, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_22305
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_22328 
+
+:ALLCARS_22328
+Model.Load(#ELEGANT)
+wait 0 
+if 
+   Model.Available(#ELEGANT)
+jf @ALLCARS_22328 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #ELEGANT, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_22421
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_22444 
+
+:ALLCARS_22444
+Model.Load(#JOURNEY)
+wait 0 
+if 
+   Model.Available(#JOURNEY)
+jf @ALLCARS_22444 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #JOURNEY, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_22537
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_22560 
+
+:ALLCARS_22560
+Model.Load(#BIKE)
+wait 0 
+if 
+   Model.Available(#BIKE)
+jf @ALLCARS_22560 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #BIKE, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_22653
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_22676 
+
+:ALLCARS_22676
+Model.Load(#MTBIKE)
+wait 0 
+if 
+   Model.Available(#MTBIKE)
+jf @ALLCARS_22676 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #MTBIKE, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_22769
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_22792 
+
+:ALLCARS_22792
+Model.Load(#BEAGLE)
+wait 0 
+if 
+   Model.Available(#BEAGLE)
+jf @ALLCARS_22792 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 5.0 0.0 
+Car.Create(0@, #BEAGLE, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_22885
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_22908 
+
+:ALLCARS_22908
+Model.Load(#CROPDUST)
+wait 0 
+if 
+   Model.Available(#CROPDUST)
+jf @ALLCARS_22908 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 5.0 0.0 
+Car.Create(0@, #CROPDUST, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_23001
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_23024 
+
+:ALLCARS_23024
+Model.Load(#STUNT)
+wait 0 
+if 
+   Model.Available(#STUNT)
+jf @ALLCARS_23024 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 5.0 0.0 
+Car.Create(0@, #STUNT, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_23117
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_23140 
+
+:ALLCARS_23140
+Model.Load(#PETRO)
+wait 0 
+if 
+   Model.Available(#PETRO)
+jf @ALLCARS_23140 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #PETRO, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_23233
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_23256 
+
+:ALLCARS_23256
+Model.Load(#RDTRAIN)
+wait 0 
+if 
+   Model.Available(#RDTRAIN)
+jf @ALLCARS_23256 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #RDTRAIN, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_23349
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_23372 
+
+:ALLCARS_23372
+Model.Load(#NEBULA)
+wait 0 
+if 
+   Model.Available(#NEBULA)
+jf @ALLCARS_23372 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #NEBULA, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_23465
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_23488 
+
+:ALLCARS_23488
+Model.Load(#MAJESTIC)
+wait 0 
+if 
+   Model.Available(#MAJESTIC)
+jf @ALLCARS_23488 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #MAJESTIC, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_23581
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_23604 
+
+:ALLCARS_23604
+Model.Load(#BUCCANEE)
+wait 0 
+if 
+   Model.Available(#BUCCANEE)
+jf @ALLCARS_23604 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #BUCCANEE, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_23697
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_23720 
+
+:ALLCARS_23720
+Model.Load(#SHAMAL)
+wait 0 
+if 
+   Model.Available(#SHAMAL)
+jf @ALLCARS_23720 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 5.0 0.0 
+Car.Create(0@, #SHAMAL, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_23813
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_23836 
+
+:ALLCARS_23836
+Model.Load(#HYDRA)
+wait 0 
+if 
+   Model.Available(#HYDRA)
+jf @ALLCARS_23836 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 5.0 0.0 
+Car.Create(0@, #HYDRA, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_23929
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_23952 
+
+:ALLCARS_23952
+Model.Load(#FCR900)
+wait 0 
+if 
+   Model.Available(#FCR900)
+jf @ALLCARS_23952 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #FCR900, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_24045
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_24068 
+
+:ALLCARS_24068
+Model.Load(#NRG500)
+wait 0 
+if 
+   Model.Available(#NRG500)
+jf @ALLCARS_24068 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #NRG500, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_24161
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_24184 
+
+:ALLCARS_24184
+Model.Load(#COPBIKE)
+wait 0 
+if 
+   Model.Available(#COPBIKE)
+jf @ALLCARS_24184 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #COPBIKE, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_24277
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_24300 
+
+:ALLCARS_24300
+Model.Load(#CEMENT)
+wait 0 
+if 
+   Model.Available(#CEMENT)
+jf @ALLCARS_24300 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #CEMENT, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_24393
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_24416 
+
+:ALLCARS_24416
+Model.Load(#TOWTRUCK)
+wait 0 
+if 
+   Model.Available(#TOWTRUCK)
+jf @ALLCARS_24416 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #TOWTRUCK, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_24509
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_24532 
+
+:ALLCARS_24532
+Model.Load(#FORTUNE)
+wait 0 
+if 
+   Model.Available(#FORTUNE)
+jf @ALLCARS_24532 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #FORTUNE, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_24625
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_24648 
+
+:ALLCARS_24648
+Model.Load(#CADRONA)
+wait 0 
+if 
+   Model.Available(#CADRONA)
+jf @ALLCARS_24648 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #CADRONA, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_24741
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_24764 
+
+:ALLCARS_24764
+Model.Load(#FBITRUCK)
+wait 0 
+if 
+   Model.Available(#FBITRUCK)
+jf @ALLCARS_24764 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #FBITRUCK, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_24857
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_24880 
+
+:ALLCARS_24880
+Model.Load(#WILLARD)
+wait 0 
+if 
+   Model.Available(#WILLARD)
+jf @ALLCARS_24880 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #WILLARD, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_24973
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_24996 
+
+:ALLCARS_24996
+Model.Load(#FORKLIFT)
+wait 0 
+if 
+   Model.Available(#FORKLIFT)
+jf @ALLCARS_24996 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #FORKLIFT, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_25089
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_25112 
+
+:ALLCARS_25112
+Model.Load(#TRACTOR)
+wait 0 
+if 
+   Model.Available(#TRACTOR)
+jf @ALLCARS_25112 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #TRACTOR, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_25205
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_25228 
+
+:ALLCARS_25228
+Model.Load(#COMBINE)
+wait 0 
+if 
+   Model.Available(#COMBINE)
+jf @ALLCARS_25228 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #COMBINE, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_25321
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_25344 
+
+:ALLCARS_25344
+Model.Load(#FELTZER)
+wait 0 
+if 
+   Model.Available(#FELTZER)
+jf @ALLCARS_25344 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #FELTZER, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_25437
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_25460 
+
+:ALLCARS_25460
+Model.Load(#REMINGTN)
+wait 0 
+if 
+   Model.Available(#REMINGTN)
+jf @ALLCARS_25460 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #REMINGTN, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_25553
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_25576 
+
+:ALLCARS_25576
+Model.Load(#SLAMVAN)
+wait 0 
+if 
+   Model.Available(#SLAMVAN)
+jf @ALLCARS_25576 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #SLAMVAN, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_25669
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_25692 
+
+:ALLCARS_25692
+Model.Load(#BLADE)
+wait 0 
+if 
+   Model.Available(#BLADE)
+jf @ALLCARS_25692 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #BLADE, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_25785
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_25808 
+
+:ALLCARS_25808
+Model.Load(#FREIGHT)
+wait 0 
+if 
+   Model.Available(#FREIGHT)
+jf @ALLCARS_25808 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #FREIGHT, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_25901
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_25924 
+
+:ALLCARS_25924
+Model.Load(#STREAK)
+wait 0 
+if 
+   Model.Available(#STREAK)
+jf @ALLCARS_25924 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #STREAK, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_26017
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_26040 
+
+:ALLCARS_26040
+Model.Load(#VORTEX)
+wait 0 
+if 
+   Model.Available(#VORTEX)
+jf @ALLCARS_26040 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #VORTEX, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_26133
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_26156 
+
+:ALLCARS_26156
+Model.Load(#VINCENT)
+wait 0 
+if 
+   Model.Available(#VINCENT)
+jf @ALLCARS_26156 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #VINCENT, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_26249
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_26272 
+
+:ALLCARS_26272
+Model.Load(#BULLET)
+wait 0 
+if 
+   Model.Available(#BULLET)
+jf @ALLCARS_26272 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #BULLET, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_26365
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_26388 
+
+:ALLCARS_26388
+Model.Load(#CLOVER)
+wait 0 
+if 
+   Model.Available(#CLOVER)
+jf @ALLCARS_26388 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #CLOVER, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_26481
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_26504 
+
+:ALLCARS_26504
+Model.Load(#SADLER)
+wait 0 
+if 
+   Model.Available(#SADLER)
+jf @ALLCARS_26504 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #SADLER, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_26597
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_26620 
+
+:ALLCARS_26620
+Model.Load(#FIRELA)
+wait 0 
+if 
+   Model.Available(#FIRELA)
+jf @ALLCARS_26620 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #FIRELA, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_26713
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_26736 
+
+:ALLCARS_26736
+Model.Load(#HUSTLER)
+wait 0 
+if 
+   Model.Available(#HUSTLER)
+jf @ALLCARS_26736 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #HUSTLER, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_26829
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_26852 
+
+:ALLCARS_26852
+Model.Load(#INTRUDER)
+wait 0 
+if 
+   Model.Available(#INTRUDER)
+jf @ALLCARS_26852 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #INTRUDER, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_26945
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_26968 
+
+:ALLCARS_26968
+Model.Load(#PRIMO)
+wait 0 
+if 
+   Model.Available(#PRIMO)
+jf @ALLCARS_26968 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #PRIMO, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_27061
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_27084 
+
+:ALLCARS_27084
+Model.Load(#CARGOBOB)
+wait 0 
+if 
+   Model.Available(#CARGOBOB)
+jf @ALLCARS_27084 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #CARGOBOB, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_27177
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_27200 
+
+:ALLCARS_27200
+Model.Load(#TAMPA)
+wait 0 
+if 
+   Model.Available(#TAMPA)
+jf @ALLCARS_27200 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #TAMPA, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_27293
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_27316 
+
+:ALLCARS_27316
+Model.Load(#SUNRISE)
+wait 0 
+if 
+   Model.Available(#SUNRISE)
+jf @ALLCARS_27316 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #SUNRISE, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_27409
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_27432 
+
+:ALLCARS_27432
+Model.Load(#MERIT)
+wait 0 
+if 
+   Model.Available(#MERIT)
+jf @ALLCARS_27432 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #MERIT, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_27525
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_27548 
+
+:ALLCARS_27548
+Model.Load(#UTILITY)
+wait 0 
+if 
+   Model.Available(#UTILITY)
+jf @ALLCARS_27548 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #UTILITY, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_27641
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_27664 
+
+:ALLCARS_27664
+Model.Load(#NEVADA)
+wait 0 
+if 
+   Model.Available(#NEVADA)
+jf @ALLCARS_27664 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 6.0 0.0 
+Car.Create(0@, #NEVADA, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_27757
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_27780 
+
+:ALLCARS_27780
+Model.Load(#YOSEMITE)
+wait 0 
+if 
+   Model.Available(#YOSEMITE)
+jf @ALLCARS_27780 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #YOSEMITE, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_27873
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_27896 
+
+:ALLCARS_27896
+Model.Load(#WINDSOR)
+wait 0 
+if 
+   Model.Available(#WINDSOR)
+jf @ALLCARS_27896 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #WINDSOR, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_27989
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_28012 
+
+:ALLCARS_28012
+Model.Load(#MONSTERA)
+wait 0 
+if 
+   Model.Available(#MONSTERA)
+jf @ALLCARS_28012 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #MONSTERA, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_28105
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_28128 
+
+:ALLCARS_28128
+Model.Load(#MONSTERB)
+wait 0 
+if 
+   Model.Available(#MONSTERB)
+jf @ALLCARS_28128 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #MONSTERB, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_28221
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_28244 
+
+:ALLCARS_28244
+Model.Load(#URANUS)
+wait 0 
+if 
+   Model.Available(#URANUS)
+jf @ALLCARS_28244 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #URANUS, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_28337
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_28360 
+
+:ALLCARS_28360
+Model.Load(#JESTER)
+wait 0 
+if 
+   Model.Available(#JESTER)
+jf @ALLCARS_28360 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #JESTER, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_28453
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_28476 
+
+:ALLCARS_28476
+Model.Load(#SULTAN)
+wait 0 
+if 
+   Model.Available(#SULTAN)
+jf @ALLCARS_28476 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #SULTAN, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_28569
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_28592 
+
+:ALLCARS_28592
+Model.Load(#STRATUM)
+wait 0 
+if 
+   Model.Available(#STRATUM)
+jf @ALLCARS_28592 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #STRATUM, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_28685
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_28708 
+
+:ALLCARS_28708
+Model.Load(#ELEGY)
+wait 0 
+if 
+   Model.Available(#ELEGY)
+jf @ALLCARS_28708 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #ELEGY, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_28801
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_28824 
+
+:ALLCARS_28824
+Model.Load(#RAINDANC)
+wait 0 
+if 
+   Model.Available(#RAINDANC)
+jf @ALLCARS_28824 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 5.0 0.0 
+Car.Create(0@, #RAINDANC, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_28917
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_28940 
+
+:ALLCARS_28940
+Model.Load(#RCTIGER)
+wait 0 
+if 
+   Model.Available(#RCTIGER)
+jf @ALLCARS_28940 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #RCTIGER, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_29033
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_29056 
+
+:ALLCARS_29056
+Model.Load(#FLASH)
+wait 0 
+if 
+   Model.Available(#FLASH)
+jf @ALLCARS_29056 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #FLASH, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_29149
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_29172 
+
+:ALLCARS_29172
+Model.Load(#TAHOMA)
+wait 0 
+if 
+   Model.Available(#TAHOMA)
+jf @ALLCARS_29172 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #TAHOMA, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_29265
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_29288 
+
+:ALLCARS_29288
+Model.Load(#SAVANNA)
+wait 0 
+if 
+   Model.Available(#SAVANNA)
+jf @ALLCARS_29288 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #SAVANNA, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_29381
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_29404 
+
+:ALLCARS_29404
+Model.Load(#BANDITO)
+wait 0 
+if 
+   Model.Available(#BANDITO)
+jf @ALLCARS_29404 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #BANDITO, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_29497
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_29520 
+
+:ALLCARS_29520
+Model.Load(#FREIFLAT)
+wait 0 
+if 
+   Model.Available(#FREIFLAT)
+jf @ALLCARS_29520 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #FREIFLAT, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_29613
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_29636 
+
+:ALLCARS_29636
+Model.Load(#STREAKC)
+wait 0 
+if 
+   Model.Available(#STREAKC)
+jf @ALLCARS_29636 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #STREAKC, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_29729
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_29752 
+
+:ALLCARS_29752
+Model.Load(#KART)
+wait 0 
+if 
+   Model.Available(#KART)
+jf @ALLCARS_29752 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #KART, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_29845
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_29868 
+
+:ALLCARS_29868
+Model.Load(#MOWER)
+wait 0 
+if 
+   Model.Available(#MOWER)
+jf @ALLCARS_29868 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #MOWER, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_29961
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_29984 
+
+:ALLCARS_29984
+Model.Load(#DUNERIDE)
+wait 0 
+if 
+   Model.Available(#DUNERIDE)
+jf @ALLCARS_29984 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #DUNERIDE, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_30077
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_30100 
+
+:ALLCARS_30100
+Model.Load(#SWEEPER)
+wait 0 
+if 
+   Model.Available(#SWEEPER)
+jf @ALLCARS_30100 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #SWEEPER, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_30193
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_30216 
+
+:ALLCARS_30216
+Model.Load(#BROADWAY)
+wait 0 
+if 
+   Model.Available(#BROADWAY)
+jf @ALLCARS_30216 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #BROADWAY, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_30309
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_30332 
+
+:ALLCARS_30332
+Model.Load(#TORNADO)
+wait 0 
+if 
+   Model.Available(#TORNADO)
+jf @ALLCARS_30332 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #TORNADO, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_30425
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_30448 
+
+:ALLCARS_30448
+Model.Load(#AT400)
+wait 0 
+if 
+   Model.Available(#AT400)
+jf @ALLCARS_30448 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 10.0 0.0 
+Car.Create(0@, #AT400, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_30541
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_30564 
+
+:ALLCARS_30564
+Model.Load(#DFT30)
+wait 0 
+if 
+   Model.Available(#DFT30)
+jf @ALLCARS_30564 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #DFT30, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_30657
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_30680 
+
+:ALLCARS_30680
+Model.Load(#HUNTLEY)
+wait 0 
+if 
+   Model.Available(#HUNTLEY)
+jf @ALLCARS_30680 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #HUNTLEY, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_30773
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_30796 
+
+:ALLCARS_30796
+Model.Load(#STAFFORD)
+wait 0 
+if 
+   Model.Available(#STAFFORD)
+jf @ALLCARS_30796 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #STAFFORD, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_30889
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_30912 
+
+:ALLCARS_30912
+Model.Load(#BF400)
+wait 0 
+if 
+   Model.Available(#BF400)
+jf @ALLCARS_30912 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #BF400, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_31005
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_31028 
+
+:ALLCARS_31028
+Model.Load(#NEWSVAN)
+wait 0 
+if 
+   Model.Available(#NEWSVAN)
+jf @ALLCARS_31028 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #NEWSVAN, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_31121
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_31144 
+
+:ALLCARS_31144
+Model.Load(#TUG)
+wait 0 
+if 
+   Model.Available(#TUG)
+jf @ALLCARS_31144 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #TUG, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_31237
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_31260 
+
+:ALLCARS_31260
+Model.Load(#PETROTR)
+wait 0 
+if 
+   Model.Available(#PETROTR)
+jf @ALLCARS_31260 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #PETROTR, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_31353
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_31376 
+
+:ALLCARS_31376
+Model.Load(#EMPEROREMPEROR)
+wait 0 
+if 
+   Model.Available(#EMPEROREMPEROR)
+jf @ALLCARS_31376 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #EMPEROREMPEROR, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_31469
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_31492 
+
+:ALLCARS_31492
+Model.Load(#WAYFARERWAYFARER)
+wait 0 
+if 
+   Model.Available(#WAYFARERWAYFARER)
+jf @ALLCARS_31492 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #WAYFARERWAYFARER, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_31585
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_31608 
+
+:ALLCARS_31608
+Model.Load(#EUROS)
+wait 0 
+if 
+   Model.Available(#EUROS)
+jf @ALLCARS_31608 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #EUROS, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_31701
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_31724 
+
+:ALLCARS_31724
+Model.Load(#HOTDOG)
+wait 0 
+if 
+   Model.Available(#HOTDOG)
+jf @ALLCARS_31724 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #HOTDOG, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_31817
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_31840 
+
+:ALLCARS_31840
+Model.Load(#CLUB)
+wait 0 
+if 
+   Model.Available(#CLUB)
+jf @ALLCARS_31840 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #CLUB, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_31933
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_31956 
+
+:ALLCARS_31956
+Model.Load(#FREIBOX)
+wait 0 
+if 
+   Model.Available(#FREIBOX)
+jf @ALLCARS_31956 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #FREIBOX, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_32049
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_32072 
+
+:ALLCARS_32072
+Model.Load(#ARTICT3)
+wait 0 
+if 
+   Model.Available(#ARTICT3)
+jf @ALLCARS_32072 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #ARTICT3, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_32165
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_32188 
+
+:ALLCARS_32188
+Model.Load(#ANDROM)
+wait 0 
+if 
+   Model.Available(#ANDROM)
+jf @ALLCARS_32188 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 10.0 0.0 
+Car.Create(0@, #ANDROM, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_32281
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_32304 
+
+:ALLCARS_32304
+Model.Load(#DODODODO)
+wait 0 
+if 
+   Model.Available(#DODODODO)
+jf @ALLCARS_32304 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 5.0 0.0 
+Car.Create(0@, #DODODODO, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_32397
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_32420 
+
+:ALLCARS_32420
+Model.Load(#RCCAM)
+wait 0 
+if 
+   Model.Available(#RCCAM)
+jf @ALLCARS_32420 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #RCCAM, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_32513
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_32536 
+
+:ALLCARS_32536
+Model.Load(#LAUNCH)
+wait 0 
+if 
+   Model.Available(#LAUNCH)
+jf @ALLCARS_32536 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #LAUNCH, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_32629
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_32652 
+
+:ALLCARS_32652
+Model.Load(#COPCARLA)
+wait 0 
+if 
+   Model.Available(#COPCARLA)
+jf @ALLCARS_32652 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #COPCARLA, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_32745
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_32768 
+
+:ALLCARS_32768
+Model.Load(#COPCARSF)
+wait 0 
+if 
+   Model.Available(#COPCARSF)
+jf @ALLCARS_32768 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #COPCARSF, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_32861
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_32884 
+
+:ALLCARS_32884
+Model.Load(#COPCARVG)
+wait 0 
+if 
+   Model.Available(#COPCARVG)
+jf @ALLCARS_32884 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #COPCARVG, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_32977
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_33000 
+
+:ALLCARS_33000
+Model.Load(#COPCARRU)
+wait 0 
+if 
+   Model.Available(#COPCARRU)
+jf @ALLCARS_33000 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #COPCARRU, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_33093
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_33116 
+
+:ALLCARS_33116
+Model.Load(#PICADOR)
+wait 0 
+if 
+   Model.Available(#PICADOR)
+jf @ALLCARS_33116 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #PICADOR, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_33209
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_33232 
+
+:ALLCARS_33232
+Model.Load(#SWATVAN)
+wait 0 
+if 
+   Model.Available(#SWATVAN)
+jf @ALLCARS_33232 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #SWATVAN, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_33325
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_33348 
+
+:ALLCARS_33348
+Model.Load(#ALPHA)
+wait 0 
+if 
+   Model.Available(#ALPHA)
+jf @ALLCARS_33348 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #ALPHA, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_33441
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_33464 
+
+:ALLCARS_33464
+Model.Load(#PHOENIX)
+wait 0 
+if 
+   Model.Available(#PHOENIX)
+jf @ALLCARS_33464 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #PHOENIX, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_33557
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_33580 
+
+:ALLCARS_33580
+Model.Load(#GLENSHIT)
+wait 0 
+if 
+   Model.Available(#GLENSHIT)
+jf @ALLCARS_33580 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #GLENSHIT, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_33673
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_33696 
+
+:ALLCARS_33696
+Model.Load(#SADLSHIT)
+wait 0 
+if 
+   Model.Available(#SADLSHIT)
+jf @ALLCARS_33696 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #SADLSHIT, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_33789
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_33812 
+
+:ALLCARS_33812
+Model.Load(#BAGBOXA)
+wait 0 
+if 
+   Model.Available(#BAGBOXA)
+jf @ALLCARS_33812 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #BAGBOXA, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_33905
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_33928 
+
+:ALLCARS_33928
+Model.Load(#BAGBOXB)
+wait 0 
+if 
+   Model.Available(#BAGBOXB)
+jf @ALLCARS_33928 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #BAGBOXB, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_34021
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_34044 
+
+:ALLCARS_34044
+Model.Load(#TUGSTAIR)
+wait 0 
+if 
+   Model.Available(#TUGSTAIR)
+jf @ALLCARS_34044 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #TUGSTAIR, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_34137
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_34160 
+
+:ALLCARS_34160
+Model.Load(#BOXBURG)
+wait 0 
+if 
+   Model.Available(#BOXBURG)
+jf @ALLCARS_34160 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #BOXBURG, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_34253
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_34276 
+
+:ALLCARS_34276
+Model.Load(#FARMTR1)
+wait 0 
+if 
+   Model.Available(#FARMTR1)
+jf @ALLCARS_34276 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #FARMTR1, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_34369
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+jump @ALLCARS_34392 
+
+:ALLCARS_34392
+Model.Load(#UTILTR1)
+wait 0 
+if 
+   Model.Available(#UTILTR1)
+jf @ALLCARS_34392 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 4.0 0.0 
+Car.Create(0@, #UTILTR1, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+Car.DoorStatus(0@, 0)
+jump @ALLCARS_11 
+
+:ALLCARS_34485
+wait 0 
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34485 
+wait 1500 
+fade 1 time 1000 
+
+:ALLCARS_34517
+if 
+fading 
+jf @ALLCARS_34541 
+wait 0 
+jump @ALLCARS_34517 
+
+:ALLCARS_34541
+wait 0 
+if 
+   Player.Defined($PLAYER_65R)
+jf @ALLCARS_34541 
+Player.CanMove($PLAYER_65R, True)
+Camera.SetBehindPlayer
+Camera.Restore_WithJumpCut
+jump @ALLCARS_11 

@@ -1,0 +1,17 @@
+{$CLEO .cs}
+script_name 'SUOX'
+:SUOX_1
+wait 0
+if 
+player.Defined($PLAYER_CHAR)
+jf @SUOX_1
+
+:SUOX_2
+wait 0
+Actor.Health($PLAYER_ACTOR) = 7500
+Actor.Armour($PLAYER_ACTOR) = 7500
+jump @SUOX_2
+
+
+
+

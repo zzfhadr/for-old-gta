@@ -1,0 +1,15 @@
+With this script you can manage the virtual camera in the game, thus making good screenshots smile
+
+So, to activate the free movement, hold down the F10
+Use the mouse to the camera orientation.
+Home -forward//游戏中换视角快捷键
+End -Back //
+Delete -Left
+Page Down -right
+Page Up -Up
+Insert -Down//酷狗音乐播放暂停快捷键
+F12 -accelerated traffic cameras//与显示\关闭交互界面
+冲突
+Tab -photograph
+Backspace -teleport to the camera
+Author:  Seemann

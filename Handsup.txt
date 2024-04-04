@@ -1,0 +1,53 @@
+// This file was decompiled using SASCM.ini published on 2021-07-05
+{$CLEO .cs}
+
+script_name 'HANDSUP' 
+
+:HANDSUP_11
+wait 0 
+if 
+   Player.Defined($PLAYER_CHAR)
+jf @HANDSUP_11 
+if 
+is_key_pressed 66 
+jf @HANDSUP_11 
+04ED: load_animation "RIOT" 
+
+:HANDSUP_54
+wait 0 
+if 
+04EE:   animation "RIOT" loaded 
+jf @HANDSUP_84 
+jump @HANDSUP_99 
+
+:HANDSUP_84
+04ED: load_animation "RIOT" 
+jump @HANDSUP_54 
+
+:HANDSUP_99
+wait 0 
+0470: 0@ = actor $PLAYER_ACTOR current_weapon 
+01B9: set_actor $PLAYER_ACTOR armed_weapon_to 0 
+0992: set_player $PLAYER_CHAR weapons_scrollable 0 
+01F7: set_player $PLAYER_CHAR ignored_by_cops 1 
+0605: actor $PLAYER_ACTOR perform_animation "HANDSUP" IFP "PED" framedelta 4.0 loop 0 lockX 0 lockY 0 lockF 1 time 0 
+wait 1500 
+set_weather 6 
+01F0: set_max_wanted_level_to 5 
+0687: clear_actor $PLAYER_ACTOR task 
+01B9: set_actor $PLAYER_ACTOR armed_weapon_to 0@ 
+01F7: set_player $PLAYER_CHAR ignored_by_cops 0 
+0992: set_player $PLAYER_CHAR weapons_scrollable 1 
+if 
+   Player.WantedLevel($PLAYER_CHAR) > 0
+jf @HANDSUP_11 
+Player.ClearWantedLevel($PLAYER_CHAR)
+01B9: set_actor $PLAYER_ACTOR armed_weapon_to 0 
+00BC: show_text_highpriority GXT 'HANDUP' time 4000 flag 1 
+wait 500 
+0605: actor $PLAYER_ACTOR perform_animation "RIOT_FUKU" IFP "RIOT" framedelta 4.0 loop 0 lockX 0 lockY 0 lockF 1 time -1 
+wait 1200 
+0687: clear_actor $PLAYER_ACTOR task 
+01B9: set_actor $PLAYER_ACTOR armed_weapon_to 0@ 
+Player.Money($PLAYER_CHAR) += -100
+jump @HANDSUP_11 

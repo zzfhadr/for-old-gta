@@ -1,0 +1,32 @@
+{$CLEO}
+0000: 
+
+:GAKK
+wait 0  
+if    and
+    Player.Defined($PLAYER_CHAR)
+is_key_pressed 57   //9
+is_key_pressed    49 //1
+jf @GAKK
+
+Model.Load(#spraycan)
+Model.Load(#katana)
+Model.Load(#molotov  )
+Model.Load(#sawnoff )
+Model.Load(#micro_uzi )
+Model.Load(#sniper )
+Model.Load(#minigun )
+Model.Load(#gun_vibe1)
+
+
+
+01B2: give_actor $PLAYER_ACTOR weapon 41 ammo 60 // Load the weapon model before using this
+01B2: give_actor $PLAYER_ACTOR weapon 8 ammo 60
+01B2: give_actor $PLAYER_ACTOR weapon 18 ammo 60
+01B2: give_actor $PLAYER_ACTOR weapon 26 ammo 60
+01B2: give_actor $PLAYER_ACTOR weapon 28 ammo 60
+01B2: give_actor $PLAYER_ACTOR weapon 34 ammo 60
+01B2: give_actor $PLAYER_ACTOR weapon 38 ammo 60
+01B2: give_actor $PLAYER_ACTOR weapon 12 ammo 60
+wait 600
+jump @GAKK

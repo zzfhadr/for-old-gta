@@ -1,0 +1,296 @@
+// This file was decompiled using SASCM.ini published on 2021-07-05
+{$CLEO .cs}
+
+script_name 'VEHIECLE' 
+
+:VEHIECLE_1
+wait 0 
+if or
+ not is_key_pressed   32  //spacebar
+ not is_key_pressed  57 //9 
+jf @VEHIECLE_12 
+if or
+ not is_key_pressed   32  //spacebar
+not is_key_pressed  56 //8
+jf @VEHIECLE_13 
+if   or
+not is_key_pressed   32  //spacebar
+not is_key_pressed  55 //7  
+jf @VEHIECLE_14 
+if or
+  not is_key_pressed   32  //spacebar
+not is_key_pressed  48 //0  
+jf @VEHIECLE_15 
+if or
+   not is_key_pressed   32  //spacebar
+not is_key_pressed  50 //2 
+jf @VEHIECLE_16 
+if or
+  not is_key_pressed   32  //spacebar
+not is_key_pressed  53//3
+jf @VEHIECLE_17
+if or
+   not is_key_pressed   32  //spacebar
+not is_key_pressed  51 //5 
+jf @VEHIECLE_18 
+if or
+ not is_key_pressed   32  //spacebar
+not is_key_pressed  52 //4
+jf @VEHIECLE_19
+if or
+ not is_key_pressed   32  //spacebar
+not is_key_pressed  49 //1  
+jf @VEHIECLE_20 
+if or
+not is_key_pressed   32  //spacebar
+not is_key_pressed  54 //6
+jf @VEHIECLE_21 
+jump @VEHIECLE_1 
+
+:VEHIECLE_12
+if 
+   Player.Defined($PLAYER_CHAR)
+jf @VEHIECLE_1340 
+jump @VEHIECLE_203 
+   
+:VEHIECLE_203
+Model.Load(#NRG500)
+wait 0 
+if 
+   Model.Available(#NRG500)
+jf @VEHIECLE_203 
+0172: 4@ = actor $PLAYER_ACTOR Z_angle
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 2.0 0.0 
+Car.Create(0@, #NRG500, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+0175: set_car 0@ Z_angle_to 4@
+036A: put_actor $PLAYER_ACTOR in_car 0@
+Car.RemoveReferences(0@)
+wait 500
+jump @VEHIECLE_1 
+
+:VEHIECLE_13
+if 
+   Player.Defined($PLAYER_CHAR)
+jf @VEHIECLE_1340 
+jump @VEHIECLE_319 
+
+:VEHIECLE_319
+Model.Load(#PCJ600)
+wait 0 
+if 
+   Model.Available(#PCJ600)
+jf @VEHIECLE_319 
+0172: 4@ = actor $PLAYER_ACTOR Z_angle
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 2.0 0.0 
+Car.Create(0@, #PCJ600, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+0175: set_car 0@ Z_angle_to 4@
+036A: put_actor $PLAYER_ACTOR in_car 0@
+Car.RemoveReferences(0@)
+wait 500
+jump @VEHIECLE_1 
+
+:VEHIECLE_14
+if 
+   Player.Defined($PLAYER_CHAR)
+jf @VEHIECLE_1340 
+jump @VEHIECLE_435 
+
+:VEHIECLE_435
+Model.Load(#COPBIKE)
+wait 0 
+if 
+   Model.Available(#COPBIKE)
+jf @VEHIECLE_435 
+0172: 4@ = actor $PLAYER_ACTOR Z_angle
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 2.0 0.0 
+Car.Create(0@, #COPBIKE, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+0175: set_car 0@ Z_angle_to 4@
+036A: put_actor $PLAYER_ACTOR in_car 0@
+Car.RemoveReferences(0@)
+wait 500
+jump @VEHIECLE_1 
+
+:VEHIECLE_15
+if 
+   Player.Defined($PLAYER_CHAR)
+jf @VEHIECLE_1340 
+jump @VEHIECLE_551 
+
+:VEHIECLE_551
+Model.Load(#TURISMO)
+wait 0 
+if 
+   Model.Available(#TURISMO)
+jf @VEHIECLE_551 
+0172: 4@ = actor $PLAYER_ACTOR Z_angle
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 2.0 0.0 
+Car.Create(0@, #TURISMO, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+0175: set_car 0@ Z_angle_to 4@
+036A: put_actor $PLAYER_ACTOR in_car 0@
+Car.RemoveReferences(0@)
+wait 500
+jump @VEHIECLE_1 
+
+:VEHIECLE_16
+if 
+   Player.Defined($PLAYER_CHAR)
+jf @VEHIECLE_1340 
+jump @VEHIECLE_667 
+
+:VEHIECLE_667
+Model.Load(#INFERNUS)
+wait 0 
+if 
+   Model.Available(#INFERNUS)
+jf @VEHIECLE_667 
+0172: 4@ = actor $PLAYER_ACTOR Z_angle
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 2.0 0.0 
+Car.Create(0@, #INFERNUS, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+0175: set_car 0@ Z_angle_to 4@
+036A: put_actor $PLAYER_ACTOR in_car 0@
+Car.RemoveReferences(0@)
+wait 500
+jump @VEHIECLE_1 
+
+:VEHIECLE_17
+if 
+   Player.Defined($PLAYER_CHAR)
+jf @VEHIECLE_1340 
+jump @VEHIECLE_783 
+
+:VEHIECLE_783
+Model.Load(#PACKER)
+wait 0 
+if 
+   Model.Available(#PACKER)
+jf @VEHIECLE_783 
+0172: 4@ = actor $PLAYER_ACTOR Z_angle
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 2.0 0.0 
+Car.Create(0@, #PACKER, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+0175: set_car 0@ Z_angle_to 4@
+036A: put_actor $PLAYER_ACTOR in_car 0@
+Car.RemoveReferences(0@)
+wait 500
+jump @VEHIECLE_1 
+
+:VEHIECLE_18
+if 
+   Player.Defined($PLAYER_CHAR)
+jf @VEHIECLE_1340 
+jump @VEHIECLE_899 
+
+:VEHIECLE_899
+Model.Load(#HYDRA)
+wait 0 
+if 
+   Model.Available(#HYDRA)
+jf @VEHIECLE_899 
+0172: 4@ = actor $PLAYER_ACTOR Z_angle
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 2.0 0.0 
+Car.Create(0@, #HYDRA, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+0175: set_car 0@ Z_angle_to 4@
+036A: put_actor $PLAYER_ACTOR in_car 0@
+Car.RemoveReferences(0@)
+wait 500
+jump @VEHIECLE_1 
+
+:VEHIECLE_19
+if 
+   Player.Defined($PLAYER_CHAR)
+jf @VEHIECLE_1340 
+jump @VEHIECLE_1015 
+ 
+:VEHIECLE_1015
+ /*
+Model.Load(#VCNMAV)
+wait 0 
+if 
+   Model.Available(#VCNMAV)
+jf @VEHIECLE_1015 
+0172: 4@ = actor $PLAYER_ACTOR Z_angle
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 2.0 0.0 
+Car.Create(0@, #VCNMAV, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+0175: set_car 0@ Z_angle_to 4@
+036A: put_actor $PLAYER_ACTOR in_car 0@
+Car.RemoveReferences(0@)
+wait 500    */
+07A7: put_jetpack_on_actor $PLAYER_ACTOR
+wait 500 
+jump @VEHIECLE_1 
+
+:VEHIECLE_20
+if 
+   Player.Defined($PLAYER_CHAR)
+jf @VEHIECLE_1340 
+jump @VEHIECLE_1131 
+
+:VEHIECLE_1131
+Model.Load(#RHINO)
+wait 0 
+if 
+   Model.Available(#RHINO)
+jf @VEHIECLE_1131 
+0172: 4@ = actor $PLAYER_ACTOR Z_angle
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 2.0 0.0 
+Car.Create(0@, #RHINO, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+0175: set_car 0@ Z_angle_to 4@
+036A: put_actor $PLAYER_ACTOR in_car 0@
+Car.RemoveReferences(0@)
+wait 500
+jump @VEHIECLE_1 
+
+:VEHIECLE_21
+if 
+   Player.Defined($PLAYER_CHAR)
+jf @VEHIECLE_1340 
+jump @VEHIECLE_1247 
+
+:VEHIECLE_1247
+Model.Load(#SQUALO)
+wait 0 
+if 
+   Model.Available(#SQUALO)
+jf @VEHIECLE_1247 
+0172: 4@ = actor $PLAYER_ACTOR Z_angle
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 2.0 0.0 
+Car.Create(0@, #SQUALO, 1@, 2@, 3@)
+Car.Health(0@) = 1500
+0175: set_car 0@ Z_angle_to 4@
+036A: put_actor $PLAYER_ACTOR in_car 0@
+Car.RemoveReferences(0@)
+wait 500
+jump @VEHIECLE_1 
+
+:VEHIECLE_1340
+wait 0 
+if 
+   Player.Defined($PLAYER_CHAR)
+jf @VEHIECLE_1340 
+wait 1500 
+fade 1 time 1000 
+
+:VEHIECLE_1372
+if 
+fading 
+jf @VEHIECLE_1396 
+wait 0 
+jump @VEHIECLE_1372 
+
+:VEHIECLE_1396
+wait 0 
+if 
+   Player.Defined($PLAYER_CHAR)
+jf @VEHIECLE_1396 
+Player.CanMove($PLAYER_CHAR, True)
+Camera.SetBehindPlayer
+Camera.Restore_WithJumpCut
+jump @VEHIECLE_1 

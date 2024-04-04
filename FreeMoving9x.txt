@@ -1,0 +1,263 @@
+{$CLEO .cs} // <----- all of this . Use always .cs in end of cleo . If you have a good knowledge of coding you can edit .cs with other ( because cleo 4 Support )
+{$NOSOURCE} // <----- Text Below will be hide and deleted in cs file if you compile this text with this directive
+
+thread "Super9xTerriffic" // Thread will read once each script if you use code 004F
+
+// Use Sanny Builder to compile this file
+// By Alvian9xpro
+
+0ADF: add_dynamic_GXT_entry 'frm9x' text "Free Moving Activated"
+:TryToJunk_1 // You starts here 
+wait 0
+if
+0256:   player $PLAYER_CHAR defined // Useful Code if you want to Make a cleo code . need once
+else_jump @TryToJunk_1 // If you die . then you will be loop on this code until you can control player again because logic set opcode 0256
+// opcode 004D Or jf or else_jump is same !!!
+0ADF: add_dynamic_GXT_entry "F89re" text "~r~." // Just testing when Stop key is Active
+0AB4: 4@ = var 694
+0AB4: 9@ = var 693
+0AB4: 10@ = var 692
+0AB4: 11@ = var 691
+0AB4: 12@ = var 690
+0AB4: 13@ = var 690
+0AB4: 14@ = var 690
+0AB4: 15@ = var 690
+0AB4: 16@ = var 690
+0AB4: 17@ = var 689
+0AB4: 18@ = var 688 // We can call this global variable ( 0 - 999 )
+9@ = 0
+      0AF0: 10@ = get_int_from_ini_file "cleo\Free9x.ini" section "A9x" key "Key" // This is how cleo files will read files .ini
+      0AF2: 11@ = get_float_from_ini_file "cleo\Free9x.ini" section "B9x" key "Rotate_left"
+      0AF2: 12@ = get_float_from_ini_file "cleo\Free9x.ini" section "C9x" key "Rotate_Right"
+      0AF2: 13@ = get_float_from_ini_file "cleo\Free9x.ini" section "D9x" key "Move_Forward"
+      0AF2: 14@ = get_float_from_ini_file "cleo\Free9x.ini" section "E9x" key "Move_Backward"
+      0AF2: 15@ = get_float_from_ini_file "cleo\Free9x.ini" section "F9x" key "Move_Left"
+      0AF2: 16@ = get_float_from_ini_file "cleo\Free9x.ini" section "G9x" key "Move_right"
+      0AF2: 17@ = get_float_from_ini_file "cleo\Free9x.ini" section "H9x" key "Turn_up"
+      0AF2: 18@ = get_float_from_ini_file "cleo\Free9x.ini" section "I9x" key "Turn_down"
+      0AF0: 19@ = get_int_from_ini_file "cleo\Free9x.ini" section "J9x" key "Key"
+
+:Cheats_Is_Here // Cheats
+wait 0
+0ADC:   test_cheat "9xfm"
+004D: jump_if_false @Cheats_Is_Here
+03E5: show_text_box 'frm9x'
+wait 500
+
+
+
+
+:TryToJunk_2 // First Key ( will be loop if key not pressed )
+wait 0
+if and
+0AB0:   key_pressed 10@ 
+0256:   player $PLAYER_CHAR defined
+else_jump @TryToCheats // Loop Key stars here
+044B:   actor $PLAYER_ACTOR on_foot
+else_jump @TryToJunk_2
+jump @TryToJunk_3
+
+:TryToCheats // Deactive cheats
+if
+0ADC:   test_cheat "9xfm"
+jf @TryToJunk_2
+03E5: show_text_box 'CHEAT8'
+wait 500
+jump @Cheats_Is_Here
+
+:TryToJunk_3 // After click !! 
+wait 0
+04C4: store_coords_to 5@ 6@ 7@ from_actor $PLAYER_ACTOR with_offset 1.0 0.0 -1.0 // Store Coords based from Player , Not Blueberry Village ! which is 0.0 0.0 0.0 is there
+4@ = Object.Create(338, 5@, 6@, 7@) // Object . this is for Turret mode
+0750: set_object 4@ visibility 0 // you cant see the object if value is 0/false
+0382: set_object 4@ collision_detection 0 // Object can turn false/0 the collision_detection , that means object not solid and unbreakable
+0619: enable_actor $PLAYER_ACTOR collision_detection 0 // This is it Modders , where the player can Flying like a elephant :v
+0331: set_player $PLAYER_CHAR fast_reload 1
+wait 500
+
+:TryToJam_1 // Next Loop after press the First Key
+wait 0 // Dont forget with this one or you will get crashed . just need once each loop commands
+if or
+0741:   actor $PLAYER_ACTOR busted  // If you Busted , free move will be stoped
+0117:   player $PLAYER_CHAR wasted  // If you Wasted , free move will be stoped
+00DF:   actor $PLAYER_ACTOR driving // If you enter any vehicle , free move will be stoped
+jf @TryToJam_2 // If player not busted or wasted or in vehicle , mod will be turn down to target ( :TryToJam_2 )
+jump @TryToJunk_2Pass
+
+:TryToJunk_2Pass // This is side if you wasted/busted/in_vehicle is true
+wait 100
+0331: set_player $PLAYER_CHAR fast_reload 0
+jump @TryToJunk_2
+
+
+:TryToJam_2 
+00E1:   player 0 pressed_key 6 // Turret mode , If you press aim !!
+// key move . each this will be next to down and to bottom or next jump
+jf @TryToJunk_4
+if
+9@ == 1
+jf @TryToJam_3
+jump @TryToJam_4
+
+:TryToJam_3
+0470: 8@ = actor $PLAYER_ACTOR current_weapon
+// This is easy one , 8@ is Your weapon , and opcode with first Number is 8*** is said not or not true .        
+// and now we set "if and"                                                                                      
+// It will be like this                                                                                         
+// If i using weapon 45 = Thermal googles , Then its False , and it will be jump to TryToJunk_4 and so on !!    
+if and  
+8039:   8@ == 46
+8039:   8@ == 45
+8039:   8@ == 44
+8039:   8@ == 36
+8039:   8@ == 35
+8039:   8@ == 34
+8039:   8@ == 9
+jf @TryToJunk_4
+if and
+8039:   8@ == 8
+8039:   8@ == 7
+8039:   8@ == 6
+8039:   8@ == 5
+8039:   8@ == 4
+8039:   8@ == 3
+8039:   8@ == 2
+8039:   8@ == 1
+jf @TryToJunk_4
+8039:   8@ == 0
+jf @TryToJunk_4
+wait 100 
+04F4: put_actor $PLAYER_ACTOR into_turret_on_object 4@ offset_from_object_origin 0.0 0.0 1.0 orientation 0 both_side_angle_limit 360.0 lock_weapon 8@  
+// Put Actor into Object with aim mode is here ! 4@ is object that script create before .
+9@ = 1
+wait 0
+jump @TryToJam_1
+
+:TryToJam_4
+0465: remove_actor $PLAYER_ACTOR from_turret_mode
+0619: enable_actor $PLAYER_ACTOR collision_detection 0
+9@ = 0
+wait 500
+jump @TryToJam_1
+
+
+ 
+:TryToJunk_4
+if 
+0AB0:   key_pressed 39 
+jf @TryToJunk_5
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 16@ 0.0 -1.0 
+08C7: put_actor $PLAYER_ACTOR at 1@ 2@ 3@ dont_warp_gang
+04C4: store_coords_to 5@ 6@ 7@ from_actor $PLAYER_ACTOR with_offset 0.0 0.0 -1.0 
+01BC: put_object 4@ at 5@ 6@ 7@
+0619: enable_actor $PLAYER_ACTOR collision_detection 0
+
+:TryToJunk_5
+if 
+0AB0:   key_pressed 37 
+jf @TryToJunk_6
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 15@ 0.0 -1.0 
+08C7: put_actor $PLAYER_ACTOR at 1@ 2@ 3@ dont_warp_gang
+04C4: store_coords_to 5@ 6@ 7@ from_actor $PLAYER_ACTOR with_offset 0.0 0.0 -1.0 
+01BC: put_object 4@ at 5@ 6@ 7@
+0619: enable_actor $PLAYER_ACTOR collision_detection 0
+
+:TryToJunk_6
+if 
+0AB0:   key_pressed 38 
+jf @TryToJunk_7 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 13@ -1.0 
+08C7: put_actor $PLAYER_ACTOR at 1@ 2@ 3@ dont_warp_gang
+04C4: store_coords_to 5@ 6@ 7@ from_actor $PLAYER_ACTOR with_offset 0.0 0.0 -1.0 
+01BC: put_object 4@ at 5@ 6@ 7@
+0619: enable_actor $PLAYER_ACTOR collision_detection 0
+
+:TryToJunk_7
+if 
+0AB0:   key_pressed 40 
+jf @TryToJunk_8 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 14@ -1.0 
+08C7: put_actor $PLAYER_ACTOR at 1@ 2@ 3@ dont_warp_gang
+04C4: store_coords_to 5@ 6@ 7@ from_actor $PLAYER_ACTOR with_offset 0.0 0.0 -1.0 
+01BC: put_object 4@ at 5@ 6@ 7@
+0619: enable_actor $PLAYER_ACTOR collision_detection 0
+
+:TryToJunk_8
+if 
+0AB0:   key_pressed 87 
+jf @TryToJunk_9 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 0.0 17@
+08C7: put_actor $PLAYER_ACTOR at 1@ 2@ 3@ dont_warp_gang
+04C4: store_coords_to 5@ 6@ 7@ from_actor $PLAYER_ACTOR with_offset 0.0 0.0 -1.0 
+01BC: put_object 4@ at 5@ 6@ 7@
+0619: enable_actor $PLAYER_ACTOR collision_detection 0
+
+:TryToJunk_9
+if 
+0AB0:   key_pressed 83 
+jf @TryToJunk_10 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 0.0 18@ 
+08C7: put_actor $PLAYER_ACTOR at 1@ 2@ 3@ dont_warp_gang
+04C4: store_coords_to 5@ 6@ 7@ from_actor $PLAYER_ACTOR with_offset 0.0 0.0 -1.0 
+01BC: put_object 4@ at 5@ 6@ 7@
+0619: enable_actor $PLAYER_ACTOR collision_detection 0
+
+:TryToJunk_10
+if 
+0AB0:   key_pressed 65 
+jf @TryToJunk_11 
+0@ = Actor.Angle($PLAYER_ACTOR)
+000B: 0@ += 11@
+Actor.Angle($PLAYER_ACTOR) = 0@
+
+:TryToJunk_11
+if 
+0AB0:   key_pressed 68 
+jf @TryToJunk_11st 
+0@ = Actor.Angle($PLAYER_ACTOR)
+000F: 0@ -= 12@ 
+Actor.Angle($PLAYER_ACTOR) = 0@
+jump @TryToJunk_12
+
+:StopHere1 // Stop loop
+if or
+0741:   actor $PLAYER_ACTOR busted
+0117:   player $PLAYER_CHAR wasted
+00DF:   actor $PLAYER_ACTOR driving
+jf @StopHere
+jump @TryToJunk_2Pass
+
+:TryToJunk_11st
+if 
+0AB0:   key_pressed 19@ 
+jf @TryToJunk_12
+03E5: show_text_box "F89re" // It will be sound click when you press this ( Simple version )
+wait 0                      //
+03E6: remove_text_box       // This one to remove the text 03E5
+wait 500
+:StopHere
+wait 0
+if 
+0AB0:   key_pressed 19@ 
+jf @StopHere1
+wait 200
+03E5: show_text_box "F89re"
+wait 0
+03E6: remove_text_box
+
+
+ 
+:TryToJunk_12 // This is end of the script , use jf @TryToJam_1 if you want back to first one , and it will be back here ( Looping )
+if 
+0AB0:   key_pressed 115 
+jf @TryToJam_1 
+0465: remove_actor $PLAYER_ACTOR from_turret_mode
+Player.CanMove($PLAYER_CHAR) = True
+0619: enable_actor $PLAYER_ACTOR collision_detection 1
+wait 0
+0108: destroy_object 4@ 
+0331: set_player $PLAYER_CHAR fast_reload 0
+wait 1000 
+jump @TryToJunk_2 // if Trytojunk_12 is true , then it will be back to reset everything , like reset collision detect and fast reload is false
+
+

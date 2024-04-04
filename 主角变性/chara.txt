@@ -1,0 +1,172 @@
+// This file was decompiled using SASCM.ini published on 2021-07-05
+{$CLEO .cs}
+
+script_name 'CHARA' 
+077E: get_active_interior_to 1@ 
+
+:CHARA_16
+wait 0 
+if 
+   not Actor.Dead($PLAYER_ACTOR)
+jf @CHARA_16 
+077E: get_active_interior_to 2@ 
+if and
+0AB0:   is_key_pressed 9
+0AB0:   is_key_pressed 80
+jf @CHARA_16 
+0489: set_actor $PLAYER_ACTOR muted 1 
+0@ = 295 
+gosub @CHARA_1121 
+gosub @CHARA_688 
+062A: change_float_stat 23 to 200.0 
+Player.Build($PLAYER_CHAR)
+wait 100 
+09C7: change_player $PLAYER_CHAR model_to 0@ 
+0489: set_actor $PLAYER_ACTOR muted 1 
+wait 1000 
+
+:CHARA_131
+wait 0 
+077E: get_active_interior_to 2@ 
+gosub @CHARA_243 
+if and
+0AB0:   is_key_pressed 9
+0AB0:   is_key_pressed 80
+jf @CHARA_131 
+0489: set_actor $PLAYER_ACTOR muted 1 
+0@ = 295 
+gosub @CHARA_1121 
+gosub @CHARA_688 
+062A: change_float_stat 23 to 200.0 
+Player.Build($PLAYER_CHAR)
+wait 100 
+09C7: change_player $PLAYER_CHAR model_to #NULL 
+0489: set_actor $PLAYER_ACTOR muted 0 
+wait 1000 
+jump @CHARA_16 
+
+:CHARA_243
+if and
+003B:   1@ == 2@ // (int) 
+   not Actor.Dead($PLAYER_ACTOR)
+   not wasted_or_busted 
+   not fading 
+03D9:   save_done 
+jf @CHARA_558 
+if and
+   not Actor.Animation($PLAYER_ACTOR) == "BRB_SIT_IN"
+   not Actor.Animation($PLAYER_ACTOR) == "BRB_SIT_LOOP"
+   not Actor.Animation($PLAYER_ACTOR) == "BRB_SIT_OUT"
+   not Actor.Animation($PLAYER_ACTOR) == "TAT_SIT_IN_P"
+   not Actor.Animation($PLAYER_ACTOR) == "TAT_SIT_LOOP_P"
+   not Actor.Animation($PLAYER_ACTOR) == "TAT_SIT_OUT_P"
+jf @CHARA_493 
+if and
+   not Actor.Animation($PLAYER_ACTOR) == "CLO_IN"
+   not Actor.Animation($PLAYER_ACTOR) == "CLO_OUT"
+jf @CHARA_438 
+return 
+
+:CHARA_438
+09C7: change_player $PLAYER_CHAR model_to #NULL 
+wait 50 
+0812: AS_actor $PLAYER_ACTOR perform_animation "CLO_IN" IFP "CLOTHES" framedelta 5.0 loopA 0 lockX 1 lockY 1 lockF 1 time -1 // versionB 
+jump @CHARA_588 
+
+:CHARA_493
+wait 0 
+if and
+   not Actor.Animation($PLAYER_ACTOR) == "BRB_SIT_IN"
+   not Actor.Animation($PLAYER_ACTOR) == "TAT_SIT_IN_P"
+jf @CHARA_493 
+09C7: change_player $PLAYER_CHAR model_to #NULL 
+jump @CHARA_588 
+
+:CHARA_558
+if or
+   Actor.Dead($PLAYER_ACTOR)
+wasted_or_busted 
+jf @CHARA_581 
+wait 4000 
+
+:CHARA_581
+09C7: change_player $PLAYER_CHAR model_to #NULL 
+
+:CHARA_588
+wait 0 
+if and
+   not fading 
+03D9:   save_done 
+   not Actor.Dead($PLAYER_ACTOR)
+   not wasted_or_busted 
+8597:   not actor $PLAYER_ACTOR crouching 
+   not Actor.Driving($PLAYER_ACTOR)
+   Player.Controllable($PLAYER_CHAR)
+   Actor.Stopped($PLAYER_ACTOR)
+jf @CHARA_588 
+gosub @CHARA_688 
+gosub @CHARA_1121 
+062A: change_float_stat 23 to 200.0 
+Player.Build($PLAYER_CHAR)
+wait 100 
+09C7: change_player $PLAYER_CHAR model_to 0@ 
+0489: set_actor $PLAYER_ACTOR muted 1 
+077E: get_active_interior_to 1@ 
+return 
+
+:CHARA_688
+wait 0 
+if and
+   not fading 
+03D9:   save_done 
+   not Actor.Dead($PLAYER_ACTOR)
+   not wasted_or_busted 
+8597:   not actor $PLAYER_ACTOR crouching 
+   not Actor.Driving($PLAYER_ACTOR)
+   Player.Controllable($PLAYER_CHAR)
+   Actor.Stopped($PLAYER_ACTOR)
+jf @CHARA_688 
+if and
+   not Actor.Animation($PLAYER_ACTOR) == "GETUP_FRONT"
+   not Actor.Animation($PLAYER_ACTOR) == "KO_SKID_BACK"
+   not Actor.Animation($PLAYER_ACTOR) == "FALL_COLLAPSE"
+   not Actor.Animation($PLAYER_ACTOR) == "FALL_LAND"
+   not Actor.Animation($PLAYER_ACTOR) == "FALL_COLLAPSE"
+   not Actor.Animation($PLAYER_ACTOR) == "FALL_FRONT"
+jf @CHARA_688 
+if and
+   not Actor.Animation($PLAYER_ACTOR) == "FALL_GLIDE"
+   not Actor.Animation($PLAYER_ACTOR) == "FALL_FALL"
+   not Actor.Animation($PLAYER_ACTOR) == "FALL_BACK"
+   not Actor.Animation($PLAYER_ACTOR) == "FALL_SKYDIVE"
+   not Actor.Animation($PLAYER_ACTOR) == "JUMP_GLIDE"
+   not Actor.Animation($PLAYER_ACTOR) == "JUMP_LAND"
+jf @CHARA_688 
+if and
+   not Actor.Animation($PLAYER_ACTOR) == "CLO_IN"
+   not Actor.Animation($PLAYER_ACTOR) == "CLO_OUT"
+   not Actor.Animation($PLAYER_ACTOR) == "BRB_SIT_IN"
+   not Actor.Animation($PLAYER_ACTOR) == "BRB_SIT_LOOP"
+   not Actor.Animation($PLAYER_ACTOR) == "BRB_SIT_OUT"
+   not Actor.Animation($PLAYER_ACTOR) == "TAT_SIT_IN_P"
+   not Actor.Animation($PLAYER_ACTOR) == "TAT_SIT_LOOP_P"
+   not Actor.Animation($PLAYER_ACTOR) == "TAT_SIT_OUT_P"
+jf @CHARA_688 
+return 
+
+:CHARA_1121
+if 
+023D:   special_actor 6 loaded 
+jf @CHARA_1138 
+return 
+
+:CHARA_1138
+if 
+823D:   not special_actor 6 loaded 
+jf @CHARA_1166 
+023C: load_special_actor 'CUIZY' as 6 // models 290-299 
+
+:CHARA_1166
+038B: load_requested_models 
+wait 1000 
+jump @CHARA_1121 

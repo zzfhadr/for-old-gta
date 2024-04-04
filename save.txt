@@ -1,0 +1,50 @@
+// This file was decompiled using SASCM.ini published on 2021-07-05
+{$CLEO .cs}
+
+wait 5000 
+if 
+is_game_version_original 
+jf @NONAME_25 
+jump @NONAME_31 
+
+:NONAME_25
+wait 0 
+terminate_this_custom_script 
+
+:NONAME_31
+wait 0 
+0@ = -386370 
+&0(0@,1i) = 1281312837 
+0@ += 1 
+&0(0@,1i) = 184566095 
+if and
+   Player.Defined($PLAYER_CHAR)
+   not Actor.Driving($PLAYER_ACTOR)
+  $ONMISSION == 0 
+jf @NONAME_220 
+0@ = -388622 
+&0(0@,1i) = 1174732801 
+0@ += 1 
+&0(0@,1i) = 1398756421 
+0@ += 1 
+&0(0@,1i) = 184549447 
+0@ += 1 
+&0(0@,1i) = 16 
+0@ += 1 
+&0(0@,1i) = 65536 
+jump @NONAME_300 
+
+:NONAME_220
+0@ = -388622 
+&0(0@,1i) = 1174405121 
+&0(0@,1i) = 1 
+0@ = -388621 
+
+:NONAME_265
+&0(0@,1i) = 0 
+0@ += 1 
+  0@ > -388617 
+jf @NONAME_265 
+
+:NONAME_300
+jump @NONAME_31 

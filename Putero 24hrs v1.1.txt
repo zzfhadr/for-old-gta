@@ -1,0 +1,191 @@
+// This file was decompiled using SASCM.ini published on 2021-07-05
+{$CLEO .cs}
+
+script_name 'PUTERO' 
+
+:PUTERO_11
+wait 0 
+if 
+Marker.CreateIconWithoutSphere(0@, RadarSprite.LogoSyndicate, -2552.634, 50.045, 16.421)
+if 
+   Player.Defined($PLAYER_CHAR)
+jf @PUTERO_11 
+if 
+00FF:   actor $PLAYER_ACTOR sphere 1 in_sphere -2552.221 54.6302 16.4219 radius 1.0 1.0 1.0 on_foot 
+jf @PUTERO_11 
+fade 0 time 500
+Model.Load(#WFYSEX)
+Model.Load(#GANGRL3)
+023C: load_special_actor 'NURGRL1' as 1 // models 290-299 
+023C: load_special_actor 'OGLOC' as 2 // models 290-299 
+023C: load_special_actor 'GUNGRL2' as 3 // models 290-299 
+023C: load_special_actor 'GANGRL1' as 4 // models 290-299 
+023C: load_special_actor 'SMOKE' as 5 // models 290-299 
+023C: load_special_actor 'COPGRL1' as 6 // models 290-299 
+04ED: load_animation "STRIP" 
+04ED: load_animation "BLOWJOBZ" 
+04ED: load_animation "SEX" 
+04ED: load_animation "BAR" 
+04ED: load_animation "BEACH" 
+04ED: load_animation "SHOP" 
+31@ = Audiostream.Load3D("CLEO\cleo_sounds\ComeGetHer.MP3")
+Audiostream.PerformAction(31@, AudioStreamState.Play)
+038B: load_requested_models 
+gosub @PUTERO_232 
+
+:PUTERO_232
+wait 500
+if and
+Model.Available(#WFYSEX) 
+023D:   special_actor 2 loaded 
+023D:   special_actor 6 loaded 
+023D:   special_actor 5 loaded 
+023D:   special_actor 1 loaded 
+023D:   special_actor 3 loaded 
+023D:   special_actor 4 loaded 
+jf @PUTERO_11 
+if and
+Model.Available(#GANGRL3)
+04EE:   animation "STRIP" loaded 
+04EE:   animation "BLOWJOBZ" loaded 
+04EE:   animation "SEX" loaded 
+04EE:   animation "BAR" loaded 
+04EE:   animation "BEACH" loaded
+04EE:   animation "SHOP" loaded  
+jf @PUTERO_232 
+select_interior 6 
+0860: link_actor $PLAYER_ACTOR to_interior 6 
+04E4: refresh_game_renderer_at 754.126 1440.73 
+Camera.SetAtPos(754.126, 1440.73, 1104.28)
+Object.Create(30@, 1485, 746.02441, 1436.84839, 1102.65503)
+Object.Angle(30@) =  0.461
+0AC3: link_3d_audio_stream 31@ to_object 30@
+Audiostream.Loop(31@, 1)
+Actor.PutAt($PLAYER_ACTOR, 759.6653, 1442.898, 1102.703)
+Actor.Angle($PLAYER_ACTOR) = 180.0
+Actor.Create(1@, PedType.CivFemale, #SPECIAL01, 748.5869, 1437.832, 1102.953)
+Actor.Health(1@) = 250
+Actor.Angle(1@) = 0.0
+0812: AS_actor 1@ perform_animation "STR_C2" IFP "STRIP" framedelta 4.0 loopA 1 lockX 0 lockY 0 lockF 0 time -1 // versionB 
+Actor.Create(4@, PedType.CivMale, #SPECIAL02, 748.5778, 1440.557, 1102.703)
+Actor.Health(4@) = 250
+Actor.Angle(4@) = 180.0
+0812: AS_actor 4@ perform_animation "PUN_HOLLER" IFP "STRIP" framedelta 4.0 loopA 1 lockX 0 lockY 0 lockF 0 time -1 // versionB 
+Actor.Create(5@, PedType.CivFemale, #SPECIAL03, 755.4997, 1442.542, 1102.703)
+Actor.Health(5@) = 250
+Actor.Angle(5@) = 180.0
+0812: AS_actor 5@ perform_animation "BARSERVE_LOOP" IFP "BAR" framedelta 4.0 loopA 1 lockX 0 lockY 0 lockF 0 time -1 // versionB 
+Actor.Create(3@, PedType.CivFemale, #SPECIAL06, 739.4485, 1436.618, 1102.703)
+Actor.Health(3@) = 250
+Actor.Angle(3@) = 270.0
+0812: AS_actor 3@ perform_animation "BJ_STAND_LOOP_W" IFP "BLOWJOBZ" framedelta 4.0 loopA 1 lockX 0 lockY 0 lockF 0 time -1 // versionB 
+Actor.Create(2@, PedType.CivMale, #SPECIAL05, 740.379, 1436.635, 1102.703)
+Actor.Health(2@) = 250
+Actor.Angle(2@) = 90.0
+0812: AS_actor 2@ perform_animation "BJ_STAND_LOOP_P" IFP "BLOWJOBZ" framedelta 4.0 loopA 1 lockX 0 lockY 0 lockF 0 time -1 // versionB 
+0376: 7@ = create_random_actor_at 727.017 1436.149 1102.273
+Actor.Health(7@) = 250
+Actor.Angle(7@) = 306.370
+0812: AS_actor 7@ perform_animation "PARKSIT_M_LOOP" IFP "BEACH" framedelta 1.0 loopA 1 lockX 0 lockY 0 lockF 0 time -1 // versionB
+0376: 8@ = create_random_actor_at 728.542 1436.032 1102.273
+Actor.Health(8@) = 250
+Actor.Angle(8@) = 61.339
+0812: AS_actor 8@ perform_animation "PARKSIT_M_LOOP" IFP "BEACH" framedelta 1.0 loopA 1 lockX 0 lockY 0 lockF 0 time -1 // versionB
+Actor.Create(6@, PedType.CivFemale, #WFYSEX, 743.577, 1439.961, 1102.703)
+Actor.Health(6@) = 250
+Actor.Angle(6@) = 273.565
+0812: AS_actor 6@ perform_animation "SHP_Serve_Idle" IFP "SHOP" framedelta 4.0 loopA 1 lockX 0 lockY 0 lockF 0 time -1 // versionB 
+wait 2000 
+print_help_string "SUA GAROTA ESTA ESPERANDO NO QUARTO 2"
+Actor.Create(10@, PedType.CivFemale, #GANGRL3, 734.618, 1436.889, 1103.436)
+Actor.Health(10@) = 250
+Actor.Angle(10@) = 94.554
+0812: AS_actor 10@ perform_animation "ParkSit_W_loop" IFP "BEACH" framedelta 4.0 loopA 1 lockX 0 lockY 0 lockF 0 time -1 // versionB   
+if 
+fade 1 time 1500 
+jump @PUTERO_834 
+
+:PUTERO_834
+wait 0 
+if 
+00FF:   actor $PLAYER_ACTOR sphere 1 in_sphere 732.2192 1439.985 1102.703 radius 1.0 1.0 1.0 on_foot 
+jf @PUTERO_834 
+fade 0 time 1500 
+wait 2000
+Actor.DestroyInstantly(10@)  
+Actor.Create(9@, PedType.CivMale, #SPECIAL04, 734.8784, 1436.727, 1103.436)
+Actor.Health(9@) = 250
+Actor.Angle(9@) = 90.0
+0812: AS_actor 9@ perform_animation "SEX_3_FAIL_W" IFP "SEX" framedelta 4.0 loopA 1 lockX 0 lockY 0 lockF 0 time -1 // versionB 
+Actor.PutAt($PLAYER_ACTOR, 733.871, 1436.727, 1103.436)
+Actor.Angle($PLAYER_ACTOR) = 270.0
+0812: AS_actor $PLAYER_ACTOR perform_animation "SEX_3_FAIL_P" IFP "SEX" framedelta 4.0 loopA 1 lockX 0 lockY 0 lockF 0 time -1 // versionB 
+Camera.SetPosition(735.8215, 1439.55, 1102.711, 0.0, 0.0, 0.0)
+Camera.PointAt(733.871, 1436.727, 1103.436, 2)
+wait 2000 
+02A3: enable_widescreen 1 
+fade 1 time 1500 
+print_help_string "APERTE 'M' PARA SAIR" 
+0296: unload_special_actor 1 
+0296: unload_special_actor 2 
+0296: unload_special_actor 3 
+0296: unload_special_actor 4 
+0296: unload_special_actor 5 
+0296: unload_special_actor 6 
+04EF: release_animation "SEX" 
+04EF: release_animation "BAR" 
+04EF: release_animation "STRIP" 
+04EF: release_animation "BEACH"
+04EF: release_animation "shop"
+Model.Destroy(1485)
+Model.Destroy(#WFYSEX)
+Model.Destroy(#SBFYSTR)
+Model.Destroy(#VWFYCRP)
+Model.Destroy(#VBFYST2)
+Model.Destroy(#GANGRL3)
+jump @PUTERO_1194 
+
+:PUTERO_1194
+wait 30 
+if 
+is_key_pressed 77 
+jf @PUTERO_1194 
+fade 0 time 1500 
+wait 2000 
+0812: AS_actor $PLAYER_ACTOR perform_animation "SEX_3_FAIL_P" IFP "SEX" framedelta 4.0 loopA 0 lockX 0 lockY 0 lockF 0 time 0 // versionB 
+Actor.PutAt($PLAYER_ACTOR, 743.6511, 1442.133, 1102.703)
+Actor.DestroyInstantly(9@)
+02A3: enable_widescreen 0 
+Camera.Restore
+wait 2000 
+fade 1 time 1500 
+jump @PUTERO_1314 
+
+:PUTERO_1314
+wait 0 
+if 
+00FF:   actor $PLAYER_ACTOR sphere 1 in_sphere 744.4218 1436.631 1102.703 radius 1.0 1.0 1.0 on_foot 
+jf @PUTERO_1314 
+fade 0 time 250 
+wait 7000 
+select_interior 0 
+0860: link_actor $PLAYER_ACTOR to_interior 0 
+04E4: refresh_game_renderer_at -2552.725 50.568 
+Camera.SetAtPos(-2552.725, 50.568, 16.4219)
+Actor.PutAt($PLAYER_ACTOR, -2552.725, 50.568, 16.4219)
+Actor.Angle($PLAYER_ACTOR) = 183.2783
+wait 700
+Actor.DestroyInstantly(1@)
+Actor.DestroyInstantly(2@)
+Actor.DestroyInstantly(3@)
+Actor.DestroyInstantly(4@)
+Actor.DestroyInstantly(5@)
+Actor.DestroyInstantly(6@)
+Actor.DestroyInstantly(7@)
+Actor.DestroyInstantly(8@)
+Audiostream.Release(31@)
+Object.Destroy(30@)
+fade 1 time 250 
+wait 700 
+print_help_string "VOLTE SEMPRE" 
+jump @PUTERO_11 

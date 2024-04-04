@@ -1,0 +1,30 @@
+// This file was decompiled using SASCM.ini published by GTAG (http://gtag.gtagaming.com/opcode-database) on 14.6.2013
+{$CLEO .cs}
+
+//-------------MAIN---------------
+0000: NOP 
+
+:NONAME_2
+wait 6000 
+if
+0A0C:   player $PLAYER_CHAR on_jetpack
+else_jump @NONAME_58
+if
+0184: actor $PLAYER_ACTOR health >= 20
+else_jump @NONAME_4
+jump @NONAME_58
+
+:NONAME_4
+wait 0
+Actor.StorePos($PLAYER_ACTOR, $X, $Y, $Z)
+0362: remove_actor $PLAYER_ACTOR from_car_and_place_at $X $Y $Z
+020C: create_explosion_with_radius 0 at $X $Y $Z
+jump @NONAME_2 
+
+:NONAME_58
+jump @NONAME_2
+
+
+
+
+ 

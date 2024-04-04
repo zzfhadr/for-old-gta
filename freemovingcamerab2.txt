@@ -1,0 +1,235 @@
+// This file was decompiled using SASCM.ini published on 2021-07-05
+{$CLEO .cs}
+
+script_name 'FREECAM' 
+7@ = 10 
+gosub @FREECAM_1212 
+0@ = 0 
+1@ = 0 
+2@ = 0 
+5@ = 0 
+7@ = 0 
+
+:FREECAM_60
+wait 0 
+if 
+   Player.Defined($PLAYER_CHAR)
+jf @FREECAM_60 
+if 
+is_key_pressed 121 //F10 
+jf @FREECAM_60 
+fade 0 time 250 
+wait 250 
+04C4: store_coords_to 1@ 2@ 3@ from_actor $PLAYER_ACTOR with_offset 0.0 2.0 1.0 
+6@ = Actor.Angle($PLAYER_ACTOR)
+Model.Load(#NULL)
+
+:FREECAM_148
+wait 0 
+if 
+   Model.Available(#NULL)
+jf @FREECAM_148 
+Actor.Create(0@, PedType.Mission1, #NULL, 1@, 2@, 3@)
+Actor.Health(0@) = 2000
+Actor.SetImmunities(0@, True, True, True, True, True)
+Actor.Angle(0@) = 6@
+0337: set_actor 0@ visibility 0 
+0619: enable_actor 0@ collision_detection 0 
+Model.Destroy(#NULL)
+wait 250 
+fade 1 time 250 
+8@ = -1.0 
+30@ = 0.4 
+067C: put_camera_on_actor 0@ offset 0.0 0.3 0.5 rotation 0.0 0.5 30@ tilt 0.0 switchstyle 2 
+
+:FREECAM_306
+wait 0 
+if 
+   Player.Defined($PLAYER_CHAR)
+jf @FREECAM_1123 
+if 
+80E1:   not player 0 pressed_key 15 
+jf @FREECAM_1123 
+if 
+   not is_key_pressed 28@ 
+jf @FREECAM_1182 
+0A4A: store_joystick_X_offset_to 4@ Y_offset_to 5@ 
+9@ = Actor.Angle(0@)
+0063: 9@ -= 4@ // (float) 
+Actor.Angle(0@) = 9@
+if or
+is_key_pressed 26@ 
+is_key_pressed 23@ 
+is_key_pressed 22@ 
+is_key_pressed 21@ 
+is_key_pressed 24@ 
+is_key_pressed 25@ 
+jf @FREECAM_1026 
+Actor.StorePos(0@, 11@, 12@, 13@)
+if or
+  11@ > 3500.0 
+  -3500.0 > 11@ 
+  12@ > 3500.0 
+  -3500.0 > 12@ 
+  -100.8 > 13@ 
+  13@ > 1100.7 
+jf @FREECAM_554 
+Actor.PutAt(0@, -1660.5, 1208.4, 13.7)
+Actor.Angle(0@) = 320.8
+jump @FREECAM_554 
+
+:FREECAM_554
+if 
+is_key_pressed 26@ 
+jf @FREECAM_607 
+10@ = 0.0 
+8@ = -1.0 
+7@ = 0.1 
+jump @FREECAM_982 
+
+:FREECAM_607
+if 
+is_key_pressed 25@ 
+jf @FREECAM_660 
+10@ = 0.0 
+8@ = -1.0 
+7@ = -0.1 
+jump @FREECAM_982 
+
+:FREECAM_660
+if 
+is_key_pressed 24@ 
+jf @FREECAM_693 
+8@ = -1.1 
+jump @FREECAM_753 
+
+:FREECAM_693
+if 
+is_key_pressed 23@ 
+jf @FREECAM_726 
+8@ = -0.9 
+jump @FREECAM_786 
+
+:FREECAM_726
+8@ = -1.0 
+7@ = 0.0 
+jump @FREECAM_819 
+
+:FREECAM_753
+if 
+is_key_pressed 27@ 
+jf @FREECAM_819 
+8@ -= 2.5 
+jump @FREECAM_819 
+
+:FREECAM_786
+if 
+is_key_pressed 27@ 
+jf @FREECAM_819 
+8@ += 2.5 
+jump @FREECAM_819 
+
+:FREECAM_819
+if 
+is_key_pressed 21@ 
+jf @FREECAM_852 
+10@ = 0.1 
+jump @FREECAM_885 
+
+:FREECAM_852
+if 
+is_key_pressed 22@ 
+jf @FREECAM_918 
+10@ = -0.1 
+jump @FREECAM_885 
+
+:FREECAM_885
+if 
+is_key_pressed 27@ 
+jf @FREECAM_982 
+10@ *= 50.5 
+jump @FREECAM_982 
+
+:FREECAM_918
+10@ = 0.0 
+7@ = 0.0 
+04C4: store_coords_to 11@ 12@ 13@ from_actor 0@ with_offset 7@ 10@ 8@ 
+Actor.PutAt(0@, 11@, 12@, 13@)
+jump @FREECAM_1026 
+
+:FREECAM_982
+04C4: store_coords_to 11@ 12@ 13@ from_actor 0@ with_offset 7@ 10@ 8@ 
+Actor.PutAt(0@, 11@, 12@, 13@)
+jump @FREECAM_1026 
+
+:FREECAM_1026
+5@ /= 200.0 
+005B: 30@ += 5@ // (float) 
+067C: put_camera_on_actor 0@ offset 0.0 0.3 0.5 rotation 0.0 0.5 30@ tilt 0.0 switchstyle 2 
+jump @FREECAM_1091 
+
+:FREECAM_1091
+if 
+is_key_pressed 29@ 
+jf @FREECAM_306 
+0A1E: dump_screen 1 
+wait 1000 
+jump @FREECAM_306 
+
+:FREECAM_1123
+fade 0 time 250 
+wait 250 
+04E4: refresh_game_renderer_at 1@ 2@ 
+Camera.SetAtPos(1@, 2@, 3@)
+wait 250 
+fade 1 time 250 
+Camera.SetBehindPlayer
+Camera.Restore_WithJumpCut
+Actor.DestroyInstantly(0@)
+jump @FREECAM_60 
+
+:FREECAM_1182
+Actor.DestroyInstantly(0@)
+Actor.PutAt($PLAYER_ACTOR, 11@, 12@, 13@)
+Camera.SetBehindPlayer
+Camera.Restore_WithJumpCut
+jump @FREECAM_60 
+
+:FREECAM_1212
+0@ = 0 
+1@ = 0 
+2@ = 0 
+5@ = 0 
+0@ = File.Open("CLEO\FREECAMKEY.INI", 25202)
+
+:FREECAM_1269
+wait 0 
+File.Read(0@, 1, 1@)
+if 
+  1@ == 34 
+jf @FREECAM_1269 
+
+:FREECAM_1301
+wait 0 
+File.Read(0@, 1, 1@)
+if 
+   not 1@ == 34 
+jf @FREECAM_1387 
+if and
+  1@ > 47 
+  58 > 1@ 
+jf @FREECAM_1269 
+2@ *= 10 
+005A: 2@ += 1@ // (int) 
+2@ -= 48 
+jump @FREECAM_1301 
+
+:FREECAM_1387
+0085: 20@(5@,10i) = 2@ // (int) 
+2@ = 0 
+5@ += 1 
+if 
+002D:   5@ >= 7@ // (int) 
+jf @FREECAM_1269 
+File.Close(0@)
+return 

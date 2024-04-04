@@ -1,0 +1,12 @@
+{$CLEO}
+0000:
+
+0AF2: 0@ = get_float_from_ini_file "cleo\Run.ini" section "Run" key "Infinite Run"
+
+:Mem
+wait 0
+if
+Player.Defined(0)
+jf @Mem
+0330: set_player $PLAYER_CHAR infinite_run 0@
+jump @Mem

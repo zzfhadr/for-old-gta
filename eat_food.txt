@@ -1,0 +1,35 @@
+// This file was decompiled using SASCM.ini published on 2021-07-05
+{$CLEO .cs}
+
+script_name 'FOOD' 
+
+:FOOD_11
+wait 50 
+if 
+   Player.Defined($PLAYER_CHAR)
+jf @FOOD_11 
+if 
+   Player.Controllable($PLAYER_CHAR)
+jf @FOOD_11 
+if 
+is_key_pressed 90//z key
+jf @FOOD_11 
+04ED: load_animation "FOOD" 
+
+:FOOD_70
+wait 0 
+if 
+04EE:   animation "FOOD" loaded 
+jf @FOOD_183 
+wait 0 
+0605: actor $PLAYER_ACTOR perform_animation "EAT_BURGER" IFP "FOOD" framedelta 4.0 loop 0 lockX 0 lockY 0 lockF 0 time -1 
+0@ = Actor.Health($PLAYER_ACTOR)
+0@ += 100 
+Actor.Health($PLAYER_ACTOR) = 0@
+0A10: increase_integer_stat 21 by 15 
+0A10: increase_integer_stat 200 by 1 
+wait 5000 
+jump @FOOD_11 
+
+:FOOD_183
+jump @FOOD_70 
